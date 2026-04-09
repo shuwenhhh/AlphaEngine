@@ -1,0 +1,30 @@
+{
+  "interaction_id": "b54e935d",
+  "agent_name": "fundamental_agent",
+  "interaction_type": "react_agent",
+  "timestamp": "2025-08-19T22:48:23.458399",
+  "model_config": {
+    "model": "doubao-1-5-thinking-vision-pro-250428",
+    "temperature": 0.3,
+    "max_tokens": 6000,
+    "api_base": "https://ark.cn-beijing.volces.com/api/v3"
+  },
+  "input": {
+    "messages": [
+      {
+        "role": "user",
+        "content": "请分析茅台（股票代码：sh.600519）的基本面情况。\n\n当前时间：2025年08月19日 (2025-08-19) 星期二 22:47:57\n当前日期：2025-08-19\n\n请进行以下基本面分析：\n1. 获取公司基本信息和行业背景\n2. 获取最新财务报表数据（资产负债表、利润表、现金流量表）\n3. 分析盈利能力指标（毛利率、净利率、ROE等）\n4. 分析成长能力指标（收入增长率、利润增长率等）\n5. 分析运营效率指标（应收周转率、存货周转率等）\n6. 分析偿债能力指标（资产负债率、流动比率等）\n7. 查询历史分红情况\n8. 提供基本面综合评估和投资价值分析\n\n重要限制：请专注于财务数据和基本面指标分析，不要使用crawl_news工具获取新闻信息。基本面分析应该基于财务报表、财务指标和公司基本面数据，而不是新闻事件。\n\n请使用可用的工具获取实际数据进行分析，而不是基于假设。如果某些数据无法获取，请尝试使用不同的时间周期或其他工具组合，基于可用信息提供尽可能全面的分析。"
+      }
+    ],
+    "message_count": 1,
+    "total_input_length": 443
+  },
+  "output": {
+    "content": "",
+    "content_length": 0
+  },
+  "performance": {
+    "execution_time_seconds": 24.220546007156372,
+    "token_usage": null
+  }
+}

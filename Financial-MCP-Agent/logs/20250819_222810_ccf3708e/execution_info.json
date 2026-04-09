@@ -1,0 +1,14 @@
+{
+  "execution_id": "20250819_222810_ccf3708e",
+  "start_time": "2025-08-19T22:28:10.519230",
+  "start_timestamp": 1755613690.5192292,
+  "environment": {
+    "python_version": "3.12.3 (main, Feb  4 2025, 14:48:35) [GCC 13.3.0]",
+    "working_directory": "/root/code/Finance/Financial-MCP-Agent",
+    "environment_variables": {
+      "OPENAI_COMPATIBLE_MODEL": "doubao-1-5-thinking-vision-pro-250428",
+      "OPENAI_COMPATIBLE_BASE_URL": "https://ark.cn-beijing.volces.com/api/v3",
+      "OPENAI_COMPATIBLE_API_KEY": "***"
+    }
+  }
+}

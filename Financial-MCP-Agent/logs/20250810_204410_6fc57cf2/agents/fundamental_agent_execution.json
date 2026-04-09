@@ -1,0 +1,42 @@
+{
+  "agent_name": "fundamental_agent",
+  "start_time": "2025-08-10T20:44:10.721072",
+  "start_timestamp": 1754829850.721078,
+  "input_data": {
+    "user_query": "请帮我分析一下腾讯(00700)这只股票怎么样",
+    "stock_code": "sz.00700",
+    "company_name": "腾讯",
+    "input_data_keys": [
+      "query",
+      "current_date",
+      "current_date_cn",
+      "current_time",
+      "current_weekday_cn",
+      "current_time_info",
+      "analysis_timestamp",
+      "company_name",
+      "stock_code"
+    ]
+  },
+  "status": "failed",
+  "end_time": "2025-08-10T20:44:12.455505",
+  "end_timestamp": 1754829852.4555283,
+  "execution_time_seconds": 1.7339792251586914,
+  "output_data": {
+    "query": "请帮我分析一下腾讯(00700)这只股票怎么样",
+    "current_date": "2025-08-10",
+    "current_date_cn": "2025年08月10日",
+    "current_time": "20:44:10",
+    "current_weekday_cn": "星期日",
+    "current_time_info": "2025年08月10日 (2025-08-10) 星期日 20:44:10",
+    "analysis_timestamp": "2025-08-10T20:44:10.717652",
+    "company_name": "腾讯",
+    "stock_code": "sz.00700",
+    "news_analysis_error": "No MCP tools available.",
+    "technical_analysis_error": "No MCP tools available.",
+    "value_analysis_error": "No MCP tools available.",
+    "fundamental_analysis_error": "No MCP tools available."
+  },
+  "success": false,
+  "error": "No MCP tools available"
+}

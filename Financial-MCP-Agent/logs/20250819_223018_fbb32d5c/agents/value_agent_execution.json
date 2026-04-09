@@ -1,0 +1,33 @@
+{
+  "agent_name": "value_agent",
+  "start_time": "2025-08-19T22:30:18.600096",
+  "start_timestamp": 1755613818.6001012,
+  "input_data": {
+    "user_query": "帮我看看茅台(600519)这只股票值得投资吗",
+    "stock_code": "sh.600519",
+    "company_name": "茅台",
+    "input_data_keys": [
+      "query",
+      "current_date",
+      "current_date_cn",
+      "current_time",
+      "current_weekday_cn",
+      "current_time_info",
+      "analysis_timestamp",
+      "company_name",
+      "stock_code"
+    ]
+  },
+  "status": "completed",
+  "end_time": "2025-08-19T22:31:07.767408",
+  "end_timestamp": 1755613867.7674127,
+  "execution_time_seconds": 49.16707491874695,
+  "output_data": {
+    "value_analysis_length": 1174,
+    "analysis_preview": "### 贵州茅台（sh.600519）估值分析  \n\n#### 1. 核心基础数据  \n- **基本信息**：名称“贵州茅台”（通过 `get_stock_basic_info` 获取）。  \n- **盈利指标**（2024年四季度）：摊薄每股收益（epsTTM）68.64元，销售净利率（npMargin）52.27%（通过 `get_profit_data` 获取）。  \n- **股价表现**（2025 - 08 - 19）：收盘价1438元（通过 `get_historical_k_data` 最新日数据）。  \n\n\n#### 2. 关键估值指标计算  \n- **市盈率（PE_TTM）**：  \n  \\( PE = \\frac{\\text{当前股价}}{\\text{epsTTM}} = \\frac{1438}{68.64} \\approx 20.95 \\)（盈利稳定性支撑估值锚）。  \n\n- **股息收益率**（2024年分红）：  \n  2024年两次分红（预案公告）：“10派308.76元（含税）”“10派238.82元（含税）”（通过 `get_dividend_data` ",
+    "llm_execution_time": 47.899524450302124,
+    "total_execution_time": 49.16707491874695
+  },
+  "success": true,
+  "error": null
+}

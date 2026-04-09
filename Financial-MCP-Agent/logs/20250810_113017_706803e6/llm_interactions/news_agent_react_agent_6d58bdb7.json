@@ -1,0 +1,30 @@
+{
+  "interaction_id": "6d58bdb7",
+  "agent_name": "news_agent",
+  "interaction_type": "react_agent",
+  "timestamp": "2025-08-10T11:36:56.032131",
+  "model_config": {
+    "model": "doubao-seed-1-6-250615",
+    "temperature": 0.3,
+    "max_tokens": 6000,
+    "api_base": "https://ark.cn-beijing.volces.com/api/v3"
+  },
+  "input": {
+    "messages": [
+      {
+        "role": "user",
+        "content": "请对茅台（股票代码：sh.600519）进行新闻分析。\n\n当前时间：2025年08月10日 (2025-08-10) 星期日 11:30:17\n当前日期：2025-08-10\n\n请进行以下新闻分析：\n1. 爬取与茅台相关的最新新闻（至少5条）\n2. 对每条新闻进行情感分析，评估新闻对公司的情感影响（1-5分：1=负面，2=轻微负面，3=中性，4=正面，5=极正面）\n3. 对每条新闻进行风险评估，评估新闻对公司的风险影响（1-5分：1=极低风险，2=低风险，3=中等风险，4=高风险，5=极高风险）\n4. 分析新闻对股价的潜在影响\n5. 识别关键新闻事件和趋势\n6. 提供基于新闻的综合投资建议\n\n请使用可用的工具获取实际新闻数据进行分析，确保情感分析和风险评估的准确性。如果某些新闻无法获取，请基于可用信息提供尽可能全面的分析。"
+      }
+    ],
+    "message_count": 1,
+    "total_input_length": 366
+  },
+  "output": {
+    "content": "[]<|FunctionCallEnd|>",
+    "content_length": 21
+  },
+  "performance": {
+    "execution_time_seconds": 395.05698919296265,
+    "token_usage": null
+  }
+}

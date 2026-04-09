@@ -1,0 +1,14 @@
+{
+  "execution_id": "20250810_210756_8a82ad1b",
+  "start_time": "2025-08-10T21:07:56.401516",
+  "start_timestamp": 1754831276.4015145,
+  "environment": {
+    "python_version": "3.12.3 | packaged by Anaconda, Inc. | (main, May  6 2024, 19:46:43) [GCC 11.2.0]",
+    "working_directory": "/root/autodl-tmp/Finance/Financial-MCP-Agent",
+    "environment_variables": {
+      "OPENAI_COMPATIBLE_MODEL": "doubao-seed-1-6-250615",
+      "OPENAI_COMPATIBLE_BASE_URL": "https://ark.cn-beijing.volces.com/api/v3",
+      "OPENAI_COMPATIBLE_API_KEY": "***"
+    }
+  }
+}

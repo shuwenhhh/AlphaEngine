@@ -1,0 +1,420 @@
+2025-08-10 10:37:27 - src.agents.technical_agent - INFO - 🔄 TechnicalAgent: Starting technical analysis using ReAct framework.
+2025-08-10 10:37:27 - src.agents.technical_agent - INFO - 🔄 TechnicalAgent: Creating ChatOpenAI with model doubao-seed-1-6-250615
+2025-08-10 10:37:27 - src.agents.technical_agent - INFO - 🔄 TechnicalAgent: Fetching MCP tools...
+2025-08-10 10:37:28 - src.agents.technical_agent - ERROR - ✗ TechnicalAgent: No MCP tools available.
+2025-08-10 10:38:08 - src.agents.technical_agent - INFO - 🔄 TechnicalAgent: Starting technical analysis using ReAct framework.
+2025-08-10 10:38:08 - src.agents.technical_agent - INFO - 🔄 TechnicalAgent: Creating ChatOpenAI with model doubao-seed-1-6-250615
+2025-08-10 10:38:08 - src.agents.technical_agent - INFO - 🔄 TechnicalAgent: Fetching MCP tools...
+2025-08-10 10:38:11 - src.agents.technical_agent - INFO - ✓ TechnicalAgent: Successfully loaded 27 tools.
+2025-08-10 10:38:11 - src.agents.technical_agent - INFO - Available tools: ['get_historical_k_data', 'get_stock_basic_info', 'get_dividend_data', 'get_adjust_factor_data', 'get_profit_data', 'get_operation_data', 'get_growth_data', 'get_balance_data', 'get_cash_flow_data', 'get_dupont_data', 'get_performance_express_report', 'get_forecast_report', 'get_stock_industry', 'get_sz50_stocks', 'get_hs300_stocks', 'get_zz500_stocks', 'get_trade_dates', 'get_all_stock', 'get_deposit_rate_data', 'get_loan_rate_data', 'get_required_reserve_ratio_data', 'get_money_supply_data_month', 'get_money_supply_data_year', 'get_latest_trading_date', 'get_market_analysis_timeframe', 'get_stock_analysis', 'crawl_news']
+2025-08-10 10:38:11 - src.agents.technical_agent - INFO - 🔄 TechnicalAgent: Creating ReAct agent...
+2025-08-10 10:38:11 - src.agents.technical_agent - INFO - Agent input: 请分析茅台（股票代码：sh.600519）的技术指标。
+
+当前时间：2025年08月10日 (2025-08-10) 星期日 10:38:08
+当前日期：2025-08-10
+
+请进行以下技术分析：
+1. 获取股票基本信息和最新价格
+2. 获取历史K线数据（建议获取最近3-6个月的数据）
+3. 分析价格趋势和技术形态
+4. 分析成交量变化
+5. 计算和分析主要技术指标（如移动平均线、MACD、RSI等）
+6. 识别支撑位和阻力位
+7. 提供技术面总结和短期走势判断
+
+重要限制：请专注于价格数据和技术指标分析，不要使用crawl_news工具获取新闻信息。技术分析应该基于价格走势、成交量和技术指标数据，而不是新闻事件。
+
+请使用可用的工具获取实际数据进行分析，而不是基于假设。
+2025-08-10 10:38:11 - src.agents.technical_agent - INFO - 🔄 TechnicalAgent: Calling ReAct agent...
+2025-08-10 10:39:41 - src.agents.technical_agent - INFO - ReAct agent execution completed in 89.76 seconds
+2025-08-10 10:39:41 - src.agents.technical_agent - INFO - Successfully extracted analysis from AI message.
+2025-08-10 10:39:41 - src.agents.technical_agent - INFO - Final extracted analysis length: 2265 characters
+2025-08-10 10:39:41 - src.agents.technical_agent - INFO - ✓ TechnicalAgent: Successfully completed technical analysis.
+2025-08-10 10:45:58 - src.agents.technical_agent - INFO - 🔄 TechnicalAgent: Starting technical analysis using ReAct framework.
+2025-08-10 10:45:58 - src.agents.technical_agent - INFO - 🔄 TechnicalAgent: Creating ChatOpenAI with model doubao-seed-1-6-250615
+2025-08-10 10:45:58 - src.agents.technical_agent - INFO - 🔄 TechnicalAgent: Fetching MCP tools...
+2025-08-10 10:46:01 - src.agents.technical_agent - INFO - ✓ TechnicalAgent: Successfully loaded 27 tools.
+2025-08-10 10:46:01 - src.agents.technical_agent - INFO - Available tools: ['get_historical_k_data', 'get_stock_basic_info', 'get_dividend_data', 'get_adjust_factor_data', 'get_profit_data', 'get_operation_data', 'get_growth_data', 'get_balance_data', 'get_cash_flow_data', 'get_dupont_data', 'get_performance_express_report', 'get_forecast_report', 'get_stock_industry', 'get_sz50_stocks', 'get_hs300_stocks', 'get_zz500_stocks', 'get_trade_dates', 'get_all_stock', 'get_deposit_rate_data', 'get_loan_rate_data', 'get_required_reserve_ratio_data', 'get_money_supply_data_month', 'get_money_supply_data_year', 'get_latest_trading_date', 'get_market_analysis_timeframe', 'get_stock_analysis', 'crawl_news']
+2025-08-10 10:46:01 - src.agents.technical_agent - INFO - 🔄 TechnicalAgent: Creating ReAct agent...
+2025-08-10 10:46:01 - src.agents.technical_agent - INFO - Agent input: 请分析茅台（股票代码：sh.600519）的技术指标。
+
+当前时间：2025年08月10日 (2025-08-10) 星期日 10:45:57
+当前日期：2025-08-10
+
+请进行以下技术分析：
+1. 获取股票基本信息和最新价格
+2. 获取历史K线数据（建议获取最近3-6个月的数据）
+3. 分析价格趋势和技术形态
+4. 分析成交量变化
+5. 计算和分析主要技术指标（如移动平均线、MACD、RSI等）
+6. 识别支撑位和阻力位
+7. 提供技术面总结和短期走势判断
+
+重要限制：请专注于价格数据和技术指标分析，不要使用crawl_news工具获取新闻信息。技术分析应该基于价格走势、成交量和技术指标数据，而不是新闻事件。
+
+请使用可用的工具获取实际数据进行分析，而不是基于假设。
+2025-08-10 10:46:01 - src.agents.technical_agent - INFO - 🔄 TechnicalAgent: Calling ReAct agent...
+2025-08-10 10:47:34 - src.agents.technical_agent - INFO - ReAct agent execution completed in 93.35 seconds
+2025-08-10 10:47:34 - src.agents.technical_agent - INFO - Successfully extracted analysis from AI message.
+2025-08-10 10:47:34 - src.agents.technical_agent - INFO - Final extracted analysis length: 2180 characters
+2025-08-10 10:47:34 - src.agents.technical_agent - INFO - ✓ TechnicalAgent: Successfully completed technical analysis.
+2025-08-10 11:03:07 - src.agents.technical_agent - INFO - 🔄 TechnicalAgent: Starting technical analysis using ReAct framework.
+2025-08-10 11:03:07 - src.agents.technical_agent - INFO - 🔄 TechnicalAgent: Creating ChatOpenAI with model doubao-seed-1-6-250615
+2025-08-10 11:03:07 - src.agents.technical_agent - INFO - 🔄 TechnicalAgent: Fetching MCP tools...
+2025-08-10 11:03:10 - src.agents.technical_agent - INFO - ✓ TechnicalAgent: Successfully loaded 27 tools.
+2025-08-10 11:03:10 - src.agents.technical_agent - INFO - Available tools: ['get_historical_k_data', 'get_stock_basic_info', 'get_dividend_data', 'get_adjust_factor_data', 'get_profit_data', 'get_operation_data', 'get_growth_data', 'get_balance_data', 'get_cash_flow_data', 'get_dupont_data', 'get_performance_express_report', 'get_forecast_report', 'get_stock_industry', 'get_sz50_stocks', 'get_hs300_stocks', 'get_zz500_stocks', 'get_trade_dates', 'get_all_stock', 'get_deposit_rate_data', 'get_loan_rate_data', 'get_required_reserve_ratio_data', 'get_money_supply_data_month', 'get_money_supply_data_year', 'get_latest_trading_date', 'get_market_analysis_timeframe', 'get_stock_analysis', 'crawl_news']
+2025-08-10 11:03:10 - src.agents.technical_agent - INFO - 🔄 TechnicalAgent: Creating ReAct agent...
+2025-08-10 11:03:10 - src.agents.technical_agent - INFO - Agent input: 请分析茅台（股票代码：sh.600519）的技术指标。
+
+当前时间：2025年08月10日 (2025-08-10) 星期日 11:03:07
+当前日期：2025-08-10
+
+请进行以下技术分析：
+1. 获取股票基本信息和最新价格
+2. 获取历史K线数据（建议获取最近3-6个月的数据）
+3. 分析价格趋势和技术形态
+4. 分析成交量变化
+5. 计算和分析主要技术指标（如移动平均线、MACD、RSI等）
+6. 识别支撑位和阻力位
+7. 提供技术面总结和短期走势判断
+
+重要限制：请专注于价格数据和技术指标分析，不要使用crawl_news工具获取新闻信息。技术分析应该基于价格走势、成交量和技术指标数据，而不是新闻事件。
+
+请使用可用的工具获取实际数据进行分析，而不是基于假设。
+2025-08-10 11:03:10 - src.agents.technical_agent - INFO - 🔄 TechnicalAgent: Calling ReAct agent...
+2025-08-10 11:08:01 - src.agents.technical_agent - INFO - ReAct agent execution completed in 290.50 seconds
+2025-08-10 11:08:01 - src.agents.technical_agent - INFO - Successfully extracted analysis from AI message.
+2025-08-10 11:08:01 - src.agents.technical_agent - INFO - Final extracted analysis length: 8825 characters
+2025-08-10 11:08:01 - src.agents.technical_agent - INFO - ✓ TechnicalAgent: Successfully completed technical analysis.
+2025-08-10 11:30:18 - src.agents.technical_agent - INFO - 🔄 TechnicalAgent: Starting technical analysis using ReAct framework.
+2025-08-10 11:30:18 - src.agents.technical_agent - INFO - 🔄 TechnicalAgent: Creating ChatOpenAI with model doubao-seed-1-6-250615
+2025-08-10 11:30:18 - src.agents.technical_agent - INFO - 🔄 TechnicalAgent: Fetching MCP tools...
+2025-08-10 11:30:21 - src.agents.technical_agent - INFO - ✓ TechnicalAgent: Successfully loaded 27 tools.
+2025-08-10 11:30:21 - src.agents.technical_agent - INFO - Available tools: ['get_historical_k_data', 'get_stock_basic_info', 'get_dividend_data', 'get_adjust_factor_data', 'get_profit_data', 'get_operation_data', 'get_growth_data', 'get_balance_data', 'get_cash_flow_data', 'get_dupont_data', 'get_performance_express_report', 'get_forecast_report', 'get_stock_industry', 'get_sz50_stocks', 'get_hs300_stocks', 'get_zz500_stocks', 'get_trade_dates', 'get_all_stock', 'get_deposit_rate_data', 'get_loan_rate_data', 'get_required_reserve_ratio_data', 'get_money_supply_data_month', 'get_money_supply_data_year', 'get_latest_trading_date', 'get_market_analysis_timeframe', 'get_stock_analysis', 'crawl_news']
+2025-08-10 11:30:21 - src.agents.technical_agent - INFO - 🔄 TechnicalAgent: Creating ReAct agent...
+2025-08-10 11:30:21 - src.agents.technical_agent - INFO - Agent input: 请分析茅台（股票代码：sh.600519）的技术指标。
+
+当前时间：2025年08月10日 (2025-08-10) 星期日 11:30:17
+当前日期：2025-08-10
+
+请进行以下技术分析：
+1. 获取股票基本信息和最新价格
+2. 获取历史K线数据（建议获取最近3-6个月的数据）
+3. 分析价格趋势和技术形态
+4. 分析成交量变化
+5. 计算和分析主要技术指标（如移动平均线、MACD、RSI等）
+6. 识别支撑位和阻力位
+7. 提供技术面总结和短期走势判断
+
+重要限制：请专注于价格数据和技术指标分析，不要使用crawl_news工具获取新闻信息。技术分析应该基于价格走势、成交量和技术指标数据，而不是新闻事件。
+
+请使用可用的工具获取实际数据进行分析，而不是基于假设。
+2025-08-10 11:30:21 - src.agents.technical_agent - INFO - 🔄 TechnicalAgent: Calling ReAct agent...
+2025-08-10 11:33:27 - src.agents.technical_agent - INFO - ReAct agent execution completed in 186.03 seconds
+2025-08-10 11:33:27 - src.agents.technical_agent - INFO - Successfully extracted analysis from AI message.
+2025-08-10 11:33:27 - src.agents.technical_agent - INFO - Final extracted analysis length: 2073 characters
+2025-08-10 11:33:27 - src.agents.technical_agent - INFO - ✓ TechnicalAgent: Successfully completed technical analysis.
+2025-08-10 20:44:10 - src.agents.technical_agent - INFO - 🔄 TechnicalAgent: Starting technical analysis using ReAct framework.
+2025-08-10 20:44:10 - src.agents.technical_agent - INFO - 🔄 TechnicalAgent: Creating ChatOpenAI with model doubao-seed-1-6-250615
+2025-08-10 20:44:10 - src.agents.technical_agent - INFO - 🔄 TechnicalAgent: Fetching MCP tools...
+2025-08-10 20:44:12 - src.agents.technical_agent - ERROR - ✗ TechnicalAgent: No MCP tools available.
+2025-08-10 20:45:34 - src.agents.technical_agent - INFO - 🔄 TechnicalAgent: Starting technical analysis using ReAct framework.
+2025-08-10 20:45:34 - src.agents.technical_agent - INFO - 🔄 TechnicalAgent: Creating ChatOpenAI with model doubao-seed-1-6-250615
+2025-08-10 20:45:34 - src.agents.technical_agent - INFO - 🔄 TechnicalAgent: Fetching MCP tools...
+2025-08-10 20:45:36 - src.agents.technical_agent - INFO - ✓ TechnicalAgent: Successfully loaded 27 tools.
+2025-08-10 20:45:36 - src.agents.technical_agent - INFO - Available tools: ['get_historical_k_data', 'get_stock_basic_info', 'get_dividend_data', 'get_adjust_factor_data', 'get_profit_data', 'get_operation_data', 'get_growth_data', 'get_balance_data', 'get_cash_flow_data', 'get_dupont_data', 'get_performance_express_report', 'get_forecast_report', 'get_stock_industry', 'get_sz50_stocks', 'get_hs300_stocks', 'get_zz500_stocks', 'get_trade_dates', 'get_all_stock', 'get_deposit_rate_data', 'get_loan_rate_data', 'get_required_reserve_ratio_data', 'get_money_supply_data_month', 'get_money_supply_data_year', 'get_latest_trading_date', 'get_market_analysis_timeframe', 'get_stock_analysis', 'crawl_news']
+2025-08-10 20:45:36 - src.agents.technical_agent - INFO - 🔄 TechnicalAgent: Creating ReAct agent...
+2025-08-10 20:45:36 - src.agents.technical_agent - INFO - Agent input: 请分析腾讯（股票代码：sz.00700）的技术指标。
+
+当前时间：2025年08月10日 (2025-08-10) 星期日 20:45:34
+当前日期：2025-08-10
+
+请进行以下技术分析：
+1. 获取股票基本信息和最新价格
+2. 获取历史K线数据（建议获取最近3-6个月的数据）
+3. 分析价格趋势和技术形态
+4. 分析成交量变化
+5. 计算和分析主要技术指标（如移动平均线、MACD、RSI等）
+6. 识别支撑位和阻力位
+7. 提供技术面总结和短期走势判断
+
+重要限制：请专注于价格数据和技术指标分析，不要使用crawl_news工具获取新闻信息。技术分析应该基于价格走势、成交量和技术指标数据，而不是新闻事件。
+
+请使用可用的工具获取实际数据进行分析，而不是基于假设。
+2025-08-10 20:45:36 - src.agents.technical_agent - INFO - 🔄 TechnicalAgent: Calling ReAct agent...
+2025-08-10 20:47:26 - src.agents.technical_agent - INFO - ReAct agent execution completed in 110.40 seconds
+2025-08-10 20:47:26 - src.agents.technical_agent - INFO - Successfully extracted analysis from AI message.
+2025-08-10 20:47:26 - src.agents.technical_agent - INFO - Final extracted analysis length: 265 characters
+2025-08-10 20:47:26 - src.agents.technical_agent - INFO - ✓ TechnicalAgent: Successfully completed technical analysis.
+2025-08-10 20:53:12 - src.agents.technical_agent - INFO - 🔄 TechnicalAgent: Starting technical analysis using ReAct framework.
+2025-08-10 20:53:12 - src.agents.technical_agent - INFO - 🔄 TechnicalAgent: Creating ChatOpenAI with model doubao-seed-1-6-250615
+2025-08-10 20:53:12 - src.agents.technical_agent - INFO - 🔄 TechnicalAgent: Fetching MCP tools...
+2025-08-10 20:53:13 - src.agents.technical_agent - INFO - ✓ TechnicalAgent: Successfully loaded 27 tools.
+2025-08-10 20:53:13 - src.agents.technical_agent - INFO - Available tools: ['get_historical_k_data', 'get_stock_basic_info', 'get_dividend_data', 'get_adjust_factor_data', 'get_profit_data', 'get_operation_data', 'get_growth_data', 'get_balance_data', 'get_cash_flow_data', 'get_dupont_data', 'get_performance_express_report', 'get_forecast_report', 'get_stock_industry', 'get_sz50_stocks', 'get_hs300_stocks', 'get_zz500_stocks', 'get_trade_dates', 'get_all_stock', 'get_deposit_rate_data', 'get_loan_rate_data', 'get_required_reserve_ratio_data', 'get_money_supply_data_month', 'get_money_supply_data_year', 'get_latest_trading_date', 'get_market_analysis_timeframe', 'get_stock_analysis', 'crawl_news']
+2025-08-10 20:53:13 - src.agents.technical_agent - INFO - 🔄 TechnicalAgent: Creating ReAct agent...
+2025-08-10 20:53:13 - src.agents.technical_agent - INFO - Agent input: 请分析腾讯（股票代码：sz.00700）的技术指标。
+
+当前时间：2025年08月10日 (2025-08-10) 星期日 20:53:11
+当前日期：2025-08-10
+
+请进行以下技术分析：
+1. 获取股票基本信息和最新价格
+2. 获取历史K线数据（建议获取最近3-6个月的数据）
+3. 分析价格趋势和技术形态
+4. 分析成交量变化
+5. 计算和分析主要技术指标（如移动平均线、MACD、RSI等）
+6. 识别支撑位和阻力位
+7. 提供技术面总结和短期走势判断
+
+重要限制：请专注于价格数据和技术指标分析，不要使用crawl_news工具获取新闻信息。技术分析应该基于价格走势、成交量和技术指标数据，而不是新闻事件。
+
+请使用可用的工具获取实际数据进行分析，而不是基于假设。
+2025-08-10 20:53:13 - src.agents.technical_agent - INFO - 🔄 TechnicalAgent: Calling ReAct agent...
+2025-08-10 20:54:18 - src.agents.technical_agent - INFO - ReAct agent execution completed in 64.46 seconds
+2025-08-10 20:54:18 - src.agents.technical_agent - INFO - Successfully extracted analysis from AI message.
+2025-08-10 20:54:18 - src.agents.technical_agent - INFO - Final extracted analysis length: 229 characters
+2025-08-10 20:54:18 - src.agents.technical_agent - INFO - ✓ TechnicalAgent: Successfully completed technical analysis.
+2025-08-10 20:56:02 - src.agents.technical_agent - INFO - 🔄 TechnicalAgent: Starting technical analysis using ReAct framework.
+2025-08-10 20:56:02 - src.agents.technical_agent - INFO - 🔄 TechnicalAgent: Creating ChatOpenAI with model doubao-seed-1-6-250615
+2025-08-10 20:56:02 - src.agents.technical_agent - INFO - 🔄 TechnicalAgent: Fetching MCP tools...
+2025-08-10 20:56:03 - src.agents.technical_agent - INFO - ✓ TechnicalAgent: Successfully loaded 27 tools.
+2025-08-10 20:56:03 - src.agents.technical_agent - INFO - Available tools: ['get_historical_k_data', 'get_stock_basic_info', 'get_dividend_data', 'get_adjust_factor_data', 'get_profit_data', 'get_operation_data', 'get_growth_data', 'get_balance_data', 'get_cash_flow_data', 'get_dupont_data', 'get_performance_express_report', 'get_forecast_report', 'get_stock_industry', 'get_sz50_stocks', 'get_hs300_stocks', 'get_zz500_stocks', 'get_trade_dates', 'get_all_stock', 'get_deposit_rate_data', 'get_loan_rate_data', 'get_required_reserve_ratio_data', 'get_money_supply_data_month', 'get_money_supply_data_year', 'get_latest_trading_date', 'get_market_analysis_timeframe', 'get_stock_analysis', 'crawl_news']
+2025-08-10 20:56:03 - src.agents.technical_agent - INFO - 🔄 TechnicalAgent: Creating ReAct agent...
+2025-08-10 20:56:03 - src.agents.technical_agent - INFO - Agent input: 请分析茅台（股票代码：sh.600519）的技术指标。
+
+当前时间：2025年08月10日 (2025-08-10) 星期日 20:56:01
+当前日期：2025-08-10
+
+请进行以下技术分析：
+1. 获取股票基本信息和最新价格
+2. 获取历史K线数据（建议获取最近3-6个月的数据）
+3. 分析价格趋势和技术形态
+4. 分析成交量变化
+5. 计算和分析主要技术指标（如移动平均线、MACD、RSI等）
+6. 识别支撑位和阻力位
+7. 提供技术面总结和短期走势判断
+
+重要限制：请专注于价格数据和技术指标分析，不要使用crawl_news工具获取新闻信息。技术分析应该基于价格走势、成交量和技术指标数据，而不是新闻事件。
+
+请使用可用的工具获取实际数据进行分析，而不是基于假设。
+2025-08-10 20:56:03 - src.agents.technical_agent - INFO - 🔄 TechnicalAgent: Calling ReAct agent...
+2025-08-10 20:58:52 - src.agents.technical_agent - INFO - ReAct agent execution completed in 169.02 seconds
+2025-08-10 20:58:52 - src.agents.technical_agent - INFO - Successfully extracted analysis from AI message.
+2025-08-10 20:58:52 - src.agents.technical_agent - INFO - Final extracted analysis length: 2212 characters
+2025-08-10 20:58:52 - src.agents.technical_agent - INFO - ✓ TechnicalAgent: Successfully completed technical analysis.
+2025-08-10 21:07:56 - src.agents.technical_agent - INFO - 🔄 TechnicalAgent: Starting technical analysis using ReAct framework.
+2025-08-10 21:07:56 - src.agents.technical_agent - INFO - 🔄 TechnicalAgent: Creating ChatOpenAI with model doubao-seed-1-6-250615
+2025-08-10 21:07:56 - src.agents.technical_agent - INFO - 🔄 TechnicalAgent: Fetching MCP tools...
+2025-08-10 21:07:58 - src.agents.technical_agent - INFO - ✓ TechnicalAgent: Successfully loaded 27 tools.
+2025-08-10 21:07:58 - src.agents.technical_agent - INFO - Available tools: ['get_historical_k_data', 'get_stock_basic_info', 'get_dividend_data', 'get_adjust_factor_data', 'get_profit_data', 'get_operation_data', 'get_growth_data', 'get_balance_data', 'get_cash_flow_data', 'get_dupont_data', 'get_performance_express_report', 'get_forecast_report', 'get_stock_industry', 'get_sz50_stocks', 'get_hs300_stocks', 'get_zz500_stocks', 'get_trade_dates', 'get_all_stock', 'get_deposit_rate_data', 'get_loan_rate_data', 'get_required_reserve_ratio_data', 'get_money_supply_data_month', 'get_money_supply_data_year', 'get_latest_trading_date', 'get_market_analysis_timeframe', 'get_stock_analysis', 'crawl_news']
+2025-08-10 21:07:58 - src.agents.technical_agent - INFO - 🔄 TechnicalAgent: Creating ReAct agent...
+2025-08-10 21:07:58 - src.agents.technical_agent - INFO - Agent input: 请分析茅台（股票代码：sh.600519）的技术指标。
+
+当前时间：2025年08月10日 (2025-08-10) 星期日 21:07:56
+当前日期：2025-08-10
+
+请进行以下技术分析：
+1. 获取股票基本信息和最新价格
+2. 获取历史K线数据（建议获取最近3-6个月的数据）
+3. 分析价格趋势和技术形态
+4. 分析成交量变化
+5. 计算和分析主要技术指标（如移动平均线、MACD、RSI等）
+6. 识别支撑位和阻力位
+7. 提供技术面总结和短期走势判断
+
+重要限制：请专注于价格数据和技术指标分析，不要使用crawl_news工具获取新闻信息。技术分析应该基于价格走势、成交量和技术指标数据，而不是新闻事件。
+
+请使用可用的工具获取实际数据进行分析，而不是基于假设。
+2025-08-10 21:07:58 - src.agents.technical_agent - INFO - 🔄 TechnicalAgent: Calling ReAct agent...
+2025-08-19 22:27:38 - src.agents.technical_agent - INFO - 🔄 TechnicalAgent: Starting technical analysis using ReAct framework.
+2025-08-19 22:27:38 - src.agents.technical_agent - INFO - 🔄 TechnicalAgent: Creating ChatOpenAI with model doubao-1-5-thinking-vision-pro-250428
+2025-08-19 22:27:38 - src.agents.technical_agent - INFO - 🔄 TechnicalAgent: Fetching MCP tools...
+2025-08-19 22:27:40 - src.agents.technical_agent - INFO - ✓ TechnicalAgent: Successfully loaded 27 tools.
+2025-08-19 22:27:40 - src.agents.technical_agent - INFO - Available tools: ['get_historical_k_data', 'get_stock_basic_info', 'get_dividend_data', 'get_adjust_factor_data', 'get_profit_data', 'get_operation_data', 'get_growth_data', 'get_balance_data', 'get_cash_flow_data', 'get_dupont_data', 'get_performance_express_report', 'get_forecast_report', 'get_stock_industry', 'get_sz50_stocks', 'get_hs300_stocks', 'get_zz500_stocks', 'get_trade_dates', 'get_all_stock', 'get_deposit_rate_data', 'get_loan_rate_data', 'get_required_reserve_ratio_data', 'get_money_supply_data_month', 'get_money_supply_data_year', 'get_latest_trading_date', 'get_market_analysis_timeframe', 'get_stock_analysis', 'crawl_news']
+2025-08-19 22:27:40 - src.agents.technical_agent - INFO - 🔄 TechnicalAgent: Creating ReAct agent...
+2025-08-19 22:27:40 - src.agents.technical_agent - INFO - Agent input: 请分析茅台（股票代码：sh.600519）的技术指标。
+
+当前时间：2025年08月19日 (2025-08-19) 星期二 22:27:38
+当前日期：2025-08-19
+
+请进行以下技术分析：
+1. 获取股票基本信息和最新价格
+2. 获取历史K线数据（建议获取最近3-6个月的数据）
+3. 分析价格趋势和技术形态
+4. 分析成交量变化
+5. 计算和分析主要技术指标（如移动平均线、MACD、RSI等）
+6. 识别支撑位和阻力位
+7. 提供技术面总结和短期走势判断
+
+重要限制：请专注于价格数据和技术指标分析，不要使用crawl_news工具获取新闻信息。技术分析应该基于价格走势、成交量和技术指标数据，而不是新闻事件。
+
+请使用可用的工具获取实际数据进行分析，而不是基于假设。
+2025-08-19 22:27:40 - src.agents.technical_agent - INFO - 🔄 TechnicalAgent: Calling ReAct agent...
+2025-08-19 22:28:10 - src.agents.technical_agent - INFO - 🔄 TechnicalAgent: Starting technical analysis using ReAct framework.
+2025-08-19 22:28:10 - src.agents.technical_agent - INFO - 🔄 TechnicalAgent: Creating ChatOpenAI with model doubao-1-5-thinking-vision-pro-250428
+2025-08-19 22:28:10 - src.agents.technical_agent - INFO - 🔄 TechnicalAgent: Fetching MCP tools...
+2025-08-19 22:28:11 - src.agents.technical_agent - INFO - ✓ TechnicalAgent: Successfully loaded 27 tools.
+2025-08-19 22:28:11 - src.agents.technical_agent - INFO - Available tools: ['get_historical_k_data', 'get_stock_basic_info', 'get_dividend_data', 'get_adjust_factor_data', 'get_profit_data', 'get_operation_data', 'get_growth_data', 'get_balance_data', 'get_cash_flow_data', 'get_dupont_data', 'get_performance_express_report', 'get_forecast_report', 'get_stock_industry', 'get_sz50_stocks', 'get_hs300_stocks', 'get_zz500_stocks', 'get_trade_dates', 'get_all_stock', 'get_deposit_rate_data', 'get_loan_rate_data', 'get_required_reserve_ratio_data', 'get_money_supply_data_month', 'get_money_supply_data_year', 'get_latest_trading_date', 'get_market_analysis_timeframe', 'get_stock_analysis', 'crawl_news']
+2025-08-19 22:28:11 - src.agents.technical_agent - INFO - 🔄 TechnicalAgent: Creating ReAct agent...
+2025-08-19 22:28:11 - src.agents.technical_agent - INFO - Agent input: 请分析茅台（股票代码：sh.600519）的技术指标。
+
+当前时间：2025年08月19日 (2025-08-19) 星期二 22:28:10
+当前日期：2025-08-19
+
+请进行以下技术分析：
+1. 获取股票基本信息和最新价格
+2. 获取历史K线数据（建议获取最近3-6个月的数据）
+3. 分析价格趋势和技术形态
+4. 分析成交量变化
+5. 计算和分析主要技术指标（如移动平均线、MACD、RSI等）
+6. 识别支撑位和阻力位
+7. 提供技术面总结和短期走势判断
+
+重要限制：请专注于价格数据和技术指标分析，不要使用crawl_news工具获取新闻信息。技术分析应该基于价格走势、成交量和技术指标数据，而不是新闻事件。
+
+请使用可用的工具获取实际数据进行分析，而不是基于假设。
+2025-08-19 22:28:11 - src.agents.technical_agent - INFO - 🔄 TechnicalAgent: Calling ReAct agent...
+2025-08-19 22:28:53 - src.agents.technical_agent - INFO - ReAct agent execution completed in 73.11 seconds
+2025-08-19 22:28:53 - src.agents.technical_agent - INFO - Successfully extracted analysis from AI message.
+2025-08-19 22:28:53 - src.agents.technical_agent - INFO - Final extracted analysis length: 2317 characters
+2025-08-19 22:28:53 - src.agents.technical_agent - INFO - ✓ TechnicalAgent: Successfully completed technical analysis.
+2025-08-19 22:30:13 - src.agents.technical_agent - INFO - 🔄 TechnicalAgent: Starting technical analysis using ReAct framework.
+2025-08-19 22:30:13 - src.agents.technical_agent - INFO - 🔄 TechnicalAgent: Creating ChatOpenAI with model doubao-1-5-thinking-vision-pro-250428
+2025-08-19 22:30:13 - src.agents.technical_agent - INFO - 🔄 TechnicalAgent: Fetching MCP tools...
+2025-08-19 22:30:14 - src.agents.technical_agent - INFO - ✓ TechnicalAgent: Successfully loaded 27 tools.
+2025-08-19 22:30:14 - src.agents.technical_agent - INFO - Available tools: ['get_historical_k_data', 'get_stock_basic_info', 'get_dividend_data', 'get_adjust_factor_data', 'get_profit_data', 'get_operation_data', 'get_growth_data', 'get_balance_data', 'get_cash_flow_data', 'get_dupont_data', 'get_performance_express_report', 'get_forecast_report', 'get_stock_industry', 'get_sz50_stocks', 'get_hs300_stocks', 'get_zz500_stocks', 'get_trade_dates', 'get_all_stock', 'get_deposit_rate_data', 'get_loan_rate_data', 'get_required_reserve_ratio_data', 'get_money_supply_data_month', 'get_money_supply_data_year', 'get_latest_trading_date', 'get_market_analysis_timeframe', 'get_stock_analysis', 'crawl_news']
+2025-08-19 22:30:14 - src.agents.technical_agent - INFO - 🔄 TechnicalAgent: Creating ReAct agent...
+2025-08-19 22:30:14 - src.agents.technical_agent - INFO - Agent input: 请分析茅台（股票代码：sh.600519）的技术指标。
+
+当前时间：2025年08月19日 (2025-08-19) 星期二 22:30:12
+当前日期：2025-08-19
+
+请进行以下技术分析：
+1. 获取股票基本信息和最新价格
+2. 获取历史K线数据（建议获取最近3-6个月的数据）
+3. 分析价格趋势和技术形态
+4. 分析成交量变化
+5. 计算和分析主要技术指标（如移动平均线、MACD、RSI等）
+6. 识别支撑位和阻力位
+7. 提供技术面总结和短期走势判断
+
+重要限制：请专注于价格数据和技术指标分析，不要使用crawl_news工具获取新闻信息。技术分析应该基于价格走势、成交量和技术指标数据，而不是新闻事件。
+
+请使用可用的工具获取实际数据进行分析，而不是基于假设。
+2025-08-19 22:30:14 - src.agents.technical_agent - INFO - 🔄 TechnicalAgent: Calling ReAct agent...
+2025-08-19 22:30:18 - src.agents.technical_agent - INFO - 🔄 TechnicalAgent: Starting technical analysis using ReAct framework.
+2025-08-19 22:30:18 - src.agents.technical_agent - INFO - 🔄 TechnicalAgent: Creating ChatOpenAI with model doubao-1-5-thinking-vision-pro-250428
+2025-08-19 22:30:18 - src.agents.technical_agent - INFO - 🔄 TechnicalAgent: Fetching MCP tools...
+2025-08-19 22:30:19 - src.agents.technical_agent - INFO - ✓ TechnicalAgent: Successfully loaded 27 tools.
+2025-08-19 22:30:19 - src.agents.technical_agent - INFO - Available tools: ['get_historical_k_data', 'get_stock_basic_info', 'get_dividend_data', 'get_adjust_factor_data', 'get_profit_data', 'get_operation_data', 'get_growth_data', 'get_balance_data', 'get_cash_flow_data', 'get_dupont_data', 'get_performance_express_report', 'get_forecast_report', 'get_stock_industry', 'get_sz50_stocks', 'get_hs300_stocks', 'get_zz500_stocks', 'get_trade_dates', 'get_all_stock', 'get_deposit_rate_data', 'get_loan_rate_data', 'get_required_reserve_ratio_data', 'get_money_supply_data_month', 'get_money_supply_data_year', 'get_latest_trading_date', 'get_market_analysis_timeframe', 'get_stock_analysis', 'crawl_news']
+2025-08-19 22:30:19 - src.agents.technical_agent - INFO - 🔄 TechnicalAgent: Creating ReAct agent...
+2025-08-19 22:30:19 - src.agents.technical_agent - INFO - Agent input: 请分析茅台（股票代码：sh.600519）的技术指标。
+
+当前时间：2025年08月19日 (2025-08-19) 星期二 22:30:18
+当前日期：2025-08-19
+
+请进行以下技术分析：
+1. 获取股票基本信息和最新价格
+2. 获取历史K线数据（建议获取最近3-6个月的数据）
+3. 分析价格趋势和技术形态
+4. 分析成交量变化
+5. 计算和分析主要技术指标（如移动平均线、MACD、RSI等）
+6. 识别支撑位和阻力位
+7. 提供技术面总结和短期走势判断
+
+重要限制：请专注于价格数据和技术指标分析，不要使用crawl_news工具获取新闻信息。技术分析应该基于价格走势、成交量和技术指标数据，而不是新闻事件。
+
+请使用可用的工具获取实际数据进行分析，而不是基于假设。
+2025-08-19 22:30:19 - src.agents.technical_agent - INFO - 🔄 TechnicalAgent: Calling ReAct agent...
+2025-08-19 22:31:28 - src.agents.technical_agent - INFO - ReAct agent execution completed in 74.08 seconds
+2025-08-19 22:31:28 - src.agents.technical_agent - INFO - Successfully extracted analysis from AI message.
+2025-08-19 22:31:28 - src.agents.technical_agent - INFO - Final extracted analysis length: 2486 characters
+2025-08-19 22:31:28 - src.agents.technical_agent - INFO - ✓ TechnicalAgent: Successfully completed technical analysis.
+2025-08-19 22:31:44 - src.agents.technical_agent - INFO - ReAct agent execution completed in 85.01 seconds
+2025-08-19 22:31:44 - src.agents.technical_agent - INFO - Successfully extracted analysis from AI message.
+2025-08-19 22:31:44 - src.agents.technical_agent - INFO - Final extracted analysis length: 2870 characters
+2025-08-19 22:31:44 - src.agents.technical_agent - INFO - ✓ TechnicalAgent: Successfully completed technical analysis.
+2025-08-19 22:35:17 - src.agents.technical_agent - INFO - 🔄 TechnicalAgent: Starting technical analysis using ReAct framework.
+2025-08-19 22:35:17 - src.agents.technical_agent - INFO - 🔄 TechnicalAgent: Creating ChatOpenAI with model doubao-1-5-thinking-vision-pro-250428
+2025-08-19 22:35:17 - src.agents.technical_agent - INFO - 🔄 TechnicalAgent: Fetching MCP tools...
+2025-08-19 22:35:19 - src.agents.technical_agent - INFO - ✓ TechnicalAgent: Successfully loaded 27 tools.
+2025-08-19 22:35:19 - src.agents.technical_agent - INFO - Available tools: ['get_historical_k_data', 'get_stock_basic_info', 'get_dividend_data', 'get_adjust_factor_data', 'get_profit_data', 'get_operation_data', 'get_growth_data', 'get_balance_data', 'get_cash_flow_data', 'get_dupont_data', 'get_performance_express_report', 'get_forecast_report', 'get_stock_industry', 'get_sz50_stocks', 'get_hs300_stocks', 'get_zz500_stocks', 'get_trade_dates', 'get_all_stock', 'get_deposit_rate_data', 'get_loan_rate_data', 'get_required_reserve_ratio_data', 'get_money_supply_data_month', 'get_money_supply_data_year', 'get_latest_trading_date', 'get_market_analysis_timeframe', 'get_stock_analysis', 'crawl_news']
+2025-08-19 22:35:19 - src.agents.technical_agent - INFO - 🔄 TechnicalAgent: Creating ReAct agent...
+2025-08-19 22:35:19 - src.agents.technical_agent - INFO - Agent input: 请分析茅台（股票代码：sh.600519）的技术指标。
+
+当前时间：2025年08月19日 (2025-08-19) 星期二 22:35:17
+当前日期：2025-08-19
+
+请进行以下技术分析：
+1. 获取股票基本信息和最新价格
+2. 获取历史K线数据（建议获取最近3-6个月的数据）
+3. 分析价格趋势和技术形态
+4. 分析成交量变化
+5. 计算和分析主要技术指标（如移动平均线、MACD、RSI等）
+6. 识别支撑位和阻力位
+7. 提供技术面总结和短期走势判断
+
+重要限制：请专注于价格数据和技术指标分析，不要使用crawl_news工具获取新闻信息。技术分析应该基于价格走势、成交量和技术指标数据，而不是新闻事件。
+
+请使用可用的工具获取实际数据进行分析，而不是基于假设。
+2025-08-19 22:35:19 - src.agents.technical_agent - INFO - 🔄 TechnicalAgent: Calling ReAct agent...
+2025-08-19 22:36:44 - src.agents.technical_agent - INFO - ReAct agent execution completed in 84.99 seconds
+2025-08-19 22:36:44 - src.agents.technical_agent - INFO - Successfully extracted analysis from AI message.
+2025-08-19 22:36:44 - src.agents.technical_agent - INFO - Final extracted analysis length: 1770 characters
+2025-08-19 22:36:44 - src.agents.technical_agent - INFO - ✓ TechnicalAgent: Successfully completed technical analysis.
+2025-08-19 22:45:32 - src.agents.technical_agent - INFO - 🔄 TechnicalAgent: Starting technical analysis using ReAct framework.
+2025-08-19 22:45:32 - src.agents.technical_agent - INFO - 🔄 TechnicalAgent: Creating ChatOpenAI with model doubao-1-5-thinking-vision-pro-250428
+2025-08-19 22:45:32 - src.agents.technical_agent - INFO - 🔄 TechnicalAgent: Fetching MCP tools...
+2025-08-19 22:45:33 - src.agents.technical_agent - INFO - ✓ TechnicalAgent: Successfully loaded 27 tools.
+2025-08-19 22:45:33 - src.agents.technical_agent - INFO - Available tools: ['get_historical_k_data', 'get_stock_basic_info', 'get_dividend_data', 'get_adjust_factor_data', 'get_profit_data', 'get_operation_data', 'get_growth_data', 'get_balance_data', 'get_cash_flow_data', 'get_dupont_data', 'get_performance_express_report', 'get_forecast_report', 'get_stock_industry', 'get_sz50_stocks', 'get_hs300_stocks', 'get_zz500_stocks', 'get_trade_dates', 'get_all_stock', 'get_deposit_rate_data', 'get_loan_rate_data', 'get_required_reserve_ratio_data', 'get_money_supply_data_month', 'get_money_supply_data_year', 'get_latest_trading_date', 'get_market_analysis_timeframe', 'get_stock_analysis', 'crawl_news']
+2025-08-19 22:45:33 - src.agents.technical_agent - INFO - 🔄 TechnicalAgent: Creating ReAct agent...
+2025-08-19 22:45:33 - src.agents.technical_agent - INFO - Agent input: 请分析茅台（股票代码：sh.600519）的技术指标。
+
+当前时间：2025年08月19日 (2025-08-19) 星期二 22:45:31
+当前日期：2025-08-19
+
+请进行以下技术分析：
+1. 获取股票基本信息和最新价格
+2. 获取历史K线数据（建议获取最近3-6个月的数据）
+3. 分析价格趋势和技术形态
+4. 分析成交量变化
+5. 计算和分析主要技术指标（如移动平均线、MACD、RSI等）
+6. 识别支撑位和阻力位
+7. 提供技术面总结和短期走势判断
+
+重要限制：请专注于价格数据和技术指标分析，不要使用crawl_news工具获取新闻信息。技术分析应该基于价格走势、成交量和技术指标数据，而不是新闻事件。
+
+请使用可用的工具获取实际数据进行分析，而不是基于假设。
+2025-08-19 22:45:33 - src.agents.technical_agent - INFO - 🔄 TechnicalAgent: Calling ReAct agent...
+2025-08-19 22:47:04 - src.agents.technical_agent - INFO - ReAct agent execution completed in 90.91 seconds
+2025-08-19 22:47:04 - src.agents.technical_agent - INFO - Successfully extracted analysis from AI message.
+2025-08-19 22:47:04 - src.agents.technical_agent - INFO - Final extracted analysis length: 2510 characters
+2025-08-19 22:47:04 - src.agents.technical_agent - INFO - ✓ TechnicalAgent: Successfully completed technical analysis.
+2025-08-19 22:47:58 - src.agents.technical_agent - INFO - 🔄 TechnicalAgent: Starting technical analysis using ReAct framework.
+2025-08-19 22:47:58 - src.agents.technical_agent - INFO - 🔄 TechnicalAgent: Creating ChatOpenAI with model doubao-1-5-thinking-vision-pro-250428
+2025-08-19 22:47:58 - src.agents.technical_agent - INFO - 🔄 TechnicalAgent: Fetching MCP tools...
+2025-08-19 22:47:59 - src.agents.technical_agent - INFO - ✓ TechnicalAgent: Successfully loaded 27 tools.
+2025-08-19 22:47:59 - src.agents.technical_agent - INFO - Available tools: ['get_historical_k_data', 'get_stock_basic_info', 'get_dividend_data', 'get_adjust_factor_data', 'get_profit_data', 'get_operation_data', 'get_growth_data', 'get_balance_data', 'get_cash_flow_data', 'get_dupont_data', 'get_performance_express_report', 'get_forecast_report', 'get_stock_industry', 'get_sz50_stocks', 'get_hs300_stocks', 'get_zz500_stocks', 'get_trade_dates', 'get_all_stock', 'get_deposit_rate_data', 'get_loan_rate_data', 'get_required_reserve_ratio_data', 'get_money_supply_data_month', 'get_money_supply_data_year', 'get_latest_trading_date', 'get_market_analysis_timeframe', 'get_stock_analysis', 'crawl_news']
+2025-08-19 22:47:59 - src.agents.technical_agent - INFO - 🔄 TechnicalAgent: Creating ReAct agent...
+2025-08-19 22:47:59 - src.agents.technical_agent - INFO - Agent input: 请分析茅台（股票代码：sh.600519）的技术指标。
+
+当前时间：2025年08月19日 (2025-08-19) 星期二 22:47:57
+当前日期：2025-08-19
+
+请进行以下技术分析：
+1. 获取股票基本信息和最新价格
+2. 获取历史K线数据（建议获取最近3-6个月的数据）
+3. 分析价格趋势和技术形态
+4. 分析成交量变化
+5. 计算和分析主要技术指标（如移动平均线、MACD、RSI等）
+6. 识别支撑位和阻力位
+7. 提供技术面总结和短期走势判断
+
+重要限制：请专注于价格数据和技术指标分析，不要使用crawl_news工具获取新闻信息。技术分析应该基于价格走势、成交量和技术指标数据，而不是新闻事件。
+
+请使用可用的工具获取实际数据进行分析，而不是基于假设。
+2025-08-19 22:47:59 - src.agents.technical_agent - INFO - 🔄 TechnicalAgent: Calling ReAct agent...
+2025-08-19 22:49:24 - src.agents.technical_agent - INFO - ReAct agent execution completed in 84.81 seconds
+2025-08-19 22:49:24 - src.agents.technical_agent - INFO - Successfully extracted analysis from AI message.
+2025-08-19 22:49:24 - src.agents.technical_agent - INFO - Final extracted analysis length: 1916 characters
+2025-08-19 22:49:24 - src.agents.technical_agent - INFO - ✓ TechnicalAgent: Successfully completed technical analysis.

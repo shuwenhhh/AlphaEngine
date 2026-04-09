@@ -1,0 +1,33 @@
+{
+  "agent_name": "technical_agent",
+  "start_time": "2025-08-10T10:38:08.533668",
+  "start_timestamp": 1754793488.5336735,
+  "input_data": {
+    "user_query": "帮我看看茅台(600519)这只股票值得投资吗",
+    "stock_code": "sh.600519",
+    "company_name": "茅台",
+    "input_data_keys": [
+      "query",
+      "current_date",
+      "current_date_cn",
+      "current_time",
+      "current_weekday_cn",
+      "current_time_info",
+      "analysis_timestamp",
+      "company_name",
+      "stock_code"
+    ]
+  },
+  "status": "completed",
+  "end_time": "2025-08-10T10:39:41.263904",
+  "end_timestamp": 1754793581.2639108,
+  "execution_time_seconds": 92.72996544837952,
+  "output_data": {
+    "technical_analysis_length": 2265,
+    "analysis_preview": "### 贵州茅台（sh.600519）技术分析报告  \n（数据周期：2025年2月10日-2025年8月8日，前复权日线数据）\n\n\n#### **一、股票基本信息与最新价格**  \n| 代码       | 名称     | 上市日期   | 最新收盘价（2025-08-08） | 近6个月涨跌幅 |  \n|------------|----------|------------|--------------------------|--------------|  \n| sh.600519  | 贵州茅台 | 2001-08-27 | 10,467.6元               | **0.12%**    |  \n\n\n#### **二、价格趋势与技术形态分析**  \n1. **整体趋势**  \n   - 近6个月股价呈现**宽幅震荡**，核心波动区间为9,800元-12,000元。  \n   - **关键转折点**：  \n     - 3月14日放量大涨5.87%，突破前期高点至11,762元，形成短期趋势反转；  \n     - 4月7日因市场情绪下跌4.39%，单日成交量达",
+    "llm_execution_time": 89.75835061073303,
+    "total_execution_time": 92.72996544837952
+  },
+  "success": true,
+  "error": null
+}

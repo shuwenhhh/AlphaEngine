@@ -1,0 +1,33 @@
+{
+  "agent_name": "news_agent",
+  "start_time": "2025-08-10T10:38:08.532412",
+  "start_timestamp": 1754793488.5324202,
+  "input_data": {
+    "user_query": "帮我看看茅台(600519)这只股票值得投资吗",
+    "stock_code": "sh.600519",
+    "company_name": "茅台",
+    "input_data_keys": [
+      "query",
+      "current_date",
+      "current_date_cn",
+      "current_time",
+      "current_weekday_cn",
+      "current_time_info",
+      "analysis_timestamp",
+      "company_name",
+      "stock_code"
+    ]
+  },
+  "status": "completed",
+  "end_time": "2025-08-10T10:41:43.044700",
+  "end_timestamp": 1754793703.0447068,
+  "execution_time_seconds": 214.51194620132446,
+  "output_data": {
+    "news_analysis_length": 2356,
+    "analysis_preview": "### 贵州茅台（sh.600519）新闻分析报告  \n**分析时段**：2025年6月-2025年8月  \n**数据来源**：新闻爬取结果、历史股价数据  \n\n\n#### **一、核心新闻事件汇总及分析**  \n| **新闻标题** | **发布时间** | **核心内容** | **情感分析** | **风险评估** | **对股价潜在影响** |  \n|--------------|--------------|--------------|--------------|--------------|--------------------|  \n| **7000元/瓶超高端新品上线即被疯抢** | 2025-08-08 | 茅台推出“五星茅台纪念酒”，限量25568瓶，单瓶售价7000元，上线即售罄，预计收入1.79亿元 | 4（正面） | 2（低风险） | 短期或提振市场信心，凸显品牌溢价能力 |  \n| **飞天茅台散瓶价格跌至1900元/瓶** | 2025-06-20 | 批发价较年初下跌约5%，部分经销商称“亏损严重” | 3（中性） | 3（中等风险） | 价格下行",
+    "llm_execution_time": 211.56154108047485,
+    "total_execution_time": 214.51194620132446
+  },
+  "success": true,
+  "error": null
+}

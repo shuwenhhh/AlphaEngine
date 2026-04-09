@@ -1,0 +1,33 @@
+{
+  "agent_name": "news_agent",
+  "start_time": "2025-08-10T11:03:07.961666",
+  "start_timestamp": 1754794987.9616733,
+  "input_data": {
+    "user_query": "帮我看看茅台(600519)这只股票值得投资吗",
+    "stock_code": "sh.600519",
+    "company_name": "茅台",
+    "input_data_keys": [
+      "query",
+      "current_date",
+      "current_date_cn",
+      "current_time",
+      "current_weekday_cn",
+      "current_time_info",
+      "analysis_timestamp",
+      "company_name",
+      "stock_code"
+    ]
+  },
+  "status": "completed",
+  "end_time": "2025-08-10T11:10:26.357565",
+  "end_timestamp": 1754795426.3575714,
+  "execution_time_seconds": 438.3955659866333,
+  "output_data": {
+    "news_analysis_length": 2617,
+    "analysis_preview": "根据现有搜索结果，已获取贵州茅台2025年8月前后的关键动态，但部分核心数据（如2025年中报官方数据）仍未明确披露。继续搜索可能无法获得更多有效信息，因此基于现有信息进行综合分析如下：\n\n\n### **一、最新新闻汇总（筛选有效信息后）**\n#### **1. 战略调整与市场策略**\n- **产品与渠道优化**：2025年调整飞天53度500ml茅台酒、珍品酒等核心产品投放量，强化普茅“金字塔”底座地位，提升直销渠道占比至50%以上（非标产品如1L装飞天、生肖酒占比提升，支撑毛利率维持90%以上）。\n- **国际化布局**：2024年出口营收突破50亿元，通过“茅台之夜”文化活动及与国际企业合作（如澳大利亚富邑集团）拓展欧美、东南亚市场。\n- **数字化转型**：i茅台平台贡献显著，2025年8月8日“五星商标上市70周年纪念酒”上线2分钟售罄，单瓶售价7000元，销售额达1.79亿元。\n\n#### **2. 财务与业绩动态**\n- **2025年目标**：营收增速目标下调至9%（2024年为15.66%），系2017年以来首次放缓，反映行业调整压力。\n- **回购与分红**：截至2",
+    "llm_execution_time": 435.4518656730652,
+    "total_execution_time": 438.3955659866333
+  },
+  "success": true,
+  "error": null
+}

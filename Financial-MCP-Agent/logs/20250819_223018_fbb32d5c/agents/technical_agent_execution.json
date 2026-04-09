@@ -1,0 +1,33 @@
+{
+  "agent_name": "technical_agent",
+  "start_time": "2025-08-19T22:30:18.599398",
+  "start_timestamp": 1755613818.5994036,
+  "input_data": {
+    "user_query": "帮我看看茅台(600519)这只股票值得投资吗",
+    "stock_code": "sh.600519",
+    "company_name": "茅台",
+    "input_data_keys": [
+      "query",
+      "current_date",
+      "current_date_cn",
+      "current_time",
+      "current_weekday_cn",
+      "current_time_info",
+      "analysis_timestamp",
+      "company_name",
+      "stock_code"
+    ]
+  },
+  "status": "completed",
+  "end_time": "2025-08-19T22:31:44.907931",
+  "end_timestamp": 1755613904.907936,
+  "execution_time_seconds": 86.30828595161438,
+  "output_data": {
+    "technical_analysis_length": 2870,
+    "analysis_preview": "### 贵州茅台（sh.600519）技术分析报告（2025年3月-8月日线数据）  \n\n\n#### 1. 股票基本信息与最新价格  \n通过 `get_stock_basic_info` 工具获取核心信息：  \n- 股票代码：sh.600519  \n- 股票名称：贵州茅台  \n结合 `get_historical_k_data` 最新数据（2025-08-19）：  \n- 最新收盘价：1438.0 元  \n- 最新成交量：4,637,186 手  \n- 最新成交额：66.79 亿元  \n\n\n#### 2. 历史K线数据与价格趋势分析  \n选取 **2025-03-01至2025-08-19** 日线数据，价格走势可分为三个阶段：  \n\n| 阶段       | 时间范围       | 核心特征                                                                 |  \n|------------|----------------|------------------------------------------------",
+    "llm_execution_time": 85.01094961166382,
+    "total_execution_time": 86.30828595161438
+  },
+  "success": true,
+  "error": null
+}

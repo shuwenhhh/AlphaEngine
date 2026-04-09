@@ -1,0 +1,288 @@
+2025-08-10 10:43:28 - src.agents.summary_agent - INFO - 🔄 SummaryAgent: Starting to consolidate analyses.
+2025-08-10 10:43:28 - src.agents.summary_agent - INFO - 🔄 SummaryAgent: Using model choice: api
+2025-08-10 10:43:28 - src.agents.summary_agent - INFO - 🔄 SummaryAgent: Using OpenAI API...
+2025-08-10 10:43:28 - src.agents.summary_agent - INFO - 🔄 SummaryAgent: Creating ChatOpenAI with model doubao-seed-1-6-250615
+2025-08-10 10:52:26 - src.agents.summary_agent - INFO - 🔄 SummaryAgent: Starting to consolidate analyses.
+2025-08-10 10:52:26 - src.agents.summary_agent - INFO - 🔄 SummaryAgent: Using model choice: local
+2025-08-10 10:52:26 - src.agents.summary_agent - INFO - 🔄 SummaryAgent: Using local FinR1 model...
+2025-08-10 10:52:26 - src.agents.summary_agent - INFO - 🔄 Loading FinR1 model from /root/code/self-learn/FinR1...
+2025-08-10 10:52:33 - src.agents.summary_agent - INFO - ✓ FinR1 model loaded successfully
+2025-08-10 10:58:02 - src.agents.summary_agent - INFO - ✓ SummaryAgent: Final report generated for 茅台 (sh.600519).
+2025-08-10 10:58:02 - src.agents.summary_agent - DEBUG - Final report preview: # 贵州茅台(sh.600519) 综合分析报告
+
+## 执行摘要
+贵州茅台作为中国白酒行业的领军企业，凭借强大的品牌壁垒、卓越的财务表现和稳定的现金流，展现出极高的投资吸引力。基本面分析显示其盈利能力强劲，成长性稳健，财务结构极其稳健。技术分析揭示了股价近期的宽幅震荡格局，但未出现明确的方向性突破。估值分析指出，贵州茅台的估值水平在行业内相对较低，且具备较高的股息收益率和DCF支持，内在价值被低估。新闻分析则反映了市场情绪的波动，但长期来看，品牌效应和市场需求的稳定性将助力股价回归合理区间。综合考虑，贵州茅台仍为优质的投资标的，建议投资者关注其突破信号并适时介入。
+
+## 公司概况
+贵州茅台...
+2025-08-10 10:58:02 - src.agents.summary_agent - INFO - ✓ SummaryAgent: Report saved to /root/code/self-learn/Financial-MCP-Agent/reports/report_茅台_600519_20250810_105802.md
+2025-08-10 11:11:13 - src.agents.summary_agent - INFO - 🔄 SummaryAgent: Starting to consolidate analyses.
+2025-08-10 11:11:13 - src.agents.summary_agent - INFO - 🔄 SummaryAgent: Using model choice: local
+2025-08-10 11:11:13 - src.agents.summary_agent - INFO - 🔄 SummaryAgent: Using local FinR1 model...
+2025-08-10 11:11:13 - src.agents.summary_agent - INFO - 🔄 Loading FinR1 model from /root/code/self-learn/FinR1...
+2025-08-10 11:11:20 - src.agents.summary_agent - INFO - ✓ FinR1 model loaded successfully
+2025-08-10 11:16:50 - src.agents.summary_agent - INFO - ✓ SummaryAgent: Final report generated for 茅台 (sh.600519).
+2025-08-10 11:16:50 - src.agents.summary_agent - DEBUG - Final report preview: ...
+2025-08-10 11:16:50 - src.agents.summary_agent - INFO - ✓ SummaryAgent: Report saved to /root/code/self-learn/Financial-MCP-Agent/reports/report_茅台_600519_20250810_111650.md
+2025-08-10 11:36:56 - src.agents.summary_agent - INFO - 🔄 SummaryAgent: Starting to consolidate analyses.
+2025-08-10 11:36:56 - src.agents.summary_agent - INFO - 🔄 SummaryAgent: Using model choice: local
+2025-08-10 11:36:56 - src.agents.summary_agent - INFO - 🔄 SummaryAgent: Using local FinR1 model...
+2025-08-10 11:36:56 - src.agents.summary_agent - INFO - 🔄 Loading FinR1 model from /root/code/self-learn/FinR1...
+2025-08-10 11:37:02 - src.agents.summary_agent - INFO - ✓ FinR1 model loaded successfully
+2025-08-10 11:42:32 - src.agents.summary_agent - INFO - 截断报告在时间信息行之后，截断位置: 2118
+2025-08-10 11:42:32 - src.agents.summary_agent - INFO - ✓ SummaryAgent: Final report generated for 茅台 (sh.600519).
+2025-08-10 11:42:32 - src.agents.summary_agent - DEBUG - Final report preview: # 茅台 (sh.600519) 综合分析报告
+
+---
+
+## 执行摘要
+贵州茅台作为中国白酒行业的龙头企业，凭借其强大的品牌壁垒和高端定位，在2024年的财务表现依旧亮眼。尽管面临宏观经济波动和行业竞争加剧的挑战，茅台通过优化产品结构和强化直销渠道，展现了卓越的抗风险能力和成长潜力。技术面上，股票在2025年上半年经历了阶段性回调，但整体趋势依然偏弱。估值方面，当前市盈率略低于历史均值，具备一定安全边际。综合来看，贵州茅台是长期价值投资者的理想选择。
+
+---
+
+## 公司概况
+- **股票代码**：sh.600519  
+- **公司名称**：贵州茅台  
+- **上市日期**：2001...
+2025-08-10 11:42:32 - src.agents.summary_agent - INFO - ✓ SummaryAgent: Report saved to /root/code/self-learn/Financial-MCP-Agent/reports/report_茅台_600519_20250810_114232.md
+2025-08-10 20:44:12 - src.agents.summary_agent - INFO - 🔄 SummaryAgent: Starting to consolidate analyses.
+2025-08-10 20:44:12 - src.agents.summary_agent - INFO - 🔄 SummaryAgent: Using model choice: local
+2025-08-10 20:44:12 - src.agents.summary_agent - INFO - 🔄 SummaryAgent: Using local FinR1 model...
+2025-08-10 20:44:12 - src.agents.summary_agent - INFO - 🔄 Loading FinR1 model from /root/code/self-learn/FinR1...
+2025-08-10 20:44:12 - src.agents.summary_agent - ERROR - ✗ Failed to load FinR1 model: Repo id must be in the form 'repo_name' or 'namespace/repo_name': '/root/code/self-learn/FinR1'. Use `repo_type` argument if needed.
+2025-08-10 20:44:12 - src.agents.summary_agent - ERROR - ✗ SummaryAgent: Error generating final report: Repo id must be in the form 'repo_name' or 'namespace/repo_name': '/root/code/self-learn/FinR1'. Use `repo_type` argument if needed.
+Traceback (most recent call last):
+  File "/root/miniconda3/lib/python3.12/site-packages/transformers/utils/hub.py", line 479, in cached_files
+    hf_hub_download(
+  File "/root/miniconda3/lib/python3.12/site-packages/huggingface_hub/utils/_validators.py", line 106, in _inner_fn
+    validate_repo_id(arg_value)
+  File "/root/miniconda3/lib/python3.12/site-packages/huggingface_hub/utils/_validators.py", line 154, in validate_repo_id
+    raise HFValidationError(
+huggingface_hub.errors.HFValidationError: Repo id must be in the form 'repo_name' or 'namespace/repo_name': '/root/code/self-learn/FinR1'. Use `repo_type` argument if needed.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/root/autodl-tmp/Finance/Financial-MCP-Agent/src/agents/summary_agent.py", line 427, in summary_agent
+    model, tokenizer = load_finr1_model()
+                       ^^^^^^^^^^^^^^^^^^
+  File "/root/autodl-tmp/Finance/Financial-MCP-Agent/src/agents/summary_agent.py", line 115, in load_finr1_model
+    raise e
+  File "/root/autodl-tmp/Finance/Financial-MCP-Agent/src/agents/summary_agent.py", line 99, in load_finr1_model
+    tokenizer = AutoTokenizer.from_pretrained(model_path)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/miniconda3/lib/python3.12/site-packages/transformers/models/auto/tokenization_auto.py", line 1049, in from_pretrained
+    tokenizer_config = get_tokenizer_config(pretrained_model_name_or_path, **kwargs)
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/miniconda3/lib/python3.12/site-packages/transformers/models/auto/tokenization_auto.py", line 881, in get_tokenizer_config
+    resolved_config_file = cached_file(
+                           ^^^^^^^^^^^^
+  File "/root/miniconda3/lib/python3.12/site-packages/transformers/utils/hub.py", line 321, in cached_file
+    file = cached_files(path_or_repo_id=path_or_repo_id, filenames=[filename], **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/miniconda3/lib/python3.12/site-packages/transformers/utils/hub.py", line 532, in cached_files
+    _get_cache_file_to_return(path_or_repo_id, filename, cache_dir, revision, repo_type)
+  File "/root/miniconda3/lib/python3.12/site-packages/transformers/utils/hub.py", line 144, in _get_cache_file_to_return
+    resolved_file = try_to_load_from_cache(
+                    ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/miniconda3/lib/python3.12/site-packages/huggingface_hub/utils/_validators.py", line 106, in _inner_fn
+    validate_repo_id(arg_value)
+  File "/root/miniconda3/lib/python3.12/site-packages/huggingface_hub/utils/_validators.py", line 154, in validate_repo_id
+    raise HFValidationError(
+huggingface_hub.errors.HFValidationError: Repo id must be in the form 'repo_name' or 'namespace/repo_name': '/root/code/self-learn/FinR1'. Use `repo_type` argument if needed.
+2025-08-10 20:44:12 - src.agents.summary_agent - INFO - ✗ SummaryAgent: Error report saved to /root/autodl-tmp/Finance/Financial-MCP-Agent/reports/error_report_腾讯_00700_20250810_204412.md
+2025-08-10 20:52:13 - src.agents.summary_agent - INFO - 🔄 SummaryAgent: Starting to consolidate analyses.
+2025-08-10 20:52:13 - src.agents.summary_agent - INFO - 🔄 SummaryAgent: Using model choice: local
+2025-08-10 20:52:13 - src.agents.summary_agent - INFO - 🔄 SummaryAgent: Using local FinR1 model...
+2025-08-10 20:52:13 - src.agents.summary_agent - INFO - 🔄 Loading FinR1 model from /root/code/self-learn/FinR1...
+2025-08-10 20:52:13 - src.agents.summary_agent - ERROR - ✗ Failed to load FinR1 model: Repo id must be in the form 'repo_name' or 'namespace/repo_name': '/root/code/self-learn/FinR1'. Use `repo_type` argument if needed.
+2025-08-10 20:52:14 - src.agents.summary_agent - ERROR - ✗ SummaryAgent: Error generating final report: Repo id must be in the form 'repo_name' or 'namespace/repo_name': '/root/code/self-learn/FinR1'. Use `repo_type` argument if needed.
+Traceback (most recent call last):
+  File "/root/miniconda3/lib/python3.12/site-packages/transformers/utils/hub.py", line 479, in cached_files
+    hf_hub_download(
+  File "/root/miniconda3/lib/python3.12/site-packages/huggingface_hub/utils/_validators.py", line 106, in _inner_fn
+    validate_repo_id(arg_value)
+  File "/root/miniconda3/lib/python3.12/site-packages/huggingface_hub/utils/_validators.py", line 154, in validate_repo_id
+    raise HFValidationError(
+huggingface_hub.errors.HFValidationError: Repo id must be in the form 'repo_name' or 'namespace/repo_name': '/root/code/self-learn/FinR1'. Use `repo_type` argument if needed.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/root/autodl-tmp/Finance/Financial-MCP-Agent/src/agents/summary_agent.py", line 427, in summary_agent
+    model, tokenizer = load_finr1_model()
+                       ^^^^^^^^^^^^^^^^^^
+  File "/root/autodl-tmp/Finance/Financial-MCP-Agent/src/agents/summary_agent.py", line 115, in load_finr1_model
+    raise e
+  File "/root/autodl-tmp/Finance/Financial-MCP-Agent/src/agents/summary_agent.py", line 99, in load_finr1_model
+    tokenizer = AutoTokenizer.from_pretrained(model_path)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/miniconda3/lib/python3.12/site-packages/transformers/models/auto/tokenization_auto.py", line 1049, in from_pretrained
+    tokenizer_config = get_tokenizer_config(pretrained_model_name_or_path, **kwargs)
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/miniconda3/lib/python3.12/site-packages/transformers/models/auto/tokenization_auto.py", line 881, in get_tokenizer_config
+    resolved_config_file = cached_file(
+                           ^^^^^^^^^^^^
+  File "/root/miniconda3/lib/python3.12/site-packages/transformers/utils/hub.py", line 321, in cached_file
+    file = cached_files(path_or_repo_id=path_or_repo_id, filenames=[filename], **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/miniconda3/lib/python3.12/site-packages/transformers/utils/hub.py", line 532, in cached_files
+    _get_cache_file_to_return(path_or_repo_id, filename, cache_dir, revision, repo_type)
+  File "/root/miniconda3/lib/python3.12/site-packages/transformers/utils/hub.py", line 144, in _get_cache_file_to_return
+    resolved_file = try_to_load_from_cache(
+                    ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/miniconda3/lib/python3.12/site-packages/huggingface_hub/utils/_validators.py", line 106, in _inner_fn
+    validate_repo_id(arg_value)
+  File "/root/miniconda3/lib/python3.12/site-packages/huggingface_hub/utils/_validators.py", line 154, in validate_repo_id
+    raise HFValidationError(
+huggingface_hub.errors.HFValidationError: Repo id must be in the form 'repo_name' or 'namespace/repo_name': '/root/code/self-learn/FinR1'. Use `repo_type` argument if needed.
+2025-08-10 20:52:14 - src.agents.summary_agent - INFO - ✗ SummaryAgent: Error report saved to /root/autodl-tmp/Finance/Financial-MCP-Agent/reports/error_report_腾讯_00700_20250810_205213.md
+2025-08-10 21:03:34 - src.agents.summary_agent - INFO - 🔄 SummaryAgent: Starting to consolidate analyses.
+2025-08-10 21:03:34 - src.agents.summary_agent - INFO - 🔄 SummaryAgent: Using model choice: api
+2025-08-10 21:03:34 - src.agents.summary_agent - INFO - 🔄 SummaryAgent: Using OpenAI API...
+2025-08-10 21:03:34 - src.agents.summary_agent - INFO - 🔄 SummaryAgent: Creating ChatOpenAI with model doubao-seed-1-6-250615
+2025-08-10 21:05:08 - src.agents.summary_agent - INFO - 截断报告在'分析基准时间'行之后，截断位置: 5747
+2025-08-10 21:05:08 - src.agents.summary_agent - INFO - ✓ SummaryAgent: Final report generated for 茅台 (sh.600519).
+2025-08-10 21:05:08 - src.agents.summary_agent - DEBUG - Final report preview: # [贵州茅台](sh.600519) 综合分析报告
+
+## 执行摘要
+贵州茅台作为中国高端白酒行业绝对龙头，展现出卓越的盈利能力、财务稳健性和市场竞争力。当前估值处于历史相对低位，基本面强劲支撑长期投资价值。技术面显示短期震荡整理但中长期趋势向好。近期公司在品牌建设、产品创新和人才储备方面持续发力，市场情绪整体积极。综合评估：**风险等级：中低**，**预期回报：中长期年化10-15%**，建议投资者现价分批建仓，适合长期价值投资者持有。
+
+## 公司概况
+贵州茅台(sh.600519)是中国高端白酒行业的绝对领导者，属于证监会行业分类中的C15酒、饮料和精制茶制造业。公司核心业务为茅台酒及...
+2025-08-10 21:05:08 - src.agents.summary_agent - INFO - ✓ SummaryAgent: Report saved to /root/autodl-tmp/Finance/Financial-MCP-Agent/reports/report_茅台_600519_20250810_210508.md
+2025-08-19 22:28:53 - src.agents.summary_agent - INFO - 🔄 SummaryAgent: Starting to consolidate analyses.
+2025-08-19 22:28:53 - src.agents.summary_agent - INFO - 🔄 SummaryAgent: Using model choice: api
+2025-08-19 22:28:53 - src.agents.summary_agent - INFO - 🔄 SummaryAgent: Using OpenAI API...
+2025-08-19 22:28:53 - src.agents.summary_agent - INFO - 🔄 SummaryAgent: Creating ChatOpenAI with model doubao-1-5-thinking-vision-pro-250428
+2025-08-19 22:31:32 - src.agents.summary_agent - INFO - 🔄 SummaryAgent: Starting to consolidate analyses.
+2025-08-19 22:31:32 - src.agents.summary_agent - INFO - 🔄 SummaryAgent: Using model choice: api
+2025-08-19 22:31:32 - src.agents.summary_agent - INFO - 🔄 SummaryAgent: Using OpenAI API...
+2025-08-19 22:31:32 - src.agents.summary_agent - INFO - 🔄 SummaryAgent: Creating ChatOpenAI with model doubao-1-5-thinking-vision-pro-250428
+2025-08-19 22:31:44 - src.agents.summary_agent - INFO - 🔄 SummaryAgent: Starting to consolidate analyses.
+2025-08-19 22:31:44 - src.agents.summary_agent - INFO - 🔄 SummaryAgent: Using model choice: api
+2025-08-19 22:31:44 - src.agents.summary_agent - INFO - 🔄 SummaryAgent: Using OpenAI API...
+2025-08-19 22:31:44 - src.agents.summary_agent - INFO - 🔄 SummaryAgent: Creating ChatOpenAI with model doubao-1-5-thinking-vision-pro-250428
+2025-08-19 22:33:25 - src.agents.summary_agent - INFO - 截断报告在时间信息行之后，截断位置: 4487
+2025-08-19 22:33:25 - src.agents.summary_agent - INFO - ✓ SummaryAgent: Final report generated for 茅台 (sh.600519).
+2025-08-19 22:33:25 - src.agents.summary_agent - DEBUG - Final report preview: # 茅台(sh.600519) 综合分析报告
+
+## 执行摘要  
+截至分析基准日2025-08-19，茅台技术面呈现**中期下行、短期震荡磨底**特征；新闻面以行情类资讯为主，情绪中性但短期交易情绪传导风险较高；基本面与估值分析因数据获取限制存在信息缺失。综合来看，短期需警惕情绪驱动的波动风险，中长期需锚定基本面（业绩、政策）与估值修复逻辑。投资风险等级暂评**中高风险**，预期回报需待基本面/估值数据补全后明确，建议投资者结合自身风险承受能力谨慎决策。  
+
+
+## 公司概况  
+贵州茅台（股票代码：sh.600519）是**中国白酒行业绝对龙头**，主营酱香型白酒的生产与销售，核心产品“...
+2025-08-19 22:33:25 - src.agents.summary_agent - INFO - ✓ SummaryAgent: Report saved to /root/code/Finance/Financial-MCP-Agent/reports/report_茅台_600519_20250819_223325.md
+2025-08-19 22:33:30 - src.agents.summary_agent - INFO - 截断报告在时间信息行之后，截断位置: 4248
+2025-08-19 22:33:30 - src.agents.summary_agent - INFO - ✓ SummaryAgent: Final report generated for 茅台 (sh.600519).
+2025-08-19 22:33:30 - src.agents.summary_agent - DEBUG - Final report preview: # 贵州茅台(sh.600519) 综合分析报告
+
+## 执行摘要  
+截至分析基准日2025-08-19，贵州茅台作为白酒行业绝对龙头，基本面展现强盈利能力与品牌护城河，技术面处于短期反弹周期，估值处于消费龙头合理区间，新闻层面反映市场持续高关注度但缺乏基本面质变信息。综合来看，**投资价值呈现“长期稳健、短期博弈性增强”特征**：  
+- 风险等级：中低风险（长期）、中风险（短期）；  
+- 预期回报：长期（1 - 3年）看业绩增长与估值修复，预期年化回报8% - 15%；短期（1 - 2月）看反弹高度，若突破1500元阻力，阶段回报或达5% - 8%。  
+
+
+## 公司概况  
+贵州茅...
+2025-08-19 22:33:30 - src.agents.summary_agent - INFO - ✓ SummaryAgent: Report saved to /root/code/Finance/Financial-MCP-Agent/reports/report_茅台_600519_20250819_223330.md
+2025-08-19 22:36:44 - src.agents.summary_agent - INFO - 🔄 SummaryAgent: Starting to consolidate analyses.
+2025-08-19 22:36:44 - src.agents.summary_agent - INFO - 🔄 SummaryAgent: Using model choice: local
+2025-08-19 22:36:44 - src.agents.summary_agent - INFO - 🔄 SummaryAgent: Using local FinR1 model...
+2025-08-19 22:36:44 - src.agents.summary_agent - INFO - 🔄 Loading FinR1 model from /root/code/self-learn/FinR1...
+2025-08-19 22:36:44 - src.agents.summary_agent - ERROR - ✗ Failed to load FinR1 model: Repo id must be in the form 'repo_name' or 'namespace/repo_name': '/root/code/self-learn/FinR1'. Use `repo_type` argument if needed.
+2025-08-19 22:36:44 - src.agents.summary_agent - ERROR - ✗ SummaryAgent: Error generating final report: Repo id must be in the form 'repo_name' or 'namespace/repo_name': '/root/code/self-learn/FinR1'. Use `repo_type` argument if needed.
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.12/dist-packages/transformers/utils/hub.py", line 424, in cached_files
+    hf_hub_download(
+  File "/usr/local/lib/python3.12/dist-packages/huggingface_hub/utils/_validators.py", line 106, in _inner_fn
+    validate_repo_id(arg_value)
+  File "/usr/local/lib/python3.12/dist-packages/huggingface_hub/utils/_validators.py", line 154, in validate_repo_id
+    raise HFValidationError(
+huggingface_hub.errors.HFValidationError: Repo id must be in the form 'repo_name' or 'namespace/repo_name': '/root/code/self-learn/FinR1'. Use `repo_type` argument if needed.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/root/code/Finance/Financial-MCP-Agent/src/agents/summary_agent.py", line 427, in summary_agent
+    model, tokenizer = load_finr1_model()
+                       ^^^^^^^^^^^^^^^^^^
+  File "/root/code/Finance/Financial-MCP-Agent/src/agents/summary_agent.py", line 115, in load_finr1_model
+    raise e
+  File "/root/code/Finance/Financial-MCP-Agent/src/agents/summary_agent.py", line 99, in load_finr1_model
+    tokenizer = AutoTokenizer.from_pretrained(model_path)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/dist-packages/transformers/models/auto/tokenization_auto.py", line 946, in from_pretrained
+    tokenizer_config = get_tokenizer_config(pretrained_model_name_or_path, **kwargs)
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/dist-packages/transformers/models/auto/tokenization_auto.py", line 778, in get_tokenizer_config
+    resolved_config_file = cached_file(
+                           ^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/dist-packages/transformers/utils/hub.py", line 266, in cached_file
+    file = cached_files(path_or_repo_id=path_or_repo_id, filenames=[filename], **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/dist-packages/transformers/utils/hub.py", line 471, in cached_files
+    _get_cache_file_to_return(path_or_repo_id, filename, cache_dir, revision) for filename in full_filenames
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/dist-packages/transformers/utils/hub.py", line 134, in _get_cache_file_to_return
+    resolved_file = try_to_load_from_cache(path_or_repo_id, full_filename, cache_dir=cache_dir, revision=revision)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/dist-packages/huggingface_hub/utils/_validators.py", line 106, in _inner_fn
+    validate_repo_id(arg_value)
+  File "/usr/local/lib/python3.12/dist-packages/huggingface_hub/utils/_validators.py", line 154, in validate_repo_id
+    raise HFValidationError(
+huggingface_hub.errors.HFValidationError: Repo id must be in the form 'repo_name' or 'namespace/repo_name': '/root/code/self-learn/FinR1'. Use `repo_type` argument if needed.
+2025-08-19 22:36:44 - src.agents.summary_agent - INFO - ✗ SummaryAgent: Error report saved to /root/code/Finance/Financial-MCP-Agent/reports/error_report_茅台_600519_20250819_223644.md
+2025-08-19 22:47:04 - src.agents.summary_agent - INFO - 🔄 SummaryAgent: Starting to consolidate analyses.
+2025-08-19 22:47:04 - src.agents.summary_agent - INFO - 🔄 SummaryAgent: Using model choice: local
+2025-08-19 22:47:04 - src.agents.summary_agent - INFO - 🔄 SummaryAgent: Using local FinR1 model...
+2025-08-19 22:47:04 - src.agents.summary_agent - INFO - 🔄 Loading FinR1 model from /root/code/self-learn/FinR1...
+2025-08-19 22:47:04 - src.agents.summary_agent - ERROR - ✗ Failed to load FinR1 model: Repo id must be in the form 'repo_name' or 'namespace/repo_name': '/root/code/self-learn/FinR1'. Use `repo_type` argument if needed.
+2025-08-19 22:47:04 - src.agents.summary_agent - ERROR - ✗ SummaryAgent: Error generating final report: Repo id must be in the form 'repo_name' or 'namespace/repo_name': '/root/code/self-learn/FinR1'. Use `repo_type` argument if needed.
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.12/dist-packages/transformers/utils/hub.py", line 424, in cached_files
+    hf_hub_download(
+  File "/usr/local/lib/python3.12/dist-packages/huggingface_hub/utils/_validators.py", line 106, in _inner_fn
+    validate_repo_id(arg_value)
+  File "/usr/local/lib/python3.12/dist-packages/huggingface_hub/utils/_validators.py", line 154, in validate_repo_id
+    raise HFValidationError(
+huggingface_hub.errors.HFValidationError: Repo id must be in the form 'repo_name' or 'namespace/repo_name': '/root/code/self-learn/FinR1'. Use `repo_type` argument if needed.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/root/code/Finance/Financial-MCP-Agent/src/agents/summary_agent.py", line 427, in summary_agent
+    model, tokenizer = load_finr1_model()
+                       ^^^^^^^^^^^^^^^^^^
+  File "/root/code/Finance/Financial-MCP-Agent/src/agents/summary_agent.py", line 115, in load_finr1_model
+    raise e
+  File "/root/code/Finance/Financial-MCP-Agent/src/agents/summary_agent.py", line 99, in load_finr1_model
+    tokenizer = AutoTokenizer.from_pretrained(model_path)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/dist-packages/transformers/models/auto/tokenization_auto.py", line 946, in from_pretrained
+    tokenizer_config = get_tokenizer_config(pretrained_model_name_or_path, **kwargs)
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/dist-packages/transformers/models/auto/tokenization_auto.py", line 778, in get_tokenizer_config
+    resolved_config_file = cached_file(
+                           ^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/dist-packages/transformers/utils/hub.py", line 266, in cached_file
+    file = cached_files(path_or_repo_id=path_or_repo_id, filenames=[filename], **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/dist-packages/transformers/utils/hub.py", line 471, in cached_files
+    _get_cache_file_to_return(path_or_repo_id, filename, cache_dir, revision) for filename in full_filenames
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/dist-packages/transformers/utils/hub.py", line 134, in _get_cache_file_to_return
+    resolved_file = try_to_load_from_cache(path_or_repo_id, full_filename, cache_dir=cache_dir, revision=revision)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/dist-packages/huggingface_hub/utils/_validators.py", line 106, in _inner_fn
+    validate_repo_id(arg_value)
+  File "/usr/local/lib/python3.12/dist-packages/huggingface_hub/utils/_validators.py", line 154, in validate_repo_id
+    raise HFValidationError(
+huggingface_hub.errors.HFValidationError: Repo id must be in the form 'repo_name' or 'namespace/repo_name': '/root/code/self-learn/FinR1'. Use `repo_type` argument if needed.
+2025-08-19 22:47:04 - src.agents.summary_agent - INFO - ✗ SummaryAgent: Error report saved to /root/code/Finance/Financial-MCP-Agent/reports/error_report_茅台_600519_20250819_224704.md
+2025-08-19 22:49:32 - src.agents.summary_agent - INFO - 🔄 SummaryAgent: Starting to consolidate analyses.
+2025-08-19 22:49:32 - src.agents.summary_agent - INFO - 🔄 SummaryAgent: Using model choice: local
+2025-08-19 22:49:32 - src.agents.summary_agent - INFO - 🔄 SummaryAgent: Using local FinR1 model...
+2025-08-19 22:49:32 - src.agents.summary_agent - INFO - 🔄 Loading FinR1 model from /root/code/Finance/FinR1...
+2025-08-19 22:49:40 - src.agents.summary_agent - INFO - ✓ FinR1 model loaded successfully

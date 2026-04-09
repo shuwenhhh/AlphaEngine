@@ -1,0 +1,439 @@
+2025-08-10 10:37:27 - src.agents.fundamental_agent - INFO - 🔄 FundamentalAgent: Starting fundamental analysis using ReAct framework.
+2025-08-10 10:37:27 - src.agents.fundamental_agent - INFO - 🔄 FundamentalAgent: Creating ChatOpenAI with model doubao-seed-1-6-250615
+2025-08-10 10:37:27 - src.agents.fundamental_agent - INFO - 🔄 FundamentalAgent: Fetching MCP tools...
+2025-08-10 10:37:28 - src.agents.fundamental_agent - ERROR - ✗ FundamentalAgent: No MCP tools available.
+2025-08-10 10:38:08 - src.agents.fundamental_agent - INFO - 🔄 FundamentalAgent: Starting fundamental analysis using ReAct framework.
+2025-08-10 10:38:08 - src.agents.fundamental_agent - INFO - 🔄 FundamentalAgent: Creating ChatOpenAI with model doubao-seed-1-6-250615
+2025-08-10 10:38:08 - src.agents.fundamental_agent - INFO - 🔄 FundamentalAgent: Fetching MCP tools...
+2025-08-10 10:38:11 - src.agents.fundamental_agent - INFO - ✓ FundamentalAgent: Successfully loaded 27 tools.
+2025-08-10 10:38:11 - src.agents.fundamental_agent - INFO - Available tools: ['get_historical_k_data', 'get_stock_basic_info', 'get_dividend_data', 'get_adjust_factor_data', 'get_profit_data', 'get_operation_data', 'get_growth_data', 'get_balance_data', 'get_cash_flow_data', 'get_dupont_data', 'get_performance_express_report', 'get_forecast_report', 'get_stock_industry', 'get_sz50_stocks', 'get_hs300_stocks', 'get_zz500_stocks', 'get_trade_dates', 'get_all_stock', 'get_deposit_rate_data', 'get_loan_rate_data', 'get_required_reserve_ratio_data', 'get_money_supply_data_month', 'get_money_supply_data_year', 'get_latest_trading_date', 'get_market_analysis_timeframe', 'get_stock_analysis', 'crawl_news']
+2025-08-10 10:38:11 - src.agents.fundamental_agent - INFO - 🔄 FundamentalAgent: Creating ReAct agent...
+2025-08-10 10:38:11 - src.agents.fundamental_agent - INFO - Agent input: 请分析茅台（股票代码：sh.600519）的基本面情况。
+
+当前时间：2025年08月10日 (2025-08-10) 星期日 10:38:08
+当前日期：2025-08-10
+
+请进行以下基本面分析：
+1. 获取公司基本信息和行业背景
+2. 获取最新财务报表数据（资产负债表、利润表、现金流量表）
+3. 分析盈利能力指标（毛利率、净利率、ROE等）
+4. 分析成长能力指标（收入增长率、利润增长率等）
+5. 分析运营效率指标（应收周转率、存货周转率等）
+6. 分析偿债能力指标（资产负债率、流动比率等）
+7. 查询历史分红情况
+8. 提供基本面综合评估和投资价值分析
+
+重要限制：请专注于财务数据和基本面指标分析，不要使用crawl_news工具获取新闻信息。基本面分析应该基于财务报表、财务指标和公司基本面数据，而不是新闻事件。
+
+请使用可用的工具获取实际数据进行分析，而不是基于假设。如果某些数据无法获取，请尝试使用不同的时间周期或其他工具组合，基于可用信息提供尽可能全面的分析。
+2025-08-10 10:38:11 - src.agents.fundamental_agent - INFO - 🔄 FundamentalAgent: Calling ReAct agent...
+2025-08-10 10:43:28 - src.agents.fundamental_agent - INFO - ReAct agent execution completed in 316.85 seconds
+2025-08-10 10:43:28 - src.agents.fundamental_agent - INFO - Successfully extracted analysis from AI message.
+2025-08-10 10:43:28 - src.agents.fundamental_agent - INFO - Final extracted analysis length: 2995 characters
+2025-08-10 10:43:28 - src.agents.fundamental_agent - INFO - ✓ FundamentalAgent: Successfully completed fundamental analysis.
+2025-08-10 10:45:57 - src.agents.fundamental_agent - INFO - 🔄 FundamentalAgent: Starting fundamental analysis using ReAct framework.
+2025-08-10 10:45:57 - src.agents.fundamental_agent - INFO - 🔄 FundamentalAgent: Creating ChatOpenAI with model doubao-seed-1-6-250615
+2025-08-10 10:45:58 - src.agents.fundamental_agent - INFO - 🔄 FundamentalAgent: Fetching MCP tools...
+2025-08-10 10:46:01 - src.agents.fundamental_agent - INFO - ✓ FundamentalAgent: Successfully loaded 27 tools.
+2025-08-10 10:46:01 - src.agents.fundamental_agent - INFO - Available tools: ['get_historical_k_data', 'get_stock_basic_info', 'get_dividend_data', 'get_adjust_factor_data', 'get_profit_data', 'get_operation_data', 'get_growth_data', 'get_balance_data', 'get_cash_flow_data', 'get_dupont_data', 'get_performance_express_report', 'get_forecast_report', 'get_stock_industry', 'get_sz50_stocks', 'get_hs300_stocks', 'get_zz500_stocks', 'get_trade_dates', 'get_all_stock', 'get_deposit_rate_data', 'get_loan_rate_data', 'get_required_reserve_ratio_data', 'get_money_supply_data_month', 'get_money_supply_data_year', 'get_latest_trading_date', 'get_market_analysis_timeframe', 'get_stock_analysis', 'crawl_news']
+2025-08-10 10:46:01 - src.agents.fundamental_agent - INFO - 🔄 FundamentalAgent: Creating ReAct agent...
+2025-08-10 10:46:01 - src.agents.fundamental_agent - INFO - Agent input: 请分析茅台（股票代码：sh.600519）的基本面情况。
+
+当前时间：2025年08月10日 (2025-08-10) 星期日 10:45:57
+当前日期：2025-08-10
+
+请进行以下基本面分析：
+1. 获取公司基本信息和行业背景
+2. 获取最新财务报表数据（资产负债表、利润表、现金流量表）
+3. 分析盈利能力指标（毛利率、净利率、ROE等）
+4. 分析成长能力指标（收入增长率、利润增长率等）
+5. 分析运营效率指标（应收周转率、存货周转率等）
+6. 分析偿债能力指标（资产负债率、流动比率等）
+7. 查询历史分红情况
+8. 提供基本面综合评估和投资价值分析
+
+重要限制：请专注于财务数据和基本面指标分析，不要使用crawl_news工具获取新闻信息。基本面分析应该基于财务报表、财务指标和公司基本面数据，而不是新闻事件。
+
+请使用可用的工具获取实际数据进行分析，而不是基于假设。如果某些数据无法获取，请尝试使用不同的时间周期或其他工具组合，基于可用信息提供尽可能全面的分析。
+2025-08-10 10:46:01 - src.agents.fundamental_agent - INFO - 🔄 FundamentalAgent: Calling ReAct agent...
+2025-08-10 10:52:26 - src.agents.fundamental_agent - INFO - ReAct agent execution completed in 385.37 seconds
+2025-08-10 10:52:26 - src.agents.fundamental_agent - INFO - Successfully extracted analysis from AI message.
+2025-08-10 10:52:26 - src.agents.fundamental_agent - INFO - Final extracted analysis length: 3582 characters
+2025-08-10 10:52:26 - src.agents.fundamental_agent - INFO - ✓ FundamentalAgent: Successfully completed fundamental analysis.
+2025-08-10 11:03:07 - src.agents.fundamental_agent - INFO - 🔄 FundamentalAgent: Starting fundamental analysis using ReAct framework.
+2025-08-10 11:03:07 - src.agents.fundamental_agent - INFO - 🔄 FundamentalAgent: Creating ChatOpenAI with model doubao-seed-1-6-250615
+2025-08-10 11:03:07 - src.agents.fundamental_agent - INFO - 🔄 FundamentalAgent: Fetching MCP tools...
+2025-08-10 11:03:10 - src.agents.fundamental_agent - INFO - ✓ FundamentalAgent: Successfully loaded 27 tools.
+2025-08-10 11:03:10 - src.agents.fundamental_agent - INFO - Available tools: ['get_historical_k_data', 'get_stock_basic_info', 'get_dividend_data', 'get_adjust_factor_data', 'get_profit_data', 'get_operation_data', 'get_growth_data', 'get_balance_data', 'get_cash_flow_data', 'get_dupont_data', 'get_performance_express_report', 'get_forecast_report', 'get_stock_industry', 'get_sz50_stocks', 'get_hs300_stocks', 'get_zz500_stocks', 'get_trade_dates', 'get_all_stock', 'get_deposit_rate_data', 'get_loan_rate_data', 'get_required_reserve_ratio_data', 'get_money_supply_data_month', 'get_money_supply_data_year', 'get_latest_trading_date', 'get_market_analysis_timeframe', 'get_stock_analysis', 'crawl_news']
+2025-08-10 11:03:10 - src.agents.fundamental_agent - INFO - 🔄 FundamentalAgent: Creating ReAct agent...
+2025-08-10 11:03:10 - src.agents.fundamental_agent - INFO - Agent input: 请分析茅台（股票代码：sh.600519）的基本面情况。
+
+当前时间：2025年08月10日 (2025-08-10) 星期日 11:03:07
+当前日期：2025-08-10
+
+请进行以下基本面分析：
+1. 获取公司基本信息和行业背景
+2. 获取最新财务报表数据（资产负债表、利润表、现金流量表）
+3. 分析盈利能力指标（毛利率、净利率、ROE等）
+4. 分析成长能力指标（收入增长率、利润增长率等）
+5. 分析运营效率指标（应收周转率、存货周转率等）
+6. 分析偿债能力指标（资产负债率、流动比率等）
+7. 查询历史分红情况
+8. 提供基本面综合评估和投资价值分析
+
+重要限制：请专注于财务数据和基本面指标分析，不要使用crawl_news工具获取新闻信息。基本面分析应该基于财务报表、财务指标和公司基本面数据，而不是新闻事件。
+
+请使用可用的工具获取实际数据进行分析，而不是基于假设。如果某些数据无法获取，请尝试使用不同的时间周期或其他工具组合，基于可用信息提供尽可能全面的分析。
+2025-08-10 11:03:10 - src.agents.fundamental_agent - INFO - 🔄 FundamentalAgent: Calling ReAct agent...
+2025-08-10 11:06:00 - src.agents.fundamental_agent - INFO - ReAct agent execution completed in 169.07 seconds
+2025-08-10 11:06:00 - src.agents.fundamental_agent - INFO - Successfully extracted analysis from AI message.
+2025-08-10 11:06:00 - src.agents.fundamental_agent - INFO - Final extracted analysis length: 0 characters
+2025-08-10 11:06:00 - src.agents.fundamental_agent - INFO - ✓ FundamentalAgent: Successfully completed fundamental analysis.
+2025-08-10 11:30:17 - src.agents.fundamental_agent - INFO - 🔄 FundamentalAgent: Starting fundamental analysis using ReAct framework.
+2025-08-10 11:30:17 - src.agents.fundamental_agent - INFO - 🔄 FundamentalAgent: Creating ChatOpenAI with model doubao-seed-1-6-250615
+2025-08-10 11:30:18 - src.agents.fundamental_agent - INFO - 🔄 FundamentalAgent: Fetching MCP tools...
+2025-08-10 11:30:20 - src.agents.fundamental_agent - INFO - ✓ FundamentalAgent: Successfully loaded 27 tools.
+2025-08-10 11:30:20 - src.agents.fundamental_agent - INFO - Available tools: ['get_historical_k_data', 'get_stock_basic_info', 'get_dividend_data', 'get_adjust_factor_data', 'get_profit_data', 'get_operation_data', 'get_growth_data', 'get_balance_data', 'get_cash_flow_data', 'get_dupont_data', 'get_performance_express_report', 'get_forecast_report', 'get_stock_industry', 'get_sz50_stocks', 'get_hs300_stocks', 'get_zz500_stocks', 'get_trade_dates', 'get_all_stock', 'get_deposit_rate_data', 'get_loan_rate_data', 'get_required_reserve_ratio_data', 'get_money_supply_data_month', 'get_money_supply_data_year', 'get_latest_trading_date', 'get_market_analysis_timeframe', 'get_stock_analysis', 'crawl_news']
+2025-08-10 11:30:20 - src.agents.fundamental_agent - INFO - 🔄 FundamentalAgent: Creating ReAct agent...
+2025-08-10 11:30:21 - src.agents.fundamental_agent - INFO - Agent input: 请分析茅台（股票代码：sh.600519）的基本面情况。
+
+当前时间：2025年08月10日 (2025-08-10) 星期日 11:30:17
+当前日期：2025-08-10
+
+请进行以下基本面分析：
+1. 获取公司基本信息和行业背景
+2. 获取最新财务报表数据（资产负债表、利润表、现金流量表）
+3. 分析盈利能力指标（毛利率、净利率、ROE等）
+4. 分析成长能力指标（收入增长率、利润增长率等）
+5. 分析运营效率指标（应收周转率、存货周转率等）
+6. 分析偿债能力指标（资产负债率、流动比率等）
+7. 查询历史分红情况
+8. 提供基本面综合评估和投资价值分析
+
+重要限制：请专注于财务数据和基本面指标分析，不要使用crawl_news工具获取新闻信息。基本面分析应该基于财务报表、财务指标和公司基本面数据，而不是新闻事件。
+
+请使用可用的工具获取实际数据进行分析，而不是基于假设。如果某些数据无法获取，请尝试使用不同的时间周期或其他工具组合，基于可用信息提供尽可能全面的分析。
+2025-08-10 11:30:21 - src.agents.fundamental_agent - INFO - 🔄 FundamentalAgent: Calling ReAct agent...
+2025-08-10 11:36:07 - src.agents.fundamental_agent - INFO - ReAct agent execution completed in 346.05 seconds
+2025-08-10 11:36:07 - src.agents.fundamental_agent - INFO - Successfully extracted analysis from AI message.
+2025-08-10 11:36:07 - src.agents.fundamental_agent - INFO - Final extracted analysis length: 2461 characters
+2025-08-10 11:36:07 - src.agents.fundamental_agent - INFO - ✓ FundamentalAgent: Successfully completed fundamental analysis.
+2025-08-10 20:44:10 - src.agents.fundamental_agent - INFO - 🔄 FundamentalAgent: Starting fundamental analysis using ReAct framework.
+2025-08-10 20:44:10 - src.agents.fundamental_agent - INFO - 🔄 FundamentalAgent: Creating ChatOpenAI with model doubao-seed-1-6-250615
+2025-08-10 20:44:10 - src.agents.fundamental_agent - INFO - 🔄 FundamentalAgent: Fetching MCP tools...
+2025-08-10 20:44:12 - src.agents.fundamental_agent - ERROR - ✗ FundamentalAgent: No MCP tools available.
+2025-08-10 20:45:34 - src.agents.fundamental_agent - INFO - 🔄 FundamentalAgent: Starting fundamental analysis using ReAct framework.
+2025-08-10 20:45:34 - src.agents.fundamental_agent - INFO - 🔄 FundamentalAgent: Creating ChatOpenAI with model doubao-seed-1-6-250615
+2025-08-10 20:45:34 - src.agents.fundamental_agent - INFO - 🔄 FundamentalAgent: Fetching MCP tools...
+2025-08-10 20:45:36 - src.agents.fundamental_agent - INFO - ✓ FundamentalAgent: Successfully loaded 27 tools.
+2025-08-10 20:45:36 - src.agents.fundamental_agent - INFO - Available tools: ['get_historical_k_data', 'get_stock_basic_info', 'get_dividend_data', 'get_adjust_factor_data', 'get_profit_data', 'get_operation_data', 'get_growth_data', 'get_balance_data', 'get_cash_flow_data', 'get_dupont_data', 'get_performance_express_report', 'get_forecast_report', 'get_stock_industry', 'get_sz50_stocks', 'get_hs300_stocks', 'get_zz500_stocks', 'get_trade_dates', 'get_all_stock', 'get_deposit_rate_data', 'get_loan_rate_data', 'get_required_reserve_ratio_data', 'get_money_supply_data_month', 'get_money_supply_data_year', 'get_latest_trading_date', 'get_market_analysis_timeframe', 'get_stock_analysis', 'crawl_news']
+2025-08-10 20:45:36 - src.agents.fundamental_agent - INFO - 🔄 FundamentalAgent: Creating ReAct agent...
+2025-08-10 20:45:36 - src.agents.fundamental_agent - INFO - Agent input: 请分析腾讯（股票代码：sz.00700）的基本面情况。
+
+当前时间：2025年08月10日 (2025-08-10) 星期日 20:45:34
+当前日期：2025-08-10
+
+请进行以下基本面分析：
+1. 获取公司基本信息和行业背景
+2. 获取最新财务报表数据（资产负债表、利润表、现金流量表）
+3. 分析盈利能力指标（毛利率、净利率、ROE等）
+4. 分析成长能力指标（收入增长率、利润增长率等）
+5. 分析运营效率指标（应收周转率、存货周转率等）
+6. 分析偿债能力指标（资产负债率、流动比率等）
+7. 查询历史分红情况
+8. 提供基本面综合评估和投资价值分析
+
+重要限制：请专注于财务数据和基本面指标分析，不要使用crawl_news工具获取新闻信息。基本面分析应该基于财务报表、财务指标和公司基本面数据，而不是新闻事件。
+
+请使用可用的工具获取实际数据进行分析，而不是基于假设。如果某些数据无法获取，请尝试使用不同的时间周期或其他工具组合，基于可用信息提供尽可能全面的分析。
+2025-08-10 20:45:36 - src.agents.fundamental_agent - INFO - 🔄 FundamentalAgent: Calling ReAct agent...
+2025-08-10 20:47:08 - src.agents.fundamental_agent - INFO - ReAct agent execution completed in 92.60 seconds
+2025-08-10 20:47:08 - src.agents.fundamental_agent - INFO - Successfully extracted analysis from AI message.
+2025-08-10 20:47:08 - src.agents.fundamental_agent - INFO - Final extracted analysis length: 538 characters
+2025-08-10 20:47:08 - src.agents.fundamental_agent - INFO - ✓ FundamentalAgent: Successfully completed fundamental analysis.
+2025-08-10 20:53:11 - src.agents.fundamental_agent - INFO - 🔄 FundamentalAgent: Starting fundamental analysis using ReAct framework.
+2025-08-10 20:53:11 - src.agents.fundamental_agent - INFO - 🔄 FundamentalAgent: Creating ChatOpenAI with model doubao-seed-1-6-250615
+2025-08-10 20:53:12 - src.agents.fundamental_agent - INFO - 🔄 FundamentalAgent: Fetching MCP tools...
+2025-08-10 20:53:13 - src.agents.fundamental_agent - INFO - ✓ FundamentalAgent: Successfully loaded 27 tools.
+2025-08-10 20:53:13 - src.agents.fundamental_agent - INFO - Available tools: ['get_historical_k_data', 'get_stock_basic_info', 'get_dividend_data', 'get_adjust_factor_data', 'get_profit_data', 'get_operation_data', 'get_growth_data', 'get_balance_data', 'get_cash_flow_data', 'get_dupont_data', 'get_performance_express_report', 'get_forecast_report', 'get_stock_industry', 'get_sz50_stocks', 'get_hs300_stocks', 'get_zz500_stocks', 'get_trade_dates', 'get_all_stock', 'get_deposit_rate_data', 'get_loan_rate_data', 'get_required_reserve_ratio_data', 'get_money_supply_data_month', 'get_money_supply_data_year', 'get_latest_trading_date', 'get_market_analysis_timeframe', 'get_stock_analysis', 'crawl_news']
+2025-08-10 20:53:13 - src.agents.fundamental_agent - INFO - 🔄 FundamentalAgent: Creating ReAct agent...
+2025-08-10 20:53:13 - src.agents.fundamental_agent - INFO - Agent input: 请分析腾讯（股票代码：sz.00700）的基本面情况。
+
+当前时间：2025年08月10日 (2025-08-10) 星期日 20:53:11
+当前日期：2025-08-10
+
+请进行以下基本面分析：
+1. 获取公司基本信息和行业背景
+2. 获取最新财务报表数据（资产负债表、利润表、现金流量表）
+3. 分析盈利能力指标（毛利率、净利率、ROE等）
+4. 分析成长能力指标（收入增长率、利润增长率等）
+5. 分析运营效率指标（应收周转率、存货周转率等）
+6. 分析偿债能力指标（资产负债率、流动比率等）
+7. 查询历史分红情况
+8. 提供基本面综合评估和投资价值分析
+
+重要限制：请专注于财务数据和基本面指标分析，不要使用crawl_news工具获取新闻信息。基本面分析应该基于财务报表、财务指标和公司基本面数据，而不是新闻事件。
+
+请使用可用的工具获取实际数据进行分析，而不是基于假设。如果某些数据无法获取，请尝试使用不同的时间周期或其他工具组合，基于可用信息提供尽可能全面的分析。
+2025-08-10 20:53:13 - src.agents.fundamental_agent - INFO - 🔄 FundamentalAgent: Calling ReAct agent...
+2025-08-10 20:55:00 - src.agents.fundamental_agent - INFO - ReAct agent execution completed in 106.94 seconds
+2025-08-10 20:55:00 - src.agents.fundamental_agent - INFO - Successfully extracted analysis from AI message.
+2025-08-10 20:55:00 - src.agents.fundamental_agent - INFO - Final extracted analysis length: 159 characters
+2025-08-10 20:55:00 - src.agents.fundamental_agent - INFO - ✓ FundamentalAgent: Successfully completed fundamental analysis.
+2025-08-10 20:56:01 - src.agents.fundamental_agent - INFO - 🔄 FundamentalAgent: Starting fundamental analysis using ReAct framework.
+2025-08-10 20:56:01 - src.agents.fundamental_agent - INFO - 🔄 FundamentalAgent: Creating ChatOpenAI with model doubao-seed-1-6-250615
+2025-08-10 20:56:02 - src.agents.fundamental_agent - INFO - 🔄 FundamentalAgent: Fetching MCP tools...
+2025-08-10 20:56:03 - src.agents.fundamental_agent - INFO - ✓ FundamentalAgent: Successfully loaded 27 tools.
+2025-08-10 20:56:03 - src.agents.fundamental_agent - INFO - Available tools: ['get_historical_k_data', 'get_stock_basic_info', 'get_dividend_data', 'get_adjust_factor_data', 'get_profit_data', 'get_operation_data', 'get_growth_data', 'get_balance_data', 'get_cash_flow_data', 'get_dupont_data', 'get_performance_express_report', 'get_forecast_report', 'get_stock_industry', 'get_sz50_stocks', 'get_hs300_stocks', 'get_zz500_stocks', 'get_trade_dates', 'get_all_stock', 'get_deposit_rate_data', 'get_loan_rate_data', 'get_required_reserve_ratio_data', 'get_money_supply_data_month', 'get_money_supply_data_year', 'get_latest_trading_date', 'get_market_analysis_timeframe', 'get_stock_analysis', 'crawl_news']
+2025-08-10 20:56:03 - src.agents.fundamental_agent - INFO - 🔄 FundamentalAgent: Creating ReAct agent...
+2025-08-10 20:56:03 - src.agents.fundamental_agent - INFO - Agent input: 请分析茅台（股票代码：sh.600519）的基本面情况。
+
+当前时间：2025年08月10日 (2025-08-10) 星期日 20:56:01
+当前日期：2025-08-10
+
+请进行以下基本面分析：
+1. 获取公司基本信息和行业背景
+2. 获取最新财务报表数据（资产负债表、利润表、现金流量表）
+3. 分析盈利能力指标（毛利率、净利率、ROE等）
+4. 分析成长能力指标（收入增长率、利润增长率等）
+5. 分析运营效率指标（应收周转率、存货周转率等）
+6. 分析偿债能力指标（资产负债率、流动比率等）
+7. 查询历史分红情况
+8. 提供基本面综合评估和投资价值分析
+
+重要限制：请专注于财务数据和基本面指标分析，不要使用crawl_news工具获取新闻信息。基本面分析应该基于财务报表、财务指标和公司基本面数据，而不是新闻事件。
+
+请使用可用的工具获取实际数据进行分析，而不是基于假设。如果某些数据无法获取，请尝试使用不同的时间周期或其他工具组合，基于可用信息提供尽可能全面的分析。
+2025-08-10 20:56:03 - src.agents.fundamental_agent - INFO - 🔄 FundamentalAgent: Calling ReAct agent...
+2025-08-10 21:03:34 - src.agents.fundamental_agent - INFO - ReAct agent execution completed in 450.76 seconds
+2025-08-10 21:03:34 - src.agents.fundamental_agent - INFO - Successfully extracted analysis from AI message.
+2025-08-10 21:03:34 - src.agents.fundamental_agent - INFO - Final extracted analysis length: 2722 characters
+2025-08-10 21:03:34 - src.agents.fundamental_agent - INFO - ✓ FundamentalAgent: Successfully completed fundamental analysis.
+2025-08-10 21:07:56 - src.agents.fundamental_agent - INFO - 🔄 FundamentalAgent: Starting fundamental analysis using ReAct framework.
+2025-08-10 21:07:56 - src.agents.fundamental_agent - INFO - 🔄 FundamentalAgent: Creating ChatOpenAI with model doubao-seed-1-6-250615
+2025-08-10 21:07:56 - src.agents.fundamental_agent - INFO - 🔄 FundamentalAgent: Fetching MCP tools...
+2025-08-10 21:07:58 - src.agents.fundamental_agent - INFO - ✓ FundamentalAgent: Successfully loaded 27 tools.
+2025-08-10 21:07:58 - src.agents.fundamental_agent - INFO - Available tools: ['get_historical_k_data', 'get_stock_basic_info', 'get_dividend_data', 'get_adjust_factor_data', 'get_profit_data', 'get_operation_data', 'get_growth_data', 'get_balance_data', 'get_cash_flow_data', 'get_dupont_data', 'get_performance_express_report', 'get_forecast_report', 'get_stock_industry', 'get_sz50_stocks', 'get_hs300_stocks', 'get_zz500_stocks', 'get_trade_dates', 'get_all_stock', 'get_deposit_rate_data', 'get_loan_rate_data', 'get_required_reserve_ratio_data', 'get_money_supply_data_month', 'get_money_supply_data_year', 'get_latest_trading_date', 'get_market_analysis_timeframe', 'get_stock_analysis', 'crawl_news']
+2025-08-10 21:07:58 - src.agents.fundamental_agent - INFO - 🔄 FundamentalAgent: Creating ReAct agent...
+2025-08-10 21:07:58 - src.agents.fundamental_agent - INFO - Agent input: 请分析茅台（股票代码：sh.600519）的基本面情况。
+
+当前时间：2025年08月10日 (2025-08-10) 星期日 21:07:56
+当前日期：2025-08-10
+
+请进行以下基本面分析：
+1. 获取公司基本信息和行业背景
+2. 获取最新财务报表数据（资产负债表、利润表、现金流量表）
+3. 分析盈利能力指标（毛利率、净利率、ROE等）
+4. 分析成长能力指标（收入增长率、利润增长率等）
+5. 分析运营效率指标（应收周转率、存货周转率等）
+6. 分析偿债能力指标（资产负债率、流动比率等）
+7. 查询历史分红情况
+8. 提供基本面综合评估和投资价值分析
+
+重要限制：请专注于财务数据和基本面指标分析，不要使用crawl_news工具获取新闻信息。基本面分析应该基于财务报表、财务指标和公司基本面数据，而不是新闻事件。
+
+请使用可用的工具获取实际数据进行分析，而不是基于假设。如果某些数据无法获取，请尝试使用不同的时间周期或其他工具组合，基于可用信息提供尽可能全面的分析。
+2025-08-10 21:07:58 - src.agents.fundamental_agent - INFO - 🔄 FundamentalAgent: Calling ReAct agent...
+2025-08-19 22:27:38 - src.agents.fundamental_agent - INFO - 🔄 FundamentalAgent: Starting fundamental analysis using ReAct framework.
+2025-08-19 22:27:38 - src.agents.fundamental_agent - INFO - 🔄 FundamentalAgent: Creating ChatOpenAI with model doubao-1-5-thinking-vision-pro-250428
+2025-08-19 22:27:38 - src.agents.fundamental_agent - INFO - 🔄 FundamentalAgent: Fetching MCP tools...
+2025-08-19 22:27:40 - src.agents.fundamental_agent - INFO - ✓ FundamentalAgent: Successfully loaded 27 tools.
+2025-08-19 22:27:40 - src.agents.fundamental_agent - INFO - Available tools: ['get_historical_k_data', 'get_stock_basic_info', 'get_dividend_data', 'get_adjust_factor_data', 'get_profit_data', 'get_operation_data', 'get_growth_data', 'get_balance_data', 'get_cash_flow_data', 'get_dupont_data', 'get_performance_express_report', 'get_forecast_report', 'get_stock_industry', 'get_sz50_stocks', 'get_hs300_stocks', 'get_zz500_stocks', 'get_trade_dates', 'get_all_stock', 'get_deposit_rate_data', 'get_loan_rate_data', 'get_required_reserve_ratio_data', 'get_money_supply_data_month', 'get_money_supply_data_year', 'get_latest_trading_date', 'get_market_analysis_timeframe', 'get_stock_analysis', 'crawl_news']
+2025-08-19 22:27:40 - src.agents.fundamental_agent - INFO - 🔄 FundamentalAgent: Creating ReAct agent...
+2025-08-19 22:27:40 - src.agents.fundamental_agent - INFO - Agent input: 请分析茅台（股票代码：sh.600519）的基本面情况。
+
+当前时间：2025年08月19日 (2025-08-19) 星期二 22:27:38
+当前日期：2025-08-19
+
+请进行以下基本面分析：
+1. 获取公司基本信息和行业背景
+2. 获取最新财务报表数据（资产负债表、利润表、现金流量表）
+3. 分析盈利能力指标（毛利率、净利率、ROE等）
+4. 分析成长能力指标（收入增长率、利润增长率等）
+5. 分析运营效率指标（应收周转率、存货周转率等）
+6. 分析偿债能力指标（资产负债率、流动比率等）
+7. 查询历史分红情况
+8. 提供基本面综合评估和投资价值分析
+
+重要限制：请专注于财务数据和基本面指标分析，不要使用crawl_news工具获取新闻信息。基本面分析应该基于财务报表、财务指标和公司基本面数据，而不是新闻事件。
+
+请使用可用的工具获取实际数据进行分析，而不是基于假设。如果某些数据无法获取，请尝试使用不同的时间周期或其他工具组合，基于可用信息提供尽可能全面的分析。
+2025-08-19 22:27:40 - src.agents.fundamental_agent - INFO - 🔄 FundamentalAgent: Calling ReAct agent...
+2025-08-19 22:28:08 - src.agents.fundamental_agent - INFO - ReAct agent execution completed in 28.21 seconds
+2025-08-19 22:28:08 - src.agents.fundamental_agent - INFO - Successfully extracted analysis from AI message.
+2025-08-19 22:28:08 - src.agents.fundamental_agent - INFO - Final extracted analysis length: 0 characters
+2025-08-19 22:28:08 - src.agents.fundamental_agent - INFO - ✓ FundamentalAgent: Successfully completed fundamental analysis.
+2025-08-19 22:28:10 - src.agents.fundamental_agent - INFO - 🔄 FundamentalAgent: Starting fundamental analysis using ReAct framework.
+2025-08-19 22:28:10 - src.agents.fundamental_agent - INFO - 🔄 FundamentalAgent: Creating ChatOpenAI with model doubao-1-5-thinking-vision-pro-250428
+2025-08-19 22:28:10 - src.agents.fundamental_agent - INFO - 🔄 FundamentalAgent: Fetching MCP tools...
+2025-08-19 22:28:11 - src.agents.fundamental_agent - INFO - ✓ FundamentalAgent: Successfully loaded 27 tools.
+2025-08-19 22:28:11 - src.agents.fundamental_agent - INFO - Available tools: ['get_historical_k_data', 'get_stock_basic_info', 'get_dividend_data', 'get_adjust_factor_data', 'get_profit_data', 'get_operation_data', 'get_growth_data', 'get_balance_data', 'get_cash_flow_data', 'get_dupont_data', 'get_performance_express_report', 'get_forecast_report', 'get_stock_industry', 'get_sz50_stocks', 'get_hs300_stocks', 'get_zz500_stocks', 'get_trade_dates', 'get_all_stock', 'get_deposit_rate_data', 'get_loan_rate_data', 'get_required_reserve_ratio_data', 'get_money_supply_data_month', 'get_money_supply_data_year', 'get_latest_trading_date', 'get_market_analysis_timeframe', 'get_stock_analysis', 'crawl_news']
+2025-08-19 22:28:11 - src.agents.fundamental_agent - INFO - 🔄 FundamentalAgent: Creating ReAct agent...
+2025-08-19 22:28:11 - src.agents.fundamental_agent - INFO - Agent input: 请分析茅台（股票代码：sh.600519）的基本面情况。
+
+当前时间：2025年08月19日 (2025-08-19) 星期二 22:28:10
+当前日期：2025-08-19
+
+请进行以下基本面分析：
+1. 获取公司基本信息和行业背景
+2. 获取最新财务报表数据（资产负债表、利润表、现金流量表）
+3. 分析盈利能力指标（毛利率、净利率、ROE等）
+4. 分析成长能力指标（收入增长率、利润增长率等）
+5. 分析运营效率指标（应收周转率、存货周转率等）
+6. 分析偿债能力指标（资产负债率、流动比率等）
+7. 查询历史分红情况
+8. 提供基本面综合评估和投资价值分析
+
+重要限制：请专注于财务数据和基本面指标分析，不要使用crawl_news工具获取新闻信息。基本面分析应该基于财务报表、财务指标和公司基本面数据，而不是新闻事件。
+
+请使用可用的工具获取实际数据进行分析，而不是基于假设。如果某些数据无法获取，请尝试使用不同的时间周期或其他工具组合，基于可用信息提供尽可能全面的分析。
+2025-08-19 22:28:11 - src.agents.fundamental_agent - INFO - 🔄 FundamentalAgent: Calling ReAct agent...
+2025-08-19 22:28:32 - src.agents.fundamental_agent - INFO - ReAct agent execution completed in 20.91 seconds
+2025-08-19 22:28:32 - src.agents.fundamental_agent - INFO - Successfully extracted analysis from AI message.
+2025-08-19 22:28:32 - src.agents.fundamental_agent - INFO - Final extracted analysis length: 0 characters
+2025-08-19 22:28:32 - src.agents.fundamental_agent - INFO - ✓ FundamentalAgent: Successfully completed fundamental analysis.
+2025-08-19 22:30:13 - src.agents.fundamental_agent - INFO - 🔄 FundamentalAgent: Starting fundamental analysis using ReAct framework.
+2025-08-19 22:30:13 - src.agents.fundamental_agent - INFO - 🔄 FundamentalAgent: Creating ChatOpenAI with model doubao-1-5-thinking-vision-pro-250428
+2025-08-19 22:30:13 - src.agents.fundamental_agent - INFO - 🔄 FundamentalAgent: Fetching MCP tools...
+2025-08-19 22:30:14 - src.agents.fundamental_agent - INFO - ✓ FundamentalAgent: Successfully loaded 27 tools.
+2025-08-19 22:30:14 - src.agents.fundamental_agent - INFO - Available tools: ['get_historical_k_data', 'get_stock_basic_info', 'get_dividend_data', 'get_adjust_factor_data', 'get_profit_data', 'get_operation_data', 'get_growth_data', 'get_balance_data', 'get_cash_flow_data', 'get_dupont_data', 'get_performance_express_report', 'get_forecast_report', 'get_stock_industry', 'get_sz50_stocks', 'get_hs300_stocks', 'get_zz500_stocks', 'get_trade_dates', 'get_all_stock', 'get_deposit_rate_data', 'get_loan_rate_data', 'get_required_reserve_ratio_data', 'get_money_supply_data_month', 'get_money_supply_data_year', 'get_latest_trading_date', 'get_market_analysis_timeframe', 'get_stock_analysis', 'crawl_news']
+2025-08-19 22:30:14 - src.agents.fundamental_agent - INFO - 🔄 FundamentalAgent: Creating ReAct agent...
+2025-08-19 22:30:14 - src.agents.fundamental_agent - INFO - Agent input: 请分析茅台（股票代码：sh.600519）的基本面情况。
+
+当前时间：2025年08月19日 (2025-08-19) 星期二 22:30:12
+当前日期：2025-08-19
+
+请进行以下基本面分析：
+1. 获取公司基本信息和行业背景
+2. 获取最新财务报表数据（资产负债表、利润表、现金流量表）
+3. 分析盈利能力指标（毛利率、净利率、ROE等）
+4. 分析成长能力指标（收入增长率、利润增长率等）
+5. 分析运营效率指标（应收周转率、存货周转率等）
+6. 分析偿债能力指标（资产负债率、流动比率等）
+7. 查询历史分红情况
+8. 提供基本面综合评估和投资价值分析
+
+重要限制：请专注于财务数据和基本面指标分析，不要使用crawl_news工具获取新闻信息。基本面分析应该基于财务报表、财务指标和公司基本面数据，而不是新闻事件。
+
+请使用可用的工具获取实际数据进行分析，而不是基于假设。如果某些数据无法获取，请尝试使用不同的时间周期或其他工具组合，基于可用信息提供尽可能全面的分析。
+2025-08-19 22:30:14 - src.agents.fundamental_agent - INFO - 🔄 FundamentalAgent: Calling ReAct agent...
+2025-08-19 22:30:18 - src.agents.fundamental_agent - INFO - 🔄 FundamentalAgent: Starting fundamental analysis using ReAct framework.
+2025-08-19 22:30:18 - src.agents.fundamental_agent - INFO - 🔄 FundamentalAgent: Creating ChatOpenAI with model doubao-1-5-thinking-vision-pro-250428
+2025-08-19 22:30:18 - src.agents.fundamental_agent - INFO - 🔄 FundamentalAgent: Fetching MCP tools...
+2025-08-19 22:30:19 - src.agents.fundamental_agent - INFO - ✓ FundamentalAgent: Successfully loaded 27 tools.
+2025-08-19 22:30:19 - src.agents.fundamental_agent - INFO - Available tools: ['get_historical_k_data', 'get_stock_basic_info', 'get_dividend_data', 'get_adjust_factor_data', 'get_profit_data', 'get_operation_data', 'get_growth_data', 'get_balance_data', 'get_cash_flow_data', 'get_dupont_data', 'get_performance_express_report', 'get_forecast_report', 'get_stock_industry', 'get_sz50_stocks', 'get_hs300_stocks', 'get_zz500_stocks', 'get_trade_dates', 'get_all_stock', 'get_deposit_rate_data', 'get_loan_rate_data', 'get_required_reserve_ratio_data', 'get_money_supply_data_month', 'get_money_supply_data_year', 'get_latest_trading_date', 'get_market_analysis_timeframe', 'get_stock_analysis', 'crawl_news']
+2025-08-19 22:30:19 - src.agents.fundamental_agent - INFO - 🔄 FundamentalAgent: Creating ReAct agent...
+2025-08-19 22:30:19 - src.agents.fundamental_agent - INFO - Agent input: 请分析茅台（股票代码：sh.600519）的基本面情况。
+
+当前时间：2025年08月19日 (2025-08-19) 星期二 22:30:18
+当前日期：2025-08-19
+
+请进行以下基本面分析：
+1. 获取公司基本信息和行业背景
+2. 获取最新财务报表数据（资产负债表、利润表、现金流量表）
+3. 分析盈利能力指标（毛利率、净利率、ROE等）
+4. 分析成长能力指标（收入增长率、利润增长率等）
+5. 分析运营效率指标（应收周转率、存货周转率等）
+6. 分析偿债能力指标（资产负债率、流动比率等）
+7. 查询历史分红情况
+8. 提供基本面综合评估和投资价值分析
+
+重要限制：请专注于财务数据和基本面指标分析，不要使用crawl_news工具获取新闻信息。基本面分析应该基于财务报表、财务指标和公司基本面数据，而不是新闻事件。
+
+请使用可用的工具获取实际数据进行分析，而不是基于假设。如果某些数据无法获取，请尝试使用不同的时间周期或其他工具组合，基于可用信息提供尽可能全面的分析。
+2025-08-19 22:30:19 - src.agents.fundamental_agent - INFO - 🔄 FundamentalAgent: Calling ReAct agent...
+2025-08-19 22:30:39 - src.agents.fundamental_agent - INFO - ReAct agent execution completed in 25.16 seconds
+2025-08-19 22:30:39 - src.agents.fundamental_agent - INFO - Successfully extracted analysis from AI message.
+2025-08-19 22:30:39 - src.agents.fundamental_agent - INFO - Final extracted analysis length: 0 characters
+2025-08-19 22:30:39 - src.agents.fundamental_agent - INFO - ✓ FundamentalAgent: Successfully completed fundamental analysis.
+2025-08-19 22:30:44 - src.agents.fundamental_agent - INFO - ReAct agent execution completed in 25.08 seconds
+2025-08-19 22:30:44 - src.agents.fundamental_agent - INFO - Successfully extracted analysis from AI message.
+2025-08-19 22:30:44 - src.agents.fundamental_agent - INFO - Final extracted analysis length: 0 characters
+2025-08-19 22:30:44 - src.agents.fundamental_agent - INFO - ✓ FundamentalAgent: Successfully completed fundamental analysis.
+2025-08-19 22:35:17 - src.agents.fundamental_agent - INFO - 🔄 FundamentalAgent: Starting fundamental analysis using ReAct framework.
+2025-08-19 22:35:17 - src.agents.fundamental_agent - INFO - 🔄 FundamentalAgent: Creating ChatOpenAI with model doubao-1-5-thinking-vision-pro-250428
+2025-08-19 22:35:17 - src.agents.fundamental_agent - INFO - 🔄 FundamentalAgent: Fetching MCP tools...
+2025-08-19 22:35:19 - src.agents.fundamental_agent - INFO - ✓ FundamentalAgent: Successfully loaded 27 tools.
+2025-08-19 22:35:19 - src.agents.fundamental_agent - INFO - Available tools: ['get_historical_k_data', 'get_stock_basic_info', 'get_dividend_data', 'get_adjust_factor_data', 'get_profit_data', 'get_operation_data', 'get_growth_data', 'get_balance_data', 'get_cash_flow_data', 'get_dupont_data', 'get_performance_express_report', 'get_forecast_report', 'get_stock_industry', 'get_sz50_stocks', 'get_hs300_stocks', 'get_zz500_stocks', 'get_trade_dates', 'get_all_stock', 'get_deposit_rate_data', 'get_loan_rate_data', 'get_required_reserve_ratio_data', 'get_money_supply_data_month', 'get_money_supply_data_year', 'get_latest_trading_date', 'get_market_analysis_timeframe', 'get_stock_analysis', 'crawl_news']
+2025-08-19 22:35:19 - src.agents.fundamental_agent - INFO - 🔄 FundamentalAgent: Creating ReAct agent...
+2025-08-19 22:35:19 - src.agents.fundamental_agent - INFO - Agent input: 请分析茅台（股票代码：sh.600519）的基本面情况。
+
+当前时间：2025年08月19日 (2025-08-19) 星期二 22:35:17
+当前日期：2025-08-19
+
+请进行以下基本面分析：
+1. 获取公司基本信息和行业背景
+2. 获取最新财务报表数据（资产负债表、利润表、现金流量表）
+3. 分析盈利能力指标（毛利率、净利率、ROE等）
+4. 分析成长能力指标（收入增长率、利润增长率等）
+5. 分析运营效率指标（应收周转率、存货周转率等）
+6. 分析偿债能力指标（资产负债率、流动比率等）
+7. 查询历史分红情况
+8. 提供基本面综合评估和投资价值分析
+
+重要限制：请专注于财务数据和基本面指标分析，不要使用crawl_news工具获取新闻信息。基本面分析应该基于财务报表、财务指标和公司基本面数据，而不是新闻事件。
+
+请使用可用的工具获取实际数据进行分析，而不是基于假设。如果某些数据无法获取，请尝试使用不同的时间周期或其他工具组合，基于可用信息提供尽可能全面的分析。
+2025-08-19 22:35:19 - src.agents.fundamental_agent - INFO - 🔄 FundamentalAgent: Calling ReAct agent...
+2025-08-19 22:35:42 - src.agents.fundamental_agent - INFO - ReAct agent execution completed in 23.66 seconds
+2025-08-19 22:35:42 - src.agents.fundamental_agent - INFO - Successfully extracted analysis from AI message.
+2025-08-19 22:35:42 - src.agents.fundamental_agent - INFO - Final extracted analysis length: 0 characters
+2025-08-19 22:35:42 - src.agents.fundamental_agent - INFO - ✓ FundamentalAgent: Successfully completed fundamental analysis.
+2025-08-19 22:45:31 - src.agents.fundamental_agent - INFO - 🔄 FundamentalAgent: Starting fundamental analysis using ReAct framework.
+2025-08-19 22:45:31 - src.agents.fundamental_agent - INFO - 🔄 FundamentalAgent: Creating ChatOpenAI with model doubao-1-5-thinking-vision-pro-250428
+2025-08-19 22:45:32 - src.agents.fundamental_agent - INFO - 🔄 FundamentalAgent: Fetching MCP tools...
+2025-08-19 22:45:33 - src.agents.fundamental_agent - INFO - ✓ FundamentalAgent: Successfully loaded 27 tools.
+2025-08-19 22:45:33 - src.agents.fundamental_agent - INFO - Available tools: ['get_historical_k_data', 'get_stock_basic_info', 'get_dividend_data', 'get_adjust_factor_data', 'get_profit_data', 'get_operation_data', 'get_growth_data', 'get_balance_data', 'get_cash_flow_data', 'get_dupont_data', 'get_performance_express_report', 'get_forecast_report', 'get_stock_industry', 'get_sz50_stocks', 'get_hs300_stocks', 'get_zz500_stocks', 'get_trade_dates', 'get_all_stock', 'get_deposit_rate_data', 'get_loan_rate_data', 'get_required_reserve_ratio_data', 'get_money_supply_data_month', 'get_money_supply_data_year', 'get_latest_trading_date', 'get_market_analysis_timeframe', 'get_stock_analysis', 'crawl_news']
+2025-08-19 22:45:33 - src.agents.fundamental_agent - INFO - 🔄 FundamentalAgent: Creating ReAct agent...
+2025-08-19 22:45:33 - src.agents.fundamental_agent - INFO - Agent input: 请分析茅台（股票代码：sh.600519）的基本面情况。
+
+当前时间：2025年08月19日 (2025-08-19) 星期二 22:45:31
+当前日期：2025-08-19
+
+请进行以下基本面分析：
+1. 获取公司基本信息和行业背景
+2. 获取最新财务报表数据（资产负债表、利润表、现金流量表）
+3. 分析盈利能力指标（毛利率、净利率、ROE等）
+4. 分析成长能力指标（收入增长率、利润增长率等）
+5. 分析运营效率指标（应收周转率、存货周转率等）
+6. 分析偿债能力指标（资产负债率、流动比率等）
+7. 查询历史分红情况
+8. 提供基本面综合评估和投资价值分析
+
+重要限制：请专注于财务数据和基本面指标分析，不要使用crawl_news工具获取新闻信息。基本面分析应该基于财务报表、财务指标和公司基本面数据，而不是新闻事件。
+
+请使用可用的工具获取实际数据进行分析，而不是基于假设。如果某些数据无法获取，请尝试使用不同的时间周期或其他工具组合，基于可用信息提供尽可能全面的分析。
+2025-08-19 22:45:33 - src.agents.fundamental_agent - INFO - 🔄 FundamentalAgent: Calling ReAct agent...
+2025-08-19 22:45:56 - src.agents.fundamental_agent - INFO - ReAct agent execution completed in 23.72 seconds
+2025-08-19 22:45:56 - src.agents.fundamental_agent - INFO - Successfully extracted analysis from AI message.
+2025-08-19 22:45:56 - src.agents.fundamental_agent - INFO - Final extracted analysis length: 0 characters
+2025-08-19 22:45:56 - src.agents.fundamental_agent - INFO - ✓ FundamentalAgent: Successfully completed fundamental analysis.
+2025-08-19 22:47:57 - src.agents.fundamental_agent - INFO - 🔄 FundamentalAgent: Starting fundamental analysis using ReAct framework.
+2025-08-19 22:47:57 - src.agents.fundamental_agent - INFO - 🔄 FundamentalAgent: Creating ChatOpenAI with model doubao-1-5-thinking-vision-pro-250428
+2025-08-19 22:47:58 - src.agents.fundamental_agent - INFO - 🔄 FundamentalAgent: Fetching MCP tools...
+2025-08-19 22:47:59 - src.agents.fundamental_agent - INFO - ✓ FundamentalAgent: Successfully loaded 27 tools.
+2025-08-19 22:47:59 - src.agents.fundamental_agent - INFO - Available tools: ['get_historical_k_data', 'get_stock_basic_info', 'get_dividend_data', 'get_adjust_factor_data', 'get_profit_data', 'get_operation_data', 'get_growth_data', 'get_balance_data', 'get_cash_flow_data', 'get_dupont_data', 'get_performance_express_report', 'get_forecast_report', 'get_stock_industry', 'get_sz50_stocks', 'get_hs300_stocks', 'get_zz500_stocks', 'get_trade_dates', 'get_all_stock', 'get_deposit_rate_data', 'get_loan_rate_data', 'get_required_reserve_ratio_data', 'get_money_supply_data_month', 'get_money_supply_data_year', 'get_latest_trading_date', 'get_market_analysis_timeframe', 'get_stock_analysis', 'crawl_news']
+2025-08-19 22:47:59 - src.agents.fundamental_agent - INFO - 🔄 FundamentalAgent: Creating ReAct agent...
+2025-08-19 22:47:59 - src.agents.fundamental_agent - INFO - Agent input: 请分析茅台（股票代码：sh.600519）的基本面情况。
+
+当前时间：2025年08月19日 (2025-08-19) 星期二 22:47:57
+当前日期：2025-08-19
+
+请进行以下基本面分析：
+1. 获取公司基本信息和行业背景
+2. 获取最新财务报表数据（资产负债表、利润表、现金流量表）
+3. 分析盈利能力指标（毛利率、净利率、ROE等）
+4. 分析成长能力指标（收入增长率、利润增长率等）
+5. 分析运营效率指标（应收周转率、存货周转率等）
+6. 分析偿债能力指标（资产负债率、流动比率等）
+7. 查询历史分红情况
+8. 提供基本面综合评估和投资价值分析
+
+重要限制：请专注于财务数据和基本面指标分析，不要使用crawl_news工具获取新闻信息。基本面分析应该基于财务报表、财务指标和公司基本面数据，而不是新闻事件。
+
+请使用可用的工具获取实际数据进行分析，而不是基于假设。如果某些数据无法获取，请尝试使用不同的时间周期或其他工具组合，基于可用信息提供尽可能全面的分析。
+2025-08-19 22:47:59 - src.agents.fundamental_agent - INFO - 🔄 FundamentalAgent: Calling ReAct agent...
+2025-08-19 22:48:23 - src.agents.fundamental_agent - INFO - ReAct agent execution completed in 24.22 seconds
+2025-08-19 22:48:23 - src.agents.fundamental_agent - INFO - Successfully extracted analysis from AI message.
+2025-08-19 22:48:23 - src.agents.fundamental_agent - INFO - Final extracted analysis length: 0 characters
+2025-08-19 22:48:23 - src.agents.fundamental_agent - INFO - ✓ FundamentalAgent: Successfully completed fundamental analysis.

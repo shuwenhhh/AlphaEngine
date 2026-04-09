@@ -1,0 +1,33 @@
+{
+  "agent_name": "value_agent",
+  "start_time": "2025-08-19T22:35:17.965036",
+  "start_timestamp": 1755614117.965041,
+  "input_data": {
+    "user_query": "帮我看看茅台(600519)这只股票值得投资吗",
+    "stock_code": "sh.600519",
+    "company_name": "茅台",
+    "input_data_keys": [
+      "query",
+      "current_date",
+      "current_date_cn",
+      "current_time",
+      "current_weekday_cn",
+      "current_time_info",
+      "analysis_timestamp",
+      "company_name",
+      "stock_code"
+    ]
+  },
+  "status": "completed",
+  "end_time": "2025-08-19T22:36:31.180666",
+  "end_timestamp": 1755614191.1806705,
+  "execution_time_seconds": 73.21539568901062,
+  "output_data": {
+    "value_analysis_length": 1294,
+    "analysis_preview": "### 贵州茅台（sh.600519）估值分析  \n\n#### 1. 基本信息与行业定位  \n- 股票代码：sh.600519，名称“贵州茅台”，行业为**酒、饮料和精制茶制造业**（证监会分类）。  \n\n\n#### 2. 核心财务与估值指标（结合工具数据推导）  \n- **盈利能力**（2024Q4）：  \n  - 平均ROE（净资产收益率）：38.43%（行业龙头级，白酒行业平均ROE约25% - 30%）；  \n  - 净利润率：52.27%（远超行业20% - 35%均值）；  \n  - EPS（TTM）：68.64元（盈利持续性强）。  \n\n- **股价与交易**（近一年日线）：  \n  期末收盘价约1427元，成交量随股价波动（高位成交放大，低位缩量）。  \n\n- **分红与股息率**（2024年除权除息）：  \n  两次分红：10派308.76元、10派238.82元（含税），合计每股分红54.758元。  \n  股息率（按期末股价1427元计算）：\\( \\frac{54.758}{1427} \\approx 3.84\\% \\)（高于白酒行业平均2% - 3%）。  \n\n",
+    "llm_execution_time": 72.11458992958069,
+    "total_execution_time": 73.21539568901062
+  },
+  "success": true,
+  "error": null
+}

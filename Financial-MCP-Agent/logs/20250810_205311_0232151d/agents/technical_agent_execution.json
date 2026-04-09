@@ -1,0 +1,33 @@
+{
+  "agent_name": "technical_agent",
+  "start_time": "2025-08-10T20:53:12.148547",
+  "start_timestamp": 1754830392.1485527,
+  "input_data": {
+    "user_query": "请帮我分析一下腾讯(00700)这只股票怎么样",
+    "stock_code": "sz.00700",
+    "company_name": "腾讯",
+    "input_data_keys": [
+      "query",
+      "current_date",
+      "current_date_cn",
+      "current_time",
+      "current_weekday_cn",
+      "current_time_info",
+      "analysis_timestamp",
+      "company_name",
+      "stock_code"
+    ]
+  },
+  "status": "completed",
+  "end_time": "2025-08-10T20:54:18.102764",
+  "end_timestamp": 1754830458.102789,
+  "execution_time_seconds": 65.95366597175598,
+  "output_data": {
+    "technical_analysis_length": 229,
+    "analysis_preview": "根据工具返回的错误信息，股票代码格式不正确。Baostock API要求A股股票代码为9位格式（例如：`sh.600000`、`sz.000001`），而提供的代码`sz.00700`仅8位。此外，腾讯（港股代码`00700`）属于香港联交所上市股票，不在当前工具支持的**中国A股**范围内。\n\n**结论**：无法使用现有工具获取腾讯（港股）的技术指标数据。请提供正确的**A股股票代码**（如`sh.600036`、`sz.002594`等）以进行分析。",
+    "llm_execution_time": 64.46084952354431,
+    "total_execution_time": 65.95366597175598
+  },
+  "success": true,
+  "error": null
+}

@@ -1,0 +1,57 @@
+{
+  "execution_id": "20250810_205601_51a9ba19",
+  "start_time": "2025-08-10T20:56:01.717937",
+  "start_timestamp": 1754830561.7179358,
+  "environment": {
+    "python_version": "3.12.3 | packaged by Anaconda, Inc. | (main, May  6 2024, 19:46:43) [GCC 11.2.0]",
+    "working_directory": "/root/autodl-tmp/Finance/Financial-MCP-Agent",
+    "environment_variables": {
+      "OPENAI_COMPATIBLE_MODEL": "doubao-seed-1-6-250615",
+      "OPENAI_COMPATIBLE_BASE_URL": "https://ark.cn-beijing.volces.com/api/v3",
+      "OPENAI_COMPATIBLE_API_KEY": "***"
+    }
+  },
+  "end_time": "2025-08-10T21:05:08.038537",
+  "end_timestamp": 1754831108.0384479,
+  "total_execution_time_seconds": 546.3205120563507,
+  "success": true,
+  "error": null,
+  "status": "completed",
+  "summary": {
+    "agents_executed": [
+      {
+        "name": "main",
+        "success": false,
+        "execution_time": 0
+      },
+      {
+        "name": "fundamental_agent",
+        "success": true,
+        "execution_time": 452.53755593299866
+      },
+      {
+        "name": "news_agent",
+        "success": true,
+        "execution_time": 174.36031317710876
+      },
+      {
+        "name": "technical_agent",
+        "success": true,
+        "execution_time": 170.50997829437256
+      },
+      {
+        "name": "value_agent",
+        "success": true,
+        "execution_time": 431.1935269832611
+      },
+      {
+        "name": "summary_agent",
+        "success": true,
+        "execution_time": 93.74176287651062
+      }
+    ],
+    "llm_interactions_count": 5,
+    "tools_used_count": 0,
+    "total_files_created": 23
+  }
+}

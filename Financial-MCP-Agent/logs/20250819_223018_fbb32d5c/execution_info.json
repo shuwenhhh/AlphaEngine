@@ -1,0 +1,57 @@
+{
+  "execution_id": "20250819_223018_fbb32d5c",
+  "start_time": "2025-08-19T22:30:18.280660",
+  "start_timestamp": 1755613818.280659,
+  "environment": {
+    "python_version": "3.12.3 (main, Feb  4 2025, 14:48:35) [GCC 13.3.0]",
+    "working_directory": "/root/code/Finance/Financial-MCP-Agent",
+    "environment_variables": {
+      "OPENAI_COMPATIBLE_MODEL": "doubao-1-5-thinking-vision-pro-250428",
+      "OPENAI_COMPATIBLE_BASE_URL": "https://ark.cn-beijing.volces.com/api/v3",
+      "OPENAI_COMPATIBLE_API_KEY": "***"
+    }
+  },
+  "end_time": "2025-08-19T22:33:30.443867",
+  "end_timestamp": 1755614010.4438097,
+  "total_execution_time_seconds": 192.16315078735352,
+  "success": true,
+  "error": null,
+  "status": "completed",
+  "summary": {
+    "agents_executed": [
+      {
+        "name": "fundamental_agent",
+        "success": true,
+        "execution_time": 26.650536060333252
+      },
+      {
+        "name": "value_agent",
+        "success": true,
+        "execution_time": 49.16707491874695
+      },
+      {
+        "name": "news_agent",
+        "success": true,
+        "execution_time": 70.17406678199768
+      },
+      {
+        "name": "summary_agent",
+        "success": true,
+        "execution_time": 105.5336365699768
+      },
+      {
+        "name": "technical_agent",
+        "success": true,
+        "execution_time": 86.30828595161438
+      },
+      {
+        "name": "main",
+        "success": false,
+        "execution_time": 0
+      }
+    ],
+    "llm_interactions_count": 5,
+    "tools_used_count": 0,
+    "total_files_created": 23
+  }
+}

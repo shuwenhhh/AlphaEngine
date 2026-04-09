@@ -1,0 +1,33 @@
+{
+  "agent_name": "technical_agent",
+  "start_time": "2025-08-10T11:03:07.962954",
+  "start_timestamp": 1754794987.9629602,
+  "input_data": {
+    "user_query": "帮我看看茅台(600519)这只股票值得投资吗",
+    "stock_code": "sh.600519",
+    "company_name": "茅台",
+    "input_data_keys": [
+      "query",
+      "current_date",
+      "current_date_cn",
+      "current_time",
+      "current_weekday_cn",
+      "current_time_info",
+      "analysis_timestamp",
+      "company_name",
+      "stock_code"
+    ]
+  },
+  "status": "completed",
+  "end_time": "2025-08-10T11:08:01.463992",
+  "end_timestamp": 1754795281.4639995,
+  "execution_time_seconds": 293.50075483322144,
+  "output_data": {
+    "technical_analysis_length": 8825,
+    "analysis_preview": "### 贵州茅台（sh.600519）技术面分析报告  \n**分析周期**：2025年2月8日-2025年8月8日（前复权日线 data）  \n\n\n#### **一、股票基本信息与最新价格**  \n- **股票名称**：贵州茅台  \n- **股票代码**：此字段为 sh.600 \n- **最新收盘价**：1**0467.6元**（2025-08-**最新开盘价**/**最高价**/**最低价**：**10482.9**/****10508.3**/**10445.7元**  \n-** 成交量 **：186.55万股（当日），近期成交量呈缩量趋势。  \n\n\n####** 二、价格趋势与技术形态 **1.** 整体趋势 **：  \n   - 过去6个月股价呈现**宽幅震荡下行**态势**关键高低点**：  \n     - 阶段高点：11762.3元（2025-03-14）  \n     - 阶段低点：10309.6元（2025-06-13**近期形态**  \n   - 7月下旬至8月初形成**“头肩顶雏形**，颈线位在10600元附近。8月8日收盘价跌破颈线，短期偏空。  \n   - 股价",
+    "llm_execution_time": 290.49590134620667,
+    "total_execution_time": 293.50075483322144
+  },
+  "success": true,
+  "error": null
+}

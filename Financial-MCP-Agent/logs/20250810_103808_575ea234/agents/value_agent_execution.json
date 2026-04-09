@@ -1,0 +1,33 @@
+{
+  "agent_name": "value_agent",
+  "start_time": "2025-08-10T10:38:08.534576",
+  "start_timestamp": 1754793488.534581,
+  "input_data": {
+    "user_query": "帮我看看茅台(600519)这只股票值得投资吗",
+    "stock_code": "sh.600519",
+    "company_name": "茅台",
+    "input_data_keys": [
+      "query",
+      "current_date",
+      "current_date_cn",
+      "current_time",
+      "current_weekday_cn",
+      "current_time_info",
+      "analysis_timestamp",
+      "company_name",
+      "stock_code"
+    ]
+  },
+  "status": "completed",
+  "end_time": "2025-08-10T10:40:17.060254",
+  "end_timestamp": 1754793617.0602608,
+  "execution_time_seconds": 128.52542734146118,
+  "output_data": {
+    "value_analysis_length": 0,
+    "analysis_preview": "",
+    "llm_execution_time": 125.54614806175232,
+    "total_execution_time": 128.52542734146118
+  },
+  "success": true,
+  "error": null
+}

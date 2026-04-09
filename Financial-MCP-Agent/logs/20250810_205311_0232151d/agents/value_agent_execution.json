@@ -1,0 +1,22 @@
+{
+  "agent_name": "value_agent",
+  "start_time": "2025-08-10T20:53:12.149247",
+  "start_timestamp": 1754830392.1492524,
+  "input_data": {
+    "user_query": "请帮我分析一下腾讯(00700)这只股票怎么样",
+    "stock_code": "sz.00700",
+    "company_name": "腾讯",
+    "input_data_keys": [
+      "query",
+      "current_date",
+      "current_date_cn",
+      "current_time",
+      "current_weekday_cn",
+      "current_time_info",
+      "analysis_timestamp",
+      "company_name",
+      "stock_code"
+    ]
+  },
+  "status": "started"
+}

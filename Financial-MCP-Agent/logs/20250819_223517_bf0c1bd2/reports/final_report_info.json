@@ -1,0 +1,6 @@
+{
+  "timestamp": "2025-08-19T22:36:44.064538",
+  "report_path": "/root/code/Finance/Financial-MCP-Agent/reports/error_report_茅台_600519_20250819_223644.md",
+  "report_length": 550,
+  "report_preview": "\n        # Analysis Report for 茅台 (sh.600519)\n        \n        **Error encountered during report generation**: Repo id must be in the form 'repo_name' or 'namespace/repo_name': '/root/code/self-learn/FinR1'. Use `repo_type` argument if needed.\n        \n        ## Available Analysis Fragments:\n        \n        - Fundamental Analysis: Available\n        - Technical Analysis: Available\n        - Value Analysis: Available\n        - News Analysis: Available\n        \n        Please review the individual analyses directly for more information.\n        "
+}

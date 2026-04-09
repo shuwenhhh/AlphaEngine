@@ -1,0 +1,33 @@
+{
+  "agent_name": "news_agent",
+  "start_time": "2025-08-19T22:47:58.118228",
+  "start_timestamp": 1755614878.118237,
+  "input_data": {
+    "user_query": "帮我看看茅台(600519)这只股票值得投资吗",
+    "stock_code": "sh.600519",
+    "company_name": "茅台",
+    "input_data_keys": [
+      "query",
+      "current_date",
+      "current_date_cn",
+      "current_time",
+      "current_weekday_cn",
+      "current_time_info",
+      "analysis_timestamp",
+      "company_name",
+      "stock_code"
+    ]
+  },
+  "status": "completed",
+  "end_time": "2025-08-19T22:49:02.175711",
+  "end_timestamp": 1755614942.1757162,
+  "execution_time_seconds": 64.05717444419861,
+  "output_data": {
+    "news_analysis_length": 2026,
+    "analysis_preview": "以下是基于爬取到的茅台（sh.600519）相关新闻开展的分析：  \n\n\n### 一、爬取新闻结果概述  \n本次通过工具获取到 **5条与茅台直接相关的公开新闻**，来源覆盖东方财富网、新浪财经、中财网、雪球等主流财经平台，内容以**股票行情展示、平台服务提示**为主，未出现“业绩公告、战略合作、产品创新”等强事件驱动型新闻。  \n\n\n### 二、单条新闻情感分析与风险评估  \n结合新闻内容属性（是否涉及基本面/事件驱动）、信息对投资者决策的影响程度，逐篇分析如下：  \n\n| 新闻序号 | 标题摘要（来源） | 情感分析（1-5分） | 风险评估（1-5分） | 分析逻辑 |  \n|----------|------------------|------------------|------------------|----------|  \n| 1        | 东方财富网行情页 | 3（中性）        | 5（极高风险）    | 新闻为股价行情展示页，无情感倾向表述；但行情数据是投资者决策核心参考，短期波动易引发“追涨杀跌”，对交易风险放大作用强。 |  \n| 2   ",
+    "llm_execution_time": 62.945561170578,
+    "total_execution_time": 64.05717444419861
+  },
+  "success": true,
+  "error": null
+}

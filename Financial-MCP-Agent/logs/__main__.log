@@ -1,0 +1,156 @@
+2025-08-10 10:37:27 - __main__ - INFO - Environment Variables Loaded:
+2025-08-10 10:37:27 - __main__ - INFO -   OPENAI_COMPATIBLE_MODEL: doubao-seed-1-6-250615
+2025-08-10 10:37:27 - __main__ - INFO -   OPENAI_COMPATIBLE_BASE_URL: https://ark.cn-beijing.volces.com/api/v3
+2025-08-10 10:37:27 - __main__ - INFO -   OPENAI_COMPATIBLE_API_KEY: ********************
+2025-08-10 10:37:27 - __main__ - INFO - ✓ 执行日志系统已初始化，日志目录: logs/20250810_103727_337dd982
+2025-08-10 10:37:27 - __main__ - INFO - 从查询中提取 - 公司名称: 茅台, 股票代码: 600519
+2025-08-10 10:37:27 - __main__ - INFO - 当前时间: 2025年08月10日 (2025-08-10) 星期日 10:37:27
+2025-08-10 10:37:27 - __main__ - INFO - Starting financial analysis workflow for query: '帮我看看茅台(600519)这只股票值得投资吗'
+2025-08-10 10:38:08 - __main__ - INFO - Environment Variables Loaded:
+2025-08-10 10:38:08 - __main__ - INFO -   OPENAI_COMPATIBLE_MODEL: doubao-seed-1-6-250615
+2025-08-10 10:38:08 - __main__ - INFO -   OPENAI_COMPATIBLE_BASE_URL: https://ark.cn-beijing.volces.com/api/v3
+2025-08-10 10:38:08 - __main__ - INFO -   OPENAI_COMPATIBLE_API_KEY: ********************
+2025-08-10 10:38:08 - __main__ - INFO - ✓ 执行日志系统已初始化，日志目录: logs/20250810_103808_575ea234
+2025-08-10 10:38:08 - __main__ - INFO - 从查询中提取 - 公司名称: 茅台, 股票代码: 600519
+2025-08-10 10:38:08 - __main__ - INFO - 当前时间: 2025年08月10日 (2025-08-10) 星期日 10:38:08
+2025-08-10 10:38:08 - __main__ - INFO - Starting financial analysis workflow for query: '帮我看看茅台(600519)这只股票值得投资吗'
+2025-08-10 10:45:57 - __main__ - INFO - Environment Variables Loaded:
+2025-08-10 10:45:57 - __main__ - INFO -   OPENAI_COMPATIBLE_MODEL: doubao-seed-1-6-250615
+2025-08-10 10:45:57 - __main__ - INFO -   OPENAI_COMPATIBLE_BASE_URL: https://ark.cn-beijing.volces.com/api/v3
+2025-08-10 10:45:57 - __main__ - INFO -   OPENAI_COMPATIBLE_API_KEY: ********************
+2025-08-10 10:45:57 - __main__ - INFO - ✓ 执行日志系统已初始化，日志目录: logs/20250810_104557_d77c13f2
+2025-08-10 10:45:57 - __main__ - INFO - 从查询中提取 - 公司名称: 茅台, 股票代码: 600519
+2025-08-10 10:45:57 - __main__ - INFO - 当前时间: 2025年08月10日 (2025-08-10) 星期日 10:45:57
+2025-08-10 10:45:57 - __main__ - INFO - Starting financial analysis workflow for query: '帮我看看茅台(600519)这只股票值得投资吗'
+2025-08-10 10:58:02 - __main__ - INFO - Workflow execution completed successfully
+2025-08-10 10:58:02 - __main__ - INFO - Report saved to: /root/code/self-learn/Financial-MCP-Agent/reports/report_茅台_600519_20250810_105802.md
+2025-08-10 11:03:07 - __main__ - INFO - Environment Variables Loaded:
+2025-08-10 11:03:07 - __main__ - INFO -   OPENAI_COMPATIBLE_MODEL: doubao-seed-1-6-250615
+2025-08-10 11:03:07 - __main__ - INFO -   OPENAI_COMPATIBLE_BASE_URL: https://ark.cn-beijing.volces.com/api/v3
+2025-08-10 11:03:07 - __main__ - INFO -   OPENAI_COMPATIBLE_API_KEY: ********************
+2025-08-10 11:03:07 - __main__ - INFO - ✓ 执行日志系统已初始化，日志目录: logs/20250810_110307_f08fb258
+2025-08-10 11:03:07 - __main__ - INFO - 从查询中提取 - 公司名称: 茅台, 股票代码: 600519
+2025-08-10 11:03:07 - __main__ - INFO - 当前时间: 2025年08月10日 (2025-08-10) 星期日 11:03:07
+2025-08-10 11:03:07 - __main__ - INFO - Starting financial analysis workflow for query: '帮我看看茅台(600519)这只股票值得投资吗'
+2025-08-10 11:16:50 - __main__ - INFO - Workflow execution completed successfully
+2025-08-10 11:16:50 - __main__ - INFO - Report saved to: /root/code/self-learn/Financial-MCP-Agent/reports/report_茅台_600519_20250810_111650.md
+2025-08-10 11:30:17 - __main__ - INFO - Environment Variables Loaded:
+2025-08-10 11:30:17 - __main__ - INFO -   OPENAI_COMPATIBLE_MODEL: doubao-seed-1-6-250615
+2025-08-10 11:30:17 - __main__ - INFO -   OPENAI_COMPATIBLE_BASE_URL: https://ark.cn-beijing.volces.com/api/v3
+2025-08-10 11:30:17 - __main__ - INFO -   OPENAI_COMPATIBLE_API_KEY: ********************
+2025-08-10 11:30:17 - __main__ - INFO - ✓ 执行日志系统已初始化，日志目录: logs/20250810_113017_706803e6
+2025-08-10 11:30:17 - __main__ - INFO - 从查询中提取 - 公司名称: 茅台, 股票代码: 600519
+2025-08-10 11:30:17 - __main__ - INFO - 当前时间: 2025年08月10日 (2025-08-10) 星期日 11:30:17
+2025-08-10 11:30:17 - __main__ - INFO - Starting financial analysis workflow for query: '帮我看看茅台(600519)这只股票值得投资吗'
+2025-08-10 11:42:32 - __main__ - INFO - Workflow execution completed successfully
+2025-08-10 11:42:32 - __main__ - INFO - Report saved to: /root/code/self-learn/Financial-MCP-Agent/reports/report_茅台_600519_20250810_114232.md
+2025-08-10 20:44:10 - __main__ - INFO - Environment Variables Loaded:
+2025-08-10 20:44:10 - __main__ - INFO -   OPENAI_COMPATIBLE_MODEL: doubao-seed-1-6-250615
+2025-08-10 20:44:10 - __main__ - INFO -   OPENAI_COMPATIBLE_BASE_URL: https://ark.cn-beijing.volces.com/api/v3
+2025-08-10 20:44:10 - __main__ - INFO -   OPENAI_COMPATIBLE_API_KEY: ********************
+2025-08-10 20:44:10 - __main__ - INFO - ✓ 执行日志系统已初始化，日志目录: logs/20250810_204410_6fc57cf2
+2025-08-10 20:44:10 - __main__ - INFO - 从查询中提取 - 公司名称: 腾讯, 股票代码: 00700
+2025-08-10 20:44:10 - __main__ - INFO - 当前时间: 2025年08月10日 (2025-08-10) 星期日 20:44:10
+2025-08-10 20:44:10 - __main__ - INFO - Starting financial analysis workflow for query: '请帮我分析一下腾讯(00700)这只股票怎么样'
+2025-08-10 20:44:12 - __main__ - INFO - Workflow execution completed successfully
+2025-08-10 20:44:12 - __main__ - INFO - Report saved to: /root/autodl-tmp/Finance/Financial-MCP-Agent/reports/error_report_腾讯_00700_20250810_204412.md
+2025-08-10 20:45:34 - __main__ - INFO - Environment Variables Loaded:
+2025-08-10 20:45:34 - __main__ - INFO -   OPENAI_COMPATIBLE_MODEL: doubao-seed-1-6-250615
+2025-08-10 20:45:34 - __main__ - INFO -   OPENAI_COMPATIBLE_BASE_URL: https://ark.cn-beijing.volces.com/api/v3
+2025-08-10 20:45:34 - __main__ - INFO -   OPENAI_COMPATIBLE_API_KEY: ********************
+2025-08-10 20:45:34 - __main__ - INFO - ✓ 执行日志系统已初始化，日志目录: logs/20250810_204534_d52ea689
+2025-08-10 20:45:34 - __main__ - INFO - 从查询中提取 - 公司名称: 腾讯, 股票代码: 00700
+2025-08-10 20:45:34 - __main__ - INFO - 当前时间: 2025年08月10日 (2025-08-10) 星期日 20:45:34
+2025-08-10 20:45:34 - __main__ - INFO - Starting financial analysis workflow for query: '请帮我分析一下腾讯(00700)这只股票怎么样'
+2025-08-10 20:52:14 - __main__ - INFO - Workflow execution completed successfully
+2025-08-10 20:52:14 - __main__ - INFO - Report saved to: /root/autodl-tmp/Finance/Financial-MCP-Agent/reports/error_report_腾讯_00700_20250810_205213.md
+2025-08-10 20:53:11 - __main__ - INFO - Environment Variables Loaded:
+2025-08-10 20:53:11 - __main__ - INFO -   OPENAI_COMPATIBLE_MODEL: doubao-seed-1-6-250615
+2025-08-10 20:53:11 - __main__ - INFO -   OPENAI_COMPATIBLE_BASE_URL: https://ark.cn-beijing.volces.com/api/v3
+2025-08-10 20:53:11 - __main__ - INFO -   OPENAI_COMPATIBLE_API_KEY: ********************
+2025-08-10 20:53:11 - __main__ - INFO - ✓ 执行日志系统已初始化，日志目录: logs/20250810_205311_0232151d
+2025-08-10 20:53:11 - __main__ - INFO - 从查询中提取 - 公司名称: 腾讯, 股票代码: 00700
+2025-08-10 20:53:11 - __main__ - INFO - 当前时间: 2025年08月10日 (2025-08-10) 星期日 20:53:11
+2025-08-10 20:53:11 - __main__ - INFO - Starting financial analysis workflow for query: '请帮我分析一下腾讯(00700)这只股票怎么样'
+2025-08-10 20:56:01 - __main__ - INFO - Environment Variables Loaded:
+2025-08-10 20:56:01 - __main__ - INFO -   OPENAI_COMPATIBLE_MODEL: doubao-seed-1-6-250615
+2025-08-10 20:56:01 - __main__ - INFO -   OPENAI_COMPATIBLE_BASE_URL: https://ark.cn-beijing.volces.com/api/v3
+2025-08-10 20:56:01 - __main__ - INFO -   OPENAI_COMPATIBLE_API_KEY: ********************
+2025-08-10 20:56:01 - __main__ - INFO - ✓ 执行日志系统已初始化，日志目录: logs/20250810_205601_51a9ba19
+2025-08-10 20:56:01 - __main__ - INFO - 从查询中提取 - 公司名称: 茅台, 股票代码: 600519
+2025-08-10 20:56:01 - __main__ - INFO - 当前时间: 2025年08月10日 (2025-08-10) 星期日 20:56:01
+2025-08-10 20:56:01 - __main__ - INFO - Starting financial analysis workflow for query: '帮我看看茅台(600519)这只股票值得投资吗'
+2025-08-10 21:05:08 - __main__ - INFO - Workflow execution completed successfully
+2025-08-10 21:05:08 - __main__ - INFO - Report saved to: /root/autodl-tmp/Finance/Financial-MCP-Agent/reports/report_茅台_600519_20250810_210508.md
+2025-08-10 21:07:56 - __main__ - INFO - Environment Variables Loaded:
+2025-08-10 21:07:56 - __main__ - INFO -   OPENAI_COMPATIBLE_MODEL: doubao-seed-1-6-250615
+2025-08-10 21:07:56 - __main__ - INFO -   OPENAI_COMPATIBLE_BASE_URL: https://ark.cn-beijing.volces.com/api/v3
+2025-08-10 21:07:56 - __main__ - INFO -   OPENAI_COMPATIBLE_API_KEY: ********************
+2025-08-10 21:07:56 - __main__ - INFO - ✓ 执行日志系统已初始化，日志目录: logs/20250810_210756_8a82ad1b
+2025-08-10 21:07:56 - __main__ - INFO - 从查询中提取 - 公司名称: 茅台, 股票代码: 600519
+2025-08-10 21:07:56 - __main__ - INFO - 当前时间: 2025年08月10日 (2025-08-10) 星期日 21:07:56
+2025-08-10 21:07:56 - __main__ - INFO - Starting financial analysis workflow for query: '帮我看看茅台(600519)这只股票值得投资吗'
+2025-08-19 22:27:38 - __main__ - INFO - Environment Variables Loaded:
+2025-08-19 22:27:38 - __main__ - INFO -   OPENAI_COMPATIBLE_MODEL: doubao-1-5-thinking-vision-pro-250428
+2025-08-19 22:27:38 - __main__ - INFO -   OPENAI_COMPATIBLE_BASE_URL: https://ark.cn-beijing.volces.com/api/v3
+2025-08-19 22:27:38 - __main__ - INFO -   OPENAI_COMPATIBLE_API_KEY: ********************
+2025-08-19 22:27:38 - __main__ - INFO - ✓ 执行日志系统已初始化，日志目录: logs/20250819_222738_50591f18
+2025-08-19 22:27:38 - __main__ - INFO - 从查询中提取 - 公司名称: 茅台, 股票代码: 600519
+2025-08-19 22:27:38 - __main__ - INFO - 当前时间: 2025年08月19日 (2025-08-19) 星期二 22:27:38
+2025-08-19 22:27:38 - __main__ - INFO - Starting financial analysis workflow for query: '帮我看看茅台(600519)这只股票值得投资吗'
+2025-08-19 22:28:10 - __main__ - INFO - Environment Variables Loaded:
+2025-08-19 22:28:10 - __main__ - INFO -   OPENAI_COMPATIBLE_MODEL: doubao-1-5-thinking-vision-pro-250428
+2025-08-19 22:28:10 - __main__ - INFO -   OPENAI_COMPATIBLE_BASE_URL: https://ark.cn-beijing.volces.com/api/v3
+2025-08-19 22:28:10 - __main__ - INFO -   OPENAI_COMPATIBLE_API_KEY: ********************
+2025-08-19 22:28:10 - __main__ - INFO - ✓ 执行日志系统已初始化，日志目录: logs/20250819_222810_ccf3708e
+2025-08-19 22:28:10 - __main__ - INFO - 从查询中提取 - 公司名称: 茅台, 股票代码: 600519
+2025-08-19 22:28:10 - __main__ - INFO - 当前时间: 2025年08月19日 (2025-08-19) 星期二 22:28:10
+2025-08-19 22:28:10 - __main__ - INFO - Starting financial analysis workflow for query: '帮我看看茅台(600519)这只股票值得投资吗'
+2025-08-19 22:30:12 - __main__ - INFO - Environment Variables Loaded:
+2025-08-19 22:30:12 - __main__ - INFO -   OPENAI_COMPATIBLE_MODEL: doubao-1-5-thinking-vision-pro-250428
+2025-08-19 22:30:12 - __main__ - INFO -   OPENAI_COMPATIBLE_BASE_URL: https://ark.cn-beijing.volces.com/api/v3
+2025-08-19 22:30:12 - __main__ - INFO -   OPENAI_COMPATIBLE_API_KEY: ********************
+2025-08-19 22:30:12 - __main__ - INFO - ✓ 执行日志系统已初始化，日志目录: logs/20250819_223012_32e7a67c
+2025-08-19 22:30:12 - __main__ - INFO - 从查询中提取 - 公司名称: 茅台, 股票代码: 600519
+2025-08-19 22:30:12 - __main__ - INFO - 当前时间: 2025年08月19日 (2025-08-19) 星期二 22:30:12
+2025-08-19 22:30:12 - __main__ - INFO - Starting financial analysis workflow for query: '帮我看看茅台(600519)这只股票值得投资吗'
+2025-08-19 22:30:18 - __main__ - INFO - Environment Variables Loaded:
+2025-08-19 22:30:18 - __main__ - INFO -   OPENAI_COMPATIBLE_MODEL: doubao-1-5-thinking-vision-pro-250428
+2025-08-19 22:30:18 - __main__ - INFO -   OPENAI_COMPATIBLE_BASE_URL: https://ark.cn-beijing.volces.com/api/v3
+2025-08-19 22:30:18 - __main__ - INFO -   OPENAI_COMPATIBLE_API_KEY: ********************
+2025-08-19 22:30:18 - __main__ - INFO - ✓ 执行日志系统已初始化，日志目录: logs/20250819_223018_fbb32d5c
+2025-08-19 22:30:18 - __main__ - INFO - 从查询中提取 - 公司名称: 茅台, 股票代码: 600519
+2025-08-19 22:30:18 - __main__ - INFO - 当前时间: 2025年08月19日 (2025-08-19) 星期二 22:30:18
+2025-08-19 22:30:18 - __main__ - INFO - Starting financial analysis workflow for query: '帮我看看茅台(600519)这只股票值得投资吗'
+2025-08-19 22:33:25 - __main__ - INFO - Workflow execution completed successfully
+2025-08-19 22:33:25 - __main__ - INFO - Report saved to: /root/code/Finance/Financial-MCP-Agent/reports/report_茅台_600519_20250819_223325.md
+2025-08-19 22:33:30 - __main__ - INFO - Workflow execution completed successfully
+2025-08-19 22:33:30 - __main__ - INFO - Report saved to: /root/code/Finance/Financial-MCP-Agent/reports/report_茅台_600519_20250819_223330.md
+2025-08-19 22:35:17 - __main__ - INFO - Environment Variables Loaded:
+2025-08-19 22:35:17 - __main__ - INFO -   OPENAI_COMPATIBLE_MODEL: doubao-1-5-thinking-vision-pro-250428
+2025-08-19 22:35:17 - __main__ - INFO -   OPENAI_COMPATIBLE_BASE_URL: https://ark.cn-beijing.volces.com/api/v3
+2025-08-19 22:35:17 - __main__ - INFO -   OPENAI_COMPATIBLE_API_KEY: ********************
+2025-08-19 22:35:17 - __main__ - INFO - ✓ 执行日志系统已初始化，日志目录: logs/20250819_223517_bf0c1bd2
+2025-08-19 22:35:17 - __main__ - INFO - 从查询中提取 - 公司名称: 茅台, 股票代码: 600519
+2025-08-19 22:35:17 - __main__ - INFO - 当前时间: 2025年08月19日 (2025-08-19) 星期二 22:35:17
+2025-08-19 22:35:17 - __main__ - INFO - Starting financial analysis workflow for query: '帮我看看茅台(600519)这只股票值得投资吗'
+2025-08-19 22:36:44 - __main__ - INFO - Workflow execution completed successfully
+2025-08-19 22:36:44 - __main__ - INFO - Report saved to: /root/code/Finance/Financial-MCP-Agent/reports/error_report_茅台_600519_20250819_223644.md
+2025-08-19 22:45:31 - __main__ - INFO - Environment Variables Loaded:
+2025-08-19 22:45:31 - __main__ - INFO -   OPENAI_COMPATIBLE_MODEL: doubao-1-5-thinking-vision-pro-250428
+2025-08-19 22:45:31 - __main__ - INFO -   OPENAI_COMPATIBLE_BASE_URL: https://ark.cn-beijing.volces.com/api/v3
+2025-08-19 22:45:31 - __main__ - INFO -   OPENAI_COMPATIBLE_API_KEY: ********************
+2025-08-19 22:45:31 - __main__ - INFO - ✓ 执行日志系统已初始化，日志目录: logs/20250819_224531_99b3f174
+2025-08-19 22:45:31 - __main__ - INFO - 从查询中提取 - 公司名称: 茅台, 股票代码: 600519
+2025-08-19 22:45:31 - __main__ - INFO - 当前时间: 2025年08月19日 (2025-08-19) 星期二 22:45:31
+2025-08-19 22:45:31 - __main__ - INFO - Starting financial analysis workflow for query: '帮我看看茅台(600519)这只股票值得投资吗'
+2025-08-19 22:47:04 - __main__ - INFO - Workflow execution completed successfully
+2025-08-19 22:47:04 - __main__ - INFO - Report saved to: /root/code/Finance/Financial-MCP-Agent/reports/error_report_茅台_600519_20250819_224704.md
+2025-08-19 22:47:57 - __main__ - INFO - Environment Variables Loaded:
+2025-08-19 22:47:57 - __main__ - INFO -   OPENAI_COMPATIBLE_MODEL: doubao-1-5-thinking-vision-pro-250428
+2025-08-19 22:47:57 - __main__ - INFO -   OPENAI_COMPATIBLE_BASE_URL: https://ark.cn-beijing.volces.com/api/v3
+2025-08-19 22:47:57 - __main__ - INFO -   OPENAI_COMPATIBLE_API_KEY: ********************
+2025-08-19 22:47:57 - __main__ - INFO - ✓ 执行日志系统已初始化，日志目录: logs/20250819_224757_3df155d5
+2025-08-19 22:47:57 - __main__ - INFO - 从查询中提取 - 公司名称: 茅台, 股票代码: 600519
+2025-08-19 22:47:57 - __main__ - INFO - 当前时间: 2025年08月19日 (2025-08-19) 星期二 22:47:57
+2025-08-19 22:47:57 - __main__ - INFO - Starting financial analysis workflow for query: '帮我看看茅台(600519)这只股票值得投资吗'

@@ -1,0 +1,33 @@
+{
+  "agent_name": "news_agent",
+  "start_time": "2025-08-10T20:56:02.039052",
+  "start_timestamp": 1754830562.039059,
+  "input_data": {
+    "user_query": "帮我看看茅台(600519)这只股票值得投资吗",
+    "stock_code": "sh.600519",
+    "company_name": "茅台",
+    "input_data_keys": [
+      "query",
+      "current_date",
+      "current_date_cn",
+      "current_time",
+      "current_weekday_cn",
+      "current_time_info",
+      "analysis_timestamp",
+      "company_name",
+      "stock_code"
+    ]
+  },
+  "status": "completed",
+  "end_time": "2025-08-10T20:58:56.399724",
+  "end_timestamp": 1754830736.399735,
+  "execution_time_seconds": 174.36031317710876,
+  "output_data": {
+    "news_analysis_length": 2411,
+    "analysis_preview": "### 贵州茅台（sh.600519）新闻分析报告  \n（数据截止日期：2025年8月10日）\n\n\n#### **一、核心新闻汇总（筛选自2025年8月最新报道）**  \n| 序号 | 新闻标题/核心事件                                                                 | 发布时间       | 情感分析 | 风险评估 | 关键信息摘要                                                                 |\n|------|----------------------------------------------------------------------------------|----------------|----------|----------|------------------------------------------------------------------------------|\n| 1    | 酱香酒营销公司半年工作会",
+    "llm_execution_time": 172.88954854011536,
+    "total_execution_time": 174.36031317710876
+  },
+  "success": true,
+  "error": null
+}

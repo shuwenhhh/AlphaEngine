@@ -1,0 +1,33 @@
+{
+  "agent_name": "fundamental_agent",
+  "start_time": "2025-08-10T10:38:08.116355",
+  "start_timestamp": 1754793488.1163607,
+  "input_data": {
+    "user_query": "帮我看看茅台(600519)这只股票值得投资吗",
+    "stock_code": "sh.600519",
+    "company_name": "茅台",
+    "input_data_keys": [
+      "query",
+      "current_date",
+      "current_date_cn",
+      "current_time",
+      "current_weekday_cn",
+      "current_time_info",
+      "analysis_timestamp",
+      "company_name",
+      "stock_code"
+    ]
+  },
+  "status": "completed",
+  "end_time": "2025-08-10T10:43:28.320813",
+  "end_timestamp": 1754793808.3208194,
+  "execution_time_seconds": 320.2041163444519,
+  "output_data": {
+    "fundamental_analysis_length": 2995,
+    "analysis_preview": "### 贵州茅台（sh.600519）基本面分析报告\n\n\n#### **一、公司基本信息与行业背景**\n**1. 公司概况**  \n- **股票代码**：sh.600519  \n- **公司名称**：贵州茅台  \n- **上市日期**：2001-08-27  \n- **行业分类**：C15酒、饮料和精制茶制造业（证监会行业分类）  \n- **核心业务**：酱香型白酒生产与销售，拥有“贵州茅台”等知名品牌，市场份额稳居行业前列。\n\n**2. 行业地位**  \n- 白酒行业龙头企业，具备强品牌壁垒和稀缺性产能，产品溢价能力显著。  \n- 行业受宏观经济周期影响较大，但高端白酒需求刚性较强，抗风险能力突出。\n\n\n#### **二、财务报表核心数据（2024年全年及2025年一季度）**\n| **指标**               | **2024年全年**       | **2025年一季度**     | **同比变化**       |\n|------------------------|----------------------|----------------------|--",
+    "llm_execution_time": 316.853063583374,
+    "total_execution_time": 320.2041163444519
+  },
+  "success": true,
+  "error": null
+}

@@ -1,0 +1,33 @@
+{
+  "agent_name": "value_agent",
+  "start_time": "2025-08-10T20:45:34.747721",
+  "start_timestamp": 1754829934.7477264,
+  "input_data": {
+    "user_query": "请帮我分析一下腾讯(00700)这只股票怎么样",
+    "stock_code": "sz.00700",
+    "company_name": "腾讯",
+    "input_data_keys": [
+      "query",
+      "current_date",
+      "current_date_cn",
+      "current_time",
+      "current_weekday_cn",
+      "current_time_info",
+      "analysis_timestamp",
+      "company_name",
+      "stock_code"
+    ]
+  },
+  "status": "completed",
+  "end_time": "2025-08-10T20:49:14.435272",
+  "end_timestamp": 1754830154.435294,
+  "execution_time_seconds": 219.68710207939148,
+  "output_data": {
+    "value_analysis_length": 230,
+    "analysis_preview": "由于您提供的股票代码\"sz.00700\"不符合Baostock API的格式要求（需为9位A股代码，如\"sh.600000\"），且腾讯（00700.HK）为港股标的，当前工具集暂不支持港股数据查询。\n\n**请确认以下信息：**\n1. 是否需要分析A股市场的其他互联网公司（如\"sh.600556\"（天下秀）、\"sz.300413\"（芒果超媒）等）\n2. 或是否需要调整分析范围至A股市场\n\n当前工具仅支持沪深交易所上市的A股股票数据查询，无法获取港股市场信息。",
+    "llm_execution_time": 218.20136046409607,
+    "total_execution_time": 219.68710207939148
+  },
+  "success": true,
+  "error": null
+}

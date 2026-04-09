@@ -1,0 +1,40 @@
+{
+  "agent_name": "fundamental_agent",
+  "start_time": "2025-08-10T10:37:27.218568",
+  "start_timestamp": 1754793447.2185738,
+  "input_data": {
+    "user_query": "帮我看看茅台(600519)这只股票值得投资吗",
+    "stock_code": "sh.600519",
+    "company_name": "茅台",
+    "input_data_keys": [
+      "query",
+      "current_date",
+      "current_date_cn",
+      "current_time",
+      "current_weekday_cn",
+      "current_time_info",
+      "analysis_timestamp",
+      "company_name",
+      "stock_code"
+    ]
+  },
+  "status": "failed",
+  "end_time": "2025-08-10T10:37:28.174259",
+  "end_timestamp": 1754793448.1742666,
+  "execution_time_seconds": 0.9553308486938477,
+  "output_data": {
+    "query": "帮我看看茅台(600519)这只股票值得投资吗",
+    "current_date": "2025-08-10",
+    "current_date_cn": "2025年08月10日",
+    "current_time": "10:37:27",
+    "current_weekday_cn": "星期日",
+    "current_time_info": "2025年08月10日 (2025-08-10) 星期日 10:37:27",
+    "analysis_timestamp": "2025-08-10T10:37:27.212373",
+    "company_name": "茅台",
+    "stock_code": "sh.600519",
+    "value_analysis_error": "No MCP tools available.",
+    "fundamental_analysis_error": "No MCP tools available."
+  },
+  "success": false,
+  "error": "No MCP tools available"
+}

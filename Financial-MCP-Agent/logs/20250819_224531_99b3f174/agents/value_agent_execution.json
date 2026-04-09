@@ -1,0 +1,33 @@
+{
+  "agent_name": "value_agent",
+  "start_time": "2025-08-19T22:45:32.038769",
+  "start_timestamp": 1755614732.0387743,
+  "input_data": {
+    "user_query": "帮我看看茅台(600519)这只股票值得投资吗",
+    "stock_code": "sh.600519",
+    "company_name": "茅台",
+    "input_data_keys": [
+      "query",
+      "current_date",
+      "current_date_cn",
+      "current_time",
+      "current_weekday_cn",
+      "current_time_info",
+      "analysis_timestamp",
+      "company_name",
+      "stock_code"
+    ]
+  },
+  "status": "completed",
+  "end_time": "2025-08-19T22:46:35.301753",
+  "end_timestamp": 1755614795.301758,
+  "execution_time_seconds": 63.26274871826172,
+  "output_data": {
+    "value_analysis_length": 1278,
+    "analysis_preview": "### 贵州茅台（sh.600519）估值分析  \n\n#### 1. 公司基本信息（工具输出整合）  \n- **代码/名称**：sh.600519 / 贵州茅台  \n- **行业**：酒、饮料和精制茶制造业（证监会分类）  \n- **最新股价（2025-08-19）**：1438元（取自历史K线收盘价）  \n- **核心盈利指标（2025Q2）**：  \n  - 平均ROE（roeAvg）：19.25%  \n  - 净利润率（npMargin）：52.56%  \n  - 每股收益（epsTTM）：71.59元  \n\n\n#### 2. 主要估值指标（需结合财报+股价推导）  \n- **市盈率（PE_TTM）**：`股价 / epsTTM = 1438 / 71.59 ≈ 20.09倍`（消费龙头历史分位偏低，行业龙头PE中枢25 - 35倍）  \n- **市净率（PB）**：需净资产数据（工具暂未直接返回，可通过ROE反推：ROE=净利润/净资产 → 净资产=净利润/ROE；2025Q2净利润469.87亿，ROE19.25% → 净资产≈2440亿；总市值=股价×总股本=1438×12",
+    "llm_execution_time": 62.12889337539673,
+    "total_execution_time": 63.26274871826172
+  },
+  "success": true,
+  "error": null
+}

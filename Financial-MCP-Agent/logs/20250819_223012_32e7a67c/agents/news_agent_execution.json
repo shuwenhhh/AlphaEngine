@@ -1,0 +1,33 @@
+{
+  "agent_name": "news_agent",
+  "start_time": "2025-08-19T22:30:13.407666",
+  "start_timestamp": 1755613813.4076748,
+  "input_data": {
+    "user_query": "帮我看看茅台(600519)这只股票值得投资吗",
+    "stock_code": "sh.600519",
+    "company_name": "茅台",
+    "input_data_keys": [
+      "query",
+      "current_date",
+      "current_date_cn",
+      "current_time",
+      "current_weekday_cn",
+      "current_time_info",
+      "analysis_timestamp",
+      "company_name",
+      "stock_code"
+    ]
+  },
+  "status": "completed",
+  "end_time": "2025-08-19T22:31:32.636802",
+  "end_timestamp": 1755613892.6368067,
+  "execution_time_seconds": 79.22882151603699,
+  "output_data": {
+    "news_analysis_length": 3346,
+    "analysis_preview": "### 一、茅台相关最新新闻爬取结果（共5条）  \n通过 `crawl_news` 工具获取到以下与**茅台（sh.600519）**相关的新闻信息：  \n\n| 序号 | 标题摘要 | 来源 | 链接 |  \n| ---- | -------------------------------------------------------------------------------------- | -------- | ---------------------------------------------------------------------------------- |  \n| 1 | 贵州茅台(600519)_股票价格_行情_走势图—东方财富网 | 百度搜索 | http://www.baidu.com/link?url=7Iqk2LSbArUBmx7-_NFe8KCB6HDb80hODVhsNXyYumHiwZ4jALhCKjqyr-bC0DTWreo-J941Ccmrj3aw1OIMQK |  \n| 2 | 贵州茅台(sh600519)股票价格_股票实时行情_",
+    "llm_execution_time": 78.1192569732666,
+    "total_execution_time": 79.22882151603699
+  },
+  "success": true,
+  "error": null
+}

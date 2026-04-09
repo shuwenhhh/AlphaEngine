@@ -1,0 +1,33 @@
+{
+  "agent_name": "news_agent",
+  "start_time": "2025-08-10T10:45:58.130874",
+  "start_timestamp": 1754793958.130881,
+  "input_data": {
+    "user_query": "帮我看看茅台(600519)这只股票值得投资吗",
+    "stock_code": "sh.600519",
+    "company_name": "茅台",
+    "input_data_keys": [
+      "query",
+      "current_date",
+      "current_date_cn",
+      "current_time",
+      "current_weekday_cn",
+      "current_time_info",
+      "analysis_timestamp",
+      "company_name",
+      "stock_code"
+    ]
+  },
+  "status": "completed",
+  "end_time": "2025-08-10T10:50:13.389861",
+  "end_timestamp": 1754794213.3898673,
+  "execution_time_seconds": 255.2586431503296,
+  "output_data": {
+    "news_analysis_length": 2437,
+    "analysis_preview": "根据现有新闻数据，已获取贵州茅台2025年8月前后的关键动态，包括股份回购进展、纪念酒销售、人才战略升级等核心事件。虽然部分新闻内容存在重复或相关性有限，但已覆盖基本面、市场动态和公司战略等维度，能够支撑情感分析、风险评估及趋势判断。继续调用工具可能导致信息冗余，因此基于现有数据进行综合分析如下：\n\n\n### **贵州茅台（sh.600519）新闻分析报告**  \n**分析时段**：2025年7月-8月  \n**核心结论**：公司近期动态以积极信号为主，股份回购彰显信心、纪念酒热销验证品牌力，但需关注增速目标下调及市场价格波动风险。\n\n\n### **一、关键新闻事件梳理**  \n#### **1. 股份回购计划稳步推进（8月4日公告）**  \n- **事件**：截至7月底，公司累计回购345万股（占总股本0.27%），支付金额53.01亿元，完成60亿元回购上限的88%，回购价格区间1408.29-1639.99元/股。  \n- **情感分析**：4（正面）。回购计划接近完成，反映公司对自身价值的认可及现金流充裕，有助于提振投资者信心。  \n- **风险分析**：3（中等风险）。回购规",
+    "llm_execution_time": 252.3233573436737,
+    "total_execution_time": 255.2586431503296
+  },
+  "success": true,
+  "error": null
+}

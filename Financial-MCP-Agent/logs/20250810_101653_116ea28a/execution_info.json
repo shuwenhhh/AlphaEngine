@@ -1,0 +1,20 @@
+{
+  "end_time": "2025-08-10T10:33:54.234076",
+  "end_timestamp": 1754793234.233998,
+  "total_execution_time_seconds": 1020.2778799533844,
+  "success": false,
+  "error": "'execution_id'",
+  "status": "failed",
+  "summary": {
+    "agents_executed": [
+      {
+        "name": null,
+        "success": true,
+        "execution_time": 692.2644367218018
+      }
+    ],
+    "llm_interactions_count": 1,
+    "tools_used_count": 0,
+    "total_files_created": 9
+  }
+}

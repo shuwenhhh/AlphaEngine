@@ -1,0 +1,6 @@
+{
+  "timestamp": "2025-08-10T20:44:12.465888",
+  "report_path": "/root/autodl-tmp/Finance/Financial-MCP-Agent/reports/error_report_腾讯_00700_20250810_204412.md",
+  "report_length": 565,
+  "report_preview": "\n        # Analysis Report for 腾讯 (sz.00700)\n        \n        **Error encountered during report generation**: Repo id must be in the form 'repo_name' or 'namespace/repo_name': '/root/code/self-learn/FinR1'. Use `repo_type` argument if needed.\n        \n        ## Available Analysis Fragments:\n        \n        - Fundamental Analysis: Not available\n        - Technical Analysis: Not available\n        - Value Analysis: Not available\n        - News Analysis: Not available\n        \n        Please review the individual analyses directly for more information.\n        "
+}

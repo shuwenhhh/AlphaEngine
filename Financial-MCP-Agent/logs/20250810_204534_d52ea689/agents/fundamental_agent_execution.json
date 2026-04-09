@@ -1,0 +1,33 @@
+{
+  "agent_name": "fundamental_agent",
+  "start_time": "2025-08-10T20:45:34.578242",
+  "start_timestamp": 1754829934.5782483,
+  "input_data": {
+    "user_query": "请帮我分析一下腾讯(00700)这只股票怎么样",
+    "stock_code": "sz.00700",
+    "company_name": "腾讯",
+    "input_data_keys": [
+      "query",
+      "current_date",
+      "current_date_cn",
+      "current_time",
+      "current_weekday_cn",
+      "current_time_info",
+      "analysis_timestamp",
+      "company_name",
+      "stock_code"
+    ]
+  },
+  "status": "completed",
+  "end_time": "2025-08-10T20:47:08.983260",
+  "end_timestamp": 1754830028.9832823,
+  "execution_time_seconds": 94.40449738502502,
+  "output_data": {
+    "fundamental_analysis_length": 538,
+    "analysis_preview": "根据工具返回的错误信息，腾讯（股票代码：sz.00700）的基本面分析无法完成，主要原因如下：\n\n### 1. **股票代码格式错误**\n   - 所有工具均返回 **\"股票代码应为9位\"** 的错误（如 `sz.00700` 仅8位）。根据Baostock API要求，A股代码格式为 **`sh.XXXXXX`**（上海）或 **`sz.XXXXXX`**（深圳），共9位字符（交易所代码2位+股票代码6位）。\n   - **腾讯实际上市地点为香港联交所**，代码为 `00700`，正确格式应为 **`hk.00700`**，但当前工具仅支持 **中国A股市场**（上海/深圳），**不支持港股**。\n\n### 2. **工具功能限制**\n   - 所有财务数据工具（如 `get_profit_data`、`get_balance_data` 等）均明确标注为 **\"中国A股股票\"** 服务，无法获取港股数据。\n\n### 解决方案\n若需分析腾讯的基本面，需使用支持港股的数据源或工具。当前环境下，可提供 **A股股票代码**（如贵州茅台 `sh.600519`、宁德时代 `sz.30075",
+    "llm_execution_time": 92.59755158424377,
+    "total_execution_time": 94.40449738502502
+  },
+  "success": true,
+  "error": null
+}

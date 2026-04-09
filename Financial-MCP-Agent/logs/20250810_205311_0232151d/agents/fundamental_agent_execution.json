@@ -1,0 +1,33 @@
+{
+  "agent_name": "fundamental_agent",
+  "start_time": "2025-08-10T20:53:11.948625",
+  "start_timestamp": 1754830391.9486315,
+  "input_data": {
+    "user_query": "请帮我分析一下腾讯(00700)这只股票怎么样",
+    "stock_code": "sz.00700",
+    "company_name": "腾讯",
+    "input_data_keys": [
+      "query",
+      "current_date",
+      "current_date_cn",
+      "current_time",
+      "current_weekday_cn",
+      "current_time_info",
+      "analysis_timestamp",
+      "company_name",
+      "stock_code"
+    ]
+  },
+  "status": "completed",
+  "end_time": "2025-08-10T20:55:00.759264",
+  "end_timestamp": 1754830500.7592862,
+  "execution_time_seconds": 108.81019973754883,
+  "output_data": {
+    "fundamental_analysis_length": 159,
+    "analysis_preview": "由于您提供的股票代码“sz.00700”不符合中国A股市场的编码规则（腾讯控股实际在香港联交所上市，代码为“hk.00700”），且当前工具仅支持A股股票数据查询，因此无法获取相关数据。\n\n请确认股票代码是否正确。若需分析A股上市公司，请提供正确的A股代码（如沪市“sh.XXXXXX”或深市“sz.XXXXXX”）。",
+    "llm_execution_time": 106.93657565116882,
+    "total_execution_time": 108.81019973754883
+  },
+  "success": true,
+  "error": null
+}

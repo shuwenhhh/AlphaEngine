@@ -1,0 +1,9 @@
+{
+  "agent_name": "main",
+  "start_time": "2025-08-10T20:53:11.945007",
+  "start_timestamp": 1754830391.945015,
+  "input_data": {
+    "user_query": "请帮我分析一下腾讯(00700)这只股票怎么样"
+  },
+  "status": "started"
+}

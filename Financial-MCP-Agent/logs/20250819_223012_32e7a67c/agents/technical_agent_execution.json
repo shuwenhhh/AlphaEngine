@@ -1,0 +1,33 @@
+{
+  "agent_name": "technical_agent",
+  "start_time": "2025-08-19T22:30:13.409079",
+  "start_timestamp": 1755613813.4090853,
+  "input_data": {
+    "user_query": "帮我看看茅台(600519)这只股票值得投资吗",
+    "stock_code": "sh.600519",
+    "company_name": "茅台",
+    "input_data_keys": [
+      "query",
+      "current_date",
+      "current_date_cn",
+      "current_time",
+      "current_weekday_cn",
+      "current_time_info",
+      "analysis_timestamp",
+      "company_name",
+      "stock_code"
+    ]
+  },
+  "status": "completed",
+  "end_time": "2025-08-19T22:31:28.613041",
+  "end_timestamp": 1755613888.6130452,
+  "execution_time_seconds": 75.20368313789368,
+  "output_data": {
+    "technical_analysis_length": 2486,
+    "analysis_preview": "### 贵州茅台（sh.600519）技术分析报告  \n\n\n#### 一、基本信息回顾  \n通过 `get_stock_basic_info` 工具获取核心信息：  \n- 股票代码：sh.600519  \n- 股票名称：贵州茅台  \n- 所属行业：白酒（行业分类基于市场共识，工具返回未直接提供行业字段时结合常识补充）  \n\n\n#### 二、历史K线与价格趋势分析（2025-03-01至2025-08-19日线数据）  \n利用 `get_historical_k_data` 获取**近6个月日线数据**（共115个交易日），核心观察如下：  \n\n1. **价格趋势**：  \n   - 区间开盘价：1502.60（2025-03-03），收盘价：1438.00（2025-08-19），整体呈现**震荡下行**趋势，期间最大跌幅约11.4%（从3月14日高点1628.01回落至6月13日低点1426.95）。  \n   - 关键波动阶段：  \n     - **3-4月**：冲高回落（3月14日单日涨幅5.87%创阶段新高1628.01，4月7日放量下跌4.39%至1500.00）；  \n ",
+    "llm_execution_time": 74.0815920829773,
+    "total_execution_time": 75.20368313789368
+  },
+  "success": true,
+  "error": null
+}

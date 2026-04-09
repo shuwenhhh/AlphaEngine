@@ -1,0 +1,33 @@
+{
+  "agent_name": "news_agent",
+  "start_time": "2025-08-10T20:45:34.746203",
+  "start_timestamp": 1754829934.7462106,
+  "input_data": {
+    "user_query": "请帮我分析一下腾讯(00700)这只股票怎么样",
+    "stock_code": "sz.00700",
+    "company_name": "腾讯",
+    "input_data_keys": [
+      "query",
+      "current_date",
+      "current_date_cn",
+      "current_time",
+      "current_weekday_cn",
+      "current_time_info",
+      "analysis_timestamp",
+      "company_name",
+      "stock_code"
+    ]
+  },
+  "status": "completed",
+  "end_time": "2025-08-10T20:52:13.997487",
+  "end_timestamp": 1754830333.997497,
+  "execution_time_seconds": 399.2509412765503,
+  "output_data": {
+    "news_analysis_length": 2510,
+    "analysis_preview": "根据现有搜索结果，已获取腾讯2025年8月前后的关键动态信息，包括AI战略布局、业务合作及行业活动等核心内容。尽管2025年Q2财报数据尚未正式发布（业绩路演定于8月14日），但现有信息已覆盖技术进展、产品动态及行业趋势，能够支撑新闻分析框架。继续搜索可能导致信息重复或无法获取未公开数据，因此停止工具调用，基于已有内容进行综合分析。\n\n### 腾讯（sz.00700）新闻分析报告  \n#### **一、核心新闻汇总（2025年6月-8月）**  \n\n| **序号** | **新闻标题/核心事件**                                                                 | **发布时间**       | **情感分析** | **风险评估** | **关键内容**                                                                 |\n|----------|--------------------------------------------------------",
+    "llm_execution_time": 397.7725398540497,
+    "total_execution_time": 399.2509412765503
+  },
+  "success": true,
+  "error": null
+}

@@ -1,0 +1,33 @@
+{
+  "agent_name": "technical_agent",
+  "start_time": "2025-08-19T22:47:58.119147",
+  "start_timestamp": 1755614878.1191528,
+  "input_data": {
+    "user_query": "帮我看看茅台(600519)这只股票值得投资吗",
+    "stock_code": "sh.600519",
+    "company_name": "茅台",
+    "input_data_keys": [
+      "query",
+      "current_date",
+      "current_date_cn",
+      "current_time",
+      "current_weekday_cn",
+      "current_time_info",
+      "analysis_timestamp",
+      "company_name",
+      "stock_code"
+    ]
+  },
+  "status": "completed",
+  "end_time": "2025-08-19T22:49:24.054035",
+  "end_timestamp": 1755614964.0540395,
+  "execution_time_seconds": 85.93464708328247,
+  "output_data": {
+    "technical_analysis_length": 1916,
+    "analysis_preview": "### 贵州茅台（sh.600519）技术分析报告（2025-03-01至2025-08-19）  \n\n\n#### 一、基础信息与价格概览  \n通过 `get_stock_basic_info` 工具获取基本信息：  \n- 股票代码：sh.600519  \n- 股票名称：贵州茅台  \n\n\n#### 二、历史K线与价格趋势分析  \n通过 `get_historical_k_data` 工具获取**2025-03-01至2025-08-19的日线数据**，核心观察如下：  \n\n1. **价格趋势**：  \n   - 3月初开盘价1502.60元，8月19日收盘价1438.00元，整体呈现**“震荡下行→低位震荡”**格局：  \n     - 3-4月：快速下跌（如4月7日单日跌幅4.39%，收盘价1500元）；  \n     - 4-5月：短暂反弹（如5月14日单日涨幅2.81%，收盘价1634.99元）；  \n     - 5-7月：持续下行（7月31日收盘价1421.67元，创阶段新低）；  \n     - 7-8月：低位震荡（价格在1417-1446元区间波动）。  \n\n2. **技",
+    "llm_execution_time": 84.81017780303955,
+    "total_execution_time": 85.93464708328247
+  },
+  "success": true,
+  "error": null
+}

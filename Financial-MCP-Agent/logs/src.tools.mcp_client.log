@@ -1,0 +1,500 @@
+2025-08-10 10:37:27 - src.tools.mcp_client - INFO - 🔄 Initializing MultiServerMCPClient with config: {'a_share_mcp_v2': {'command': 'uv', 'args': ['run', '--directory', '/root/code/self-learn/a-share-mcp-is-just-i-need', 'python', 'mcp_server.py'], 'transport': 'stdio'}}
+2025-08-10 10:37:27 - src.tools.mcp_client - INFO - 🔄 Fetching tools from MCP server 'a_share_mcp_v2'...
+2025-08-10 10:37:27 - src.tools.mcp_client - INFO - 🔄 Initializing MultiServerMCPClient with config: {'a_share_mcp_v2': {'command': 'uv', 'args': ['run', '--directory', '/root/code/self-learn/a-share-mcp-is-just-i-need', 'python', 'mcp_server.py'], 'transport': 'stdio'}}
+2025-08-10 10:37:27 - src.tools.mcp_client - INFO - 🔄 Fetching tools from MCP server 'a_share_mcp_v2'...
+2025-08-10 10:37:27 - src.tools.mcp_client - INFO - 🔄 Initializing MultiServerMCPClient with config: {'a_share_mcp_v2': {'command': 'uv', 'args': ['run', '--directory', '/root/code/self-learn/a-share-mcp-is-just-i-need', 'python', 'mcp_server.py'], 'transport': 'stdio'}}
+2025-08-10 10:37:27 - src.tools.mcp_client - INFO - 🔄 Fetching tools from MCP server 'a_share_mcp_v2'...
+2025-08-10 10:37:27 - src.tools.mcp_client - INFO - 🔄 Initializing MultiServerMCPClient with config: {'a_share_mcp_v2': {'command': 'uv', 'args': ['run', '--directory', '/root/code/self-learn/a-share-mcp-is-just-i-need', 'python', 'mcp_server.py'], 'transport': 'stdio'}}
+2025-08-10 10:37:27 - src.tools.mcp_client - INFO - 🔄 Fetching tools from MCP server 'a_share_mcp_v2'...
+2025-08-10 10:37:28 - src.tools.mcp_client - ERROR - ✗ Failed to initialize MCP client or load tools: local variable 'tools' referenced before assignment
+Traceback (most recent call last):
+  File "/usr/lib/python3.10/asyncio/runners.py", line 44, in run
+    return loop.run_until_complete(main)
+  File "/usr/lib/python3.10/asyncio/base_events.py", line 636, in run_until_complete
+    self.run_forever()
+  File "/usr/lib/python3.10/asyncio/base_events.py", line 603, in run_forever
+    self._run_once()
+  File "/usr/lib/python3.10/asyncio/base_events.py", line 1871, in _run_once
+    event_list = self._selector.select(timeout)
+  File "/usr/lib/python3.10/selectors.py", line 469, in select
+    fd_event_list = self._selector.poll(timeout, max_ev)
+KeyboardInterrupt
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/root/code/self-learn/Financial-MCP-Agent/src/tools/mcp_client.py", line 55, in get_mcp_tools
+    loaded_tools = await _mcp_client_instance.get_tools()
+  File "/usr/local/lib/python3.10/dist-packages/langchain_mcp_adapters/client.py", line 137, in get_tools
+    tools_list = await asyncio.gather(*load_mcp_tool_tasks)
+  File "/usr/local/lib/python3.10/dist-packages/langchain_mcp_adapters/tools.py", line 140, in load_mcp_tools
+    convert_mcp_tool_to_langchain_tool(session, tool, connection=connection) for tool in tools
+UnboundLocalError: local variable 'tools' referenced before assignment
+2025-08-10 10:37:28 - src.tools.mcp_client - ERROR - ✗ Failed to initialize MCP client or load tools: local variable 'tools' referenced before assignment
+Traceback (most recent call last):
+  File "/usr/lib/python3.10/asyncio/runners.py", line 44, in run
+    return loop.run_until_complete(main)
+  File "/usr/lib/python3.10/asyncio/base_events.py", line 636, in run_until_complete
+    self.run_forever()
+  File "/usr/lib/python3.10/asyncio/base_events.py", line 603, in run_forever
+    self._run_once()
+  File "/usr/lib/python3.10/asyncio/base_events.py", line 1871, in _run_once
+    event_list = self._selector.select(timeout)
+  File "/usr/lib/python3.10/selectors.py", line 469, in select
+    fd_event_list = self._selector.poll(timeout, max_ev)
+KeyboardInterrupt
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/root/code/self-learn/Financial-MCP-Agent/src/tools/mcp_client.py", line 55, in get_mcp_tools
+    loaded_tools = await _mcp_client_instance.get_tools()
+  File "/usr/local/lib/python3.10/dist-packages/langchain_mcp_adapters/client.py", line 137, in get_tools
+    tools_list = await asyncio.gather(*load_mcp_tool_tasks)
+  File "/usr/local/lib/python3.10/dist-packages/langchain_mcp_adapters/tools.py", line 140, in load_mcp_tools
+    convert_mcp_tool_to_langchain_tool(session, tool, connection=connection) for tool in tools
+UnboundLocalError: local variable 'tools' referenced before assignment
+2025-08-10 10:37:28 - src.tools.mcp_client - ERROR - ✗ Failed to initialize MCP client or load tools: local variable 'tools' referenced before assignment
+Traceback (most recent call last):
+  File "/usr/lib/python3.10/asyncio/runners.py", line 44, in run
+    return loop.run_until_complete(main)
+  File "/usr/lib/python3.10/asyncio/base_events.py", line 636, in run_until_complete
+    self.run_forever()
+  File "/usr/lib/python3.10/asyncio/base_events.py", line 603, in run_forever
+    self._run_once()
+  File "/usr/lib/python3.10/asyncio/base_events.py", line 1871, in _run_once
+    event_list = self._selector.select(timeout)
+  File "/usr/lib/python3.10/selectors.py", line 469, in select
+    fd_event_list = self._selector.poll(timeout, max_ev)
+KeyboardInterrupt
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/root/code/self-learn/Financial-MCP-Agent/src/tools/mcp_client.py", line 55, in get_mcp_tools
+    loaded_tools = await _mcp_client_instance.get_tools()
+  File "/usr/local/lib/python3.10/dist-packages/langchain_mcp_adapters/client.py", line 137, in get_tools
+    tools_list = await asyncio.gather(*load_mcp_tool_tasks)
+  File "/usr/local/lib/python3.10/dist-packages/langchain_mcp_adapters/tools.py", line 140, in load_mcp_tools
+    convert_mcp_tool_to_langchain_tool(session, tool, connection=connection) for tool in tools
+UnboundLocalError: local variable 'tools' referenced before assignment
+2025-08-10 10:37:28 - src.tools.mcp_client - ERROR - ✗ Failed to initialize MCP client or load tools: local variable 'tools' referenced before assignment
+Traceback (most recent call last):
+  File "/usr/lib/python3.10/asyncio/runners.py", line 44, in run
+    return loop.run_until_complete(main)
+  File "/usr/lib/python3.10/asyncio/base_events.py", line 636, in run_until_complete
+    self.run_forever()
+  File "/usr/lib/python3.10/asyncio/base_events.py", line 603, in run_forever
+    self._run_once()
+  File "/usr/lib/python3.10/asyncio/base_events.py", line 1871, in _run_once
+    event_list = self._selector.select(timeout)
+  File "/usr/lib/python3.10/selectors.py", line 469, in select
+    fd_event_list = self._selector.poll(timeout, max_ev)
+KeyboardInterrupt
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/root/code/self-learn/Financial-MCP-Agent/src/tools/mcp_client.py", line 55, in get_mcp_tools
+    loaded_tools = await _mcp_client_instance.get_tools()
+  File "/usr/local/lib/python3.10/dist-packages/langchain_mcp_adapters/client.py", line 137, in get_tools
+    tools_list = await asyncio.gather(*load_mcp_tool_tasks)
+  File "/usr/local/lib/python3.10/dist-packages/langchain_mcp_adapters/tools.py", line 140, in load_mcp_tools
+    convert_mcp_tool_to_langchain_tool(session, tool, connection=connection) for tool in tools
+UnboundLocalError: local variable 'tools' referenced before assignment
+2025-08-10 10:38:08 - src.tools.mcp_client - INFO - 🔄 Initializing MultiServerMCPClient with config: {'a_share_mcp_v2': {'command': 'uv', 'args': ['run', '--directory', '/root/code/self-learn/a-share-mcp-is-just-i-need', 'python', 'mcp_server.py'], 'transport': 'stdio'}}
+2025-08-10 10:38:08 - src.tools.mcp_client - INFO - 🔄 Fetching tools from MCP server 'a_share_mcp_v2'...
+2025-08-10 10:38:08 - src.tools.mcp_client - INFO - 🔄 Initializing MultiServerMCPClient with config: {'a_share_mcp_v2': {'command': 'uv', 'args': ['run', '--directory', '/root/code/self-learn/a-share-mcp-is-just-i-need', 'python', 'mcp_server.py'], 'transport': 'stdio'}}
+2025-08-10 10:38:08 - src.tools.mcp_client - INFO - 🔄 Fetching tools from MCP server 'a_share_mcp_v2'...
+2025-08-10 10:38:08 - src.tools.mcp_client - INFO - 🔄 Initializing MultiServerMCPClient with config: {'a_share_mcp_v2': {'command': 'uv', 'args': ['run', '--directory', '/root/code/self-learn/a-share-mcp-is-just-i-need', 'python', 'mcp_server.py'], 'transport': 'stdio'}}
+2025-08-10 10:38:08 - src.tools.mcp_client - INFO - 🔄 Fetching tools from MCP server 'a_share_mcp_v2'...
+2025-08-10 10:38:08 - src.tools.mcp_client - INFO - 🔄 Initializing MultiServerMCPClient with config: {'a_share_mcp_v2': {'command': 'uv', 'args': ['run', '--directory', '/root/code/self-learn/a-share-mcp-is-just-i-need', 'python', 'mcp_server.py'], 'transport': 'stdio'}}
+2025-08-10 10:38:08 - src.tools.mcp_client - INFO - 🔄 Fetching tools from MCP server 'a_share_mcp_v2'...
+2025-08-10 10:38:11 - src.tools.mcp_client - INFO - ✓ Successfully loaded 27 tools from 'a_share_mcp_v2'.
+2025-08-10 10:38:11 - src.tools.mcp_client - INFO - ✓ Successfully loaded 27 tools from 'a_share_mcp_v2'.
+2025-08-10 10:38:11 - src.tools.mcp_client - INFO - ✓ Successfully loaded 27 tools from 'a_share_mcp_v2'.
+2025-08-10 10:38:11 - src.tools.mcp_client - INFO - ✓ Successfully loaded 27 tools from 'a_share_mcp_v2'.
+2025-08-10 10:45:58 - src.tools.mcp_client - INFO - 🔄 Initializing MultiServerMCPClient with config: {'a_share_mcp_v2': {'command': 'uv', 'args': ['run', '--directory', '/root/code/self-learn/a-share-mcp-is-just-i-need', 'python', 'mcp_server.py'], 'transport': 'stdio'}}
+2025-08-10 10:45:58 - src.tools.mcp_client - INFO - 🔄 Fetching tools from MCP server 'a_share_mcp_v2'...
+2025-08-10 10:45:58 - src.tools.mcp_client - INFO - 🔄 Initializing MultiServerMCPClient with config: {'a_share_mcp_v2': {'command': 'uv', 'args': ['run', '--directory', '/root/code/self-learn/a-share-mcp-is-just-i-need', 'python', 'mcp_server.py'], 'transport': 'stdio'}}
+2025-08-10 10:45:58 - src.tools.mcp_client - INFO - 🔄 Fetching tools from MCP server 'a_share_mcp_v2'...
+2025-08-10 10:45:58 - src.tools.mcp_client - INFO - 🔄 Initializing MultiServerMCPClient with config: {'a_share_mcp_v2': {'command': 'uv', 'args': ['run', '--directory', '/root/code/self-learn/a-share-mcp-is-just-i-need', 'python', 'mcp_server.py'], 'transport': 'stdio'}}
+2025-08-10 10:45:58 - src.tools.mcp_client - INFO - 🔄 Fetching tools from MCP server 'a_share_mcp_v2'...
+2025-08-10 10:45:58 - src.tools.mcp_client - INFO - 🔄 Initializing MultiServerMCPClient with config: {'a_share_mcp_v2': {'command': 'uv', 'args': ['run', '--directory', '/root/code/self-learn/a-share-mcp-is-just-i-need', 'python', 'mcp_server.py'], 'transport': 'stdio'}}
+2025-08-10 10:45:58 - src.tools.mcp_client - INFO - 🔄 Fetching tools from MCP server 'a_share_mcp_v2'...
+2025-08-10 10:46:00 - src.tools.mcp_client - INFO - ✓ Successfully loaded 27 tools from 'a_share_mcp_v2'.
+2025-08-10 10:46:01 - src.tools.mcp_client - INFO - ✓ Successfully loaded 27 tools from 'a_share_mcp_v2'.
+2025-08-10 10:46:01 - src.tools.mcp_client - INFO - ✓ Successfully loaded 27 tools from 'a_share_mcp_v2'.
+2025-08-10 10:46:01 - src.tools.mcp_client - INFO - ✓ Successfully loaded 27 tools from 'a_share_mcp_v2'.
+2025-08-10 11:03:07 - src.tools.mcp_client - INFO - 🔄 Initializing MultiServerMCPClient with config: {'a_share_mcp_v2': {'command': 'uv', 'args': ['run', '--directory', '/root/code/self-learn/a-share-mcp-is-just-i-need', 'python', 'mcp_server.py'], 'transport': 'stdio'}}
+2025-08-10 11:03:07 - src.tools.mcp_client - INFO - 🔄 Fetching tools from MCP server 'a_share_mcp_v2'...
+2025-08-10 11:03:07 - src.tools.mcp_client - INFO - 🔄 Initializing MultiServerMCPClient with config: {'a_share_mcp_v2': {'command': 'uv', 'args': ['run', '--directory', '/root/code/self-learn/a-share-mcp-is-just-i-need', 'python', 'mcp_server.py'], 'transport': 'stdio'}}
+2025-08-10 11:03:07 - src.tools.mcp_client - INFO - 🔄 Fetching tools from MCP server 'a_share_mcp_v2'...
+2025-08-10 11:03:07 - src.tools.mcp_client - INFO - 🔄 Initializing MultiServerMCPClient with config: {'a_share_mcp_v2': {'command': 'uv', 'args': ['run', '--directory', '/root/code/self-learn/a-share-mcp-is-just-i-need', 'python', 'mcp_server.py'], 'transport': 'stdio'}}
+2025-08-10 11:03:07 - src.tools.mcp_client - INFO - 🔄 Fetching tools from MCP server 'a_share_mcp_v2'...
+2025-08-10 11:03:07 - src.tools.mcp_client - INFO - 🔄 Initializing MultiServerMCPClient with config: {'a_share_mcp_v2': {'command': 'uv', 'args': ['run', '--directory', '/root/code/self-learn/a-share-mcp-is-just-i-need', 'python', 'mcp_server.py'], 'transport': 'stdio'}}
+2025-08-10 11:03:07 - src.tools.mcp_client - INFO - 🔄 Fetching tools from MCP server 'a_share_mcp_v2'...
+2025-08-10 11:03:10 - src.tools.mcp_client - INFO - ✓ Successfully loaded 27 tools from 'a_share_mcp_v2'.
+2025-08-10 11:03:10 - src.tools.mcp_client - INFO - ✓ Successfully loaded 27 tools from 'a_share_mcp_v2'.
+2025-08-10 11:03:10 - src.tools.mcp_client - INFO - ✓ Successfully loaded 27 tools from 'a_share_mcp_v2'.
+2025-08-10 11:03:10 - src.tools.mcp_client - INFO - ✓ Successfully loaded 27 tools from 'a_share_mcp_v2'.
+2025-08-10 11:30:18 - src.tools.mcp_client - INFO - 🔄 Initializing MultiServerMCPClient with config: {'a_share_mcp_v2': {'command': 'uv', 'args': ['run', '--directory', '/root/code/self-learn/a-share-mcp-is-just-i-need', 'python', 'mcp_server.py'], 'transport': 'stdio'}}
+2025-08-10 11:30:18 - src.tools.mcp_client - INFO - 🔄 Fetching tools from MCP server 'a_share_mcp_v2'...
+2025-08-10 11:30:18 - src.tools.mcp_client - INFO - 🔄 Initializing MultiServerMCPClient with config: {'a_share_mcp_v2': {'command': 'uv', 'args': ['run', '--directory', '/root/code/self-learn/a-share-mcp-is-just-i-need', 'python', 'mcp_server.py'], 'transport': 'stdio'}}
+2025-08-10 11:30:18 - src.tools.mcp_client - INFO - 🔄 Fetching tools from MCP server 'a_share_mcp_v2'...
+2025-08-10 11:30:18 - src.tools.mcp_client - INFO - 🔄 Initializing MultiServerMCPClient with config: {'a_share_mcp_v2': {'command': 'uv', 'args': ['run', '--directory', '/root/code/self-learn/a-share-mcp-is-just-i-need', 'python', 'mcp_server.py'], 'transport': 'stdio'}}
+2025-08-10 11:30:18 - src.tools.mcp_client - INFO - 🔄 Fetching tools from MCP server 'a_share_mcp_v2'...
+2025-08-10 11:30:18 - src.tools.mcp_client - INFO - 🔄 Initializing MultiServerMCPClient with config: {'a_share_mcp_v2': {'command': 'uv', 'args': ['run', '--directory', '/root/code/self-learn/a-share-mcp-is-just-i-need', 'python', 'mcp_server.py'], 'transport': 'stdio'}}
+2025-08-10 11:30:18 - src.tools.mcp_client - INFO - 🔄 Fetching tools from MCP server 'a_share_mcp_v2'...
+2025-08-10 11:30:20 - src.tools.mcp_client - INFO - ✓ Successfully loaded 27 tools from 'a_share_mcp_v2'.
+2025-08-10 11:30:20 - src.tools.mcp_client - INFO - ✓ Successfully loaded 27 tools from 'a_share_mcp_v2'.
+2025-08-10 11:30:21 - src.tools.mcp_client - INFO - ✓ Successfully loaded 27 tools from 'a_share_mcp_v2'.
+2025-08-10 11:30:21 - src.tools.mcp_client - INFO - ✓ Successfully loaded 27 tools from 'a_share_mcp_v2'.
+2025-08-10 20:44:10 - src.tools.mcp_client - INFO - 🔄 Initializing MultiServerMCPClient with config: {'a_share_mcp_v2': {'command': 'uv', 'args': ['run', '--directory', '/root/autodl-tmp/Finance/a-share-mcp-is-just-i-need', 'python', 'mcp_server.py'], 'transport': 'stdio'}}
+2025-08-10 20:44:10 - src.tools.mcp_client - INFO - 🔄 Fetching tools from MCP server 'a_share_mcp_v2'...
+2025-08-10 20:44:10 - src.tools.mcp_client - INFO - 🔄 Initializing MultiServerMCPClient with config: {'a_share_mcp_v2': {'command': 'uv', 'args': ['run', '--directory', '/root/autodl-tmp/Finance/a-share-mcp-is-just-i-need', 'python', 'mcp_server.py'], 'transport': 'stdio'}}
+2025-08-10 20:44:10 - src.tools.mcp_client - INFO - 🔄 Fetching tools from MCP server 'a_share_mcp_v2'...
+2025-08-10 20:44:10 - src.tools.mcp_client - INFO - 🔄 Initializing MultiServerMCPClient with config: {'a_share_mcp_v2': {'command': 'uv', 'args': ['run', '--directory', '/root/autodl-tmp/Finance/a-share-mcp-is-just-i-need', 'python', 'mcp_server.py'], 'transport': 'stdio'}}
+2025-08-10 20:44:10 - src.tools.mcp_client - INFO - 🔄 Fetching tools from MCP server 'a_share_mcp_v2'...
+2025-08-10 20:44:10 - src.tools.mcp_client - INFO - 🔄 Initializing MultiServerMCPClient with config: {'a_share_mcp_v2': {'command': 'uv', 'args': ['run', '--directory', '/root/autodl-tmp/Finance/a-share-mcp-is-just-i-need', 'python', 'mcp_server.py'], 'transport': 'stdio'}}
+2025-08-10 20:44:10 - src.tools.mcp_client - INFO - 🔄 Fetching tools from MCP server 'a_share_mcp_v2'...
+2025-08-10 20:44:12 - src.tools.mcp_client - ERROR - ✗ Failed to initialize MCP client or load tools: unhandled errors in a TaskGroup (1 sub-exception)
+  + Exception Group Traceback (most recent call last):
+  |   File "/root/autodl-tmp/Finance/Financial-MCP-Agent/src/tools/mcp_client.py", line 55, in get_mcp_tools
+  |     loaded_tools = await _mcp_client_instance.get_tools()
+  |                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  |   File "/root/miniconda3/lib/python3.12/site-packages/langchain_mcp_adapters/client.py", line 142, in get_tools
+  |     tools_list = await asyncio.gather(*load_mcp_tool_tasks)
+  |                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  |   File "/root/miniconda3/lib/python3.12/site-packages/langchain_mcp_adapters/tools.py", line 168, in load_mcp_tools
+  |     async with create_session(connection) as tool_session:
+  |   File "/root/miniconda3/lib/python3.12/contextlib.py", line 231, in __aexit__
+  |     await self.gen.athrow(value)
+  |   File "/root/miniconda3/lib/python3.12/site-packages/langchain_mcp_adapters/sessions.py", line 394, in create_session
+  |     async with _create_stdio_session(**params) as session:
+  |   File "/root/miniconda3/lib/python3.12/contextlib.py", line 231, in __aexit__
+  |     await self.gen.athrow(value)
+  |   File "/root/miniconda3/lib/python3.12/site-packages/langchain_mcp_adapters/sessions.py", line 220, in _create_stdio_session
+  |     async with (
+  |   File "/root/miniconda3/lib/python3.12/contextlib.py", line 231, in __aexit__
+  |     await self.gen.athrow(value)
+  |   File "/root/miniconda3/lib/python3.12/site-packages/mcp/client/stdio/__init__.py", line 180, in stdio_client
+  |     async with (
+  |   File "/root/miniconda3/lib/python3.12/site-packages/anyio/_backends/_asyncio.py", line 772, in __aexit__
+  |     raise BaseExceptionGroup(
+  | ExceptionGroup: unhandled errors in a TaskGroup (1 sub-exception)
+  +-+---------------- 1 ----------------
+    | Exception Group Traceback (most recent call last):
+    |   File "/root/miniconda3/lib/python3.12/site-packages/mcp/client/stdio/__init__.py", line 187, in stdio_client
+    |     yield read_stream, write_stream
+    |   File "/root/miniconda3/lib/python3.12/site-packages/langchain_mcp_adapters/sessions.py", line 220, in _create_stdio_session
+    |     async with (
+    |   File "/root/miniconda3/lib/python3.12/site-packages/mcp/shared/session.py", line 218, in __aexit__
+    |     return await self._task_group.__aexit__(exc_type, exc_val, exc_tb)
+    |            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    |   File "/root/miniconda3/lib/python3.12/site-packages/anyio/_backends/_asyncio.py", line 772, in __aexit__
+    |     raise BaseExceptionGroup(
+    | ExceptionGroup: unhandled errors in a TaskGroup (1 sub-exception)
+    +-+---------------- 1 ----------------
+      | Traceback (most recent call last):
+      |   File "/root/miniconda3/lib/python3.12/site-packages/langchain_mcp_adapters/sessions.py", line 224, in _create_stdio_session
+      |     yield session
+      |   File "/root/miniconda3/lib/python3.12/site-packages/langchain_mcp_adapters/sessions.py", line 395, in create_session
+      |     yield session
+      |   File "/root/miniconda3/lib/python3.12/site-packages/langchain_mcp_adapters/tools.py", line 169, in load_mcp_tools
+      |     await tool_session.initialize()
+      |   File "/root/miniconda3/lib/python3.12/site-packages/mcp/client/session.py", line 151, in initialize
+      |     result = await self.send_request(
+      |              ^^^^^^^^^^^^^^^^^^^^^^^^
+      |   File "/root/miniconda3/lib/python3.12/site-packages/mcp/shared/session.py", line 286, in send_request
+      |     raise McpError(response_or_error.error)
+      | mcp.shared.exceptions.McpError: Connection closed
+      +------------------------------------
+2025-08-10 20:44:12 - src.tools.mcp_client - ERROR - ✗ Failed to initialize MCP client or load tools: unhandled errors in a TaskGroup (1 sub-exception)
+  + Exception Group Traceback (most recent call last):
+  |   File "/root/autodl-tmp/Finance/Financial-MCP-Agent/src/tools/mcp_client.py", line 55, in get_mcp_tools
+  |     loaded_tools = await _mcp_client_instance.get_tools()
+  |                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  |   File "/root/miniconda3/lib/python3.12/site-packages/langchain_mcp_adapters/client.py", line 142, in get_tools
+  |     tools_list = await asyncio.gather(*load_mcp_tool_tasks)
+  |                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  |   File "/root/miniconda3/lib/python3.12/site-packages/langchain_mcp_adapters/tools.py", line 168, in load_mcp_tools
+  |     async with create_session(connection) as tool_session:
+  |   File "/root/miniconda3/lib/python3.12/contextlib.py", line 231, in __aexit__
+  |     await self.gen.athrow(value)
+  |   File "/root/miniconda3/lib/python3.12/site-packages/langchain_mcp_adapters/sessions.py", line 394, in create_session
+  |     async with _create_stdio_session(**params) as session:
+  |   File "/root/miniconda3/lib/python3.12/contextlib.py", line 231, in __aexit__
+  |     await self.gen.athrow(value)
+  |   File "/root/miniconda3/lib/python3.12/site-packages/langchain_mcp_adapters/sessions.py", line 220, in _create_stdio_session
+  |     async with (
+  |   File "/root/miniconda3/lib/python3.12/contextlib.py", line 231, in __aexit__
+  |     await self.gen.athrow(value)
+  |   File "/root/miniconda3/lib/python3.12/site-packages/mcp/client/stdio/__init__.py", line 180, in stdio_client
+  |     async with (
+  |   File "/root/miniconda3/lib/python3.12/site-packages/anyio/_backends/_asyncio.py", line 772, in __aexit__
+  |     raise BaseExceptionGroup(
+  | ExceptionGroup: unhandled errors in a TaskGroup (1 sub-exception)
+  +-+---------------- 1 ----------------
+    | Exception Group Traceback (most recent call last):
+    |   File "/root/miniconda3/lib/python3.12/site-packages/mcp/client/stdio/__init__.py", line 187, in stdio_client
+    |     yield read_stream, write_stream
+    |   File "/root/miniconda3/lib/python3.12/site-packages/langchain_mcp_adapters/sessions.py", line 220, in _create_stdio_session
+    |     async with (
+    |   File "/root/miniconda3/lib/python3.12/site-packages/mcp/shared/session.py", line 218, in __aexit__
+    |     return await self._task_group.__aexit__(exc_type, exc_val, exc_tb)
+    |            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    |   File "/root/miniconda3/lib/python3.12/site-packages/anyio/_backends/_asyncio.py", line 772, in __aexit__
+    |     raise BaseExceptionGroup(
+    | ExceptionGroup: unhandled errors in a TaskGroup (1 sub-exception)
+    +-+---------------- 1 ----------------
+      | Traceback (most recent call last):
+      |   File "/root/miniconda3/lib/python3.12/site-packages/langchain_mcp_adapters/sessions.py", line 224, in _create_stdio_session
+      |     yield session
+      |   File "/root/miniconda3/lib/python3.12/site-packages/langchain_mcp_adapters/sessions.py", line 395, in create_session
+      |     yield session
+      |   File "/root/miniconda3/lib/python3.12/site-packages/langchain_mcp_adapters/tools.py", line 169, in load_mcp_tools
+      |     await tool_session.initialize()
+      |   File "/root/miniconda3/lib/python3.12/site-packages/mcp/client/session.py", line 151, in initialize
+      |     result = await self.send_request(
+      |              ^^^^^^^^^^^^^^^^^^^^^^^^
+      |   File "/root/miniconda3/lib/python3.12/site-packages/mcp/shared/session.py", line 286, in send_request
+      |     raise McpError(response_or_error.error)
+      | mcp.shared.exceptions.McpError: Connection closed
+      +------------------------------------
+2025-08-10 20:44:12 - src.tools.mcp_client - ERROR - ✗ Failed to initialize MCP client or load tools: unhandled errors in a TaskGroup (1 sub-exception)
+  + Exception Group Traceback (most recent call last):
+  |   File "/root/autodl-tmp/Finance/Financial-MCP-Agent/src/tools/mcp_client.py", line 55, in get_mcp_tools
+  |     loaded_tools = await _mcp_client_instance.get_tools()
+  |                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  |   File "/root/miniconda3/lib/python3.12/site-packages/langchain_mcp_adapters/client.py", line 142, in get_tools
+  |     tools_list = await asyncio.gather(*load_mcp_tool_tasks)
+  |                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  |   File "/root/miniconda3/lib/python3.12/site-packages/langchain_mcp_adapters/tools.py", line 168, in load_mcp_tools
+  |     async with create_session(connection) as tool_session:
+  |   File "/root/miniconda3/lib/python3.12/contextlib.py", line 231, in __aexit__
+  |     await self.gen.athrow(value)
+  |   File "/root/miniconda3/lib/python3.12/site-packages/langchain_mcp_adapters/sessions.py", line 394, in create_session
+  |     async with _create_stdio_session(**params) as session:
+  |   File "/root/miniconda3/lib/python3.12/contextlib.py", line 231, in __aexit__
+  |     await self.gen.athrow(value)
+  |   File "/root/miniconda3/lib/python3.12/site-packages/langchain_mcp_adapters/sessions.py", line 220, in _create_stdio_session
+  |     async with (
+  |   File "/root/miniconda3/lib/python3.12/contextlib.py", line 231, in __aexit__
+  |     await self.gen.athrow(value)
+  |   File "/root/miniconda3/lib/python3.12/site-packages/mcp/client/stdio/__init__.py", line 180, in stdio_client
+  |     async with (
+  |   File "/root/miniconda3/lib/python3.12/site-packages/anyio/_backends/_asyncio.py", line 772, in __aexit__
+  |     raise BaseExceptionGroup(
+  | ExceptionGroup: unhandled errors in a TaskGroup (1 sub-exception)
+  +-+---------------- 1 ----------------
+    | Exception Group Traceback (most recent call last):
+    |   File "/root/miniconda3/lib/python3.12/site-packages/mcp/client/stdio/__init__.py", line 187, in stdio_client
+    |     yield read_stream, write_stream
+    |   File "/root/miniconda3/lib/python3.12/site-packages/langchain_mcp_adapters/sessions.py", line 220, in _create_stdio_session
+    |     async with (
+    |   File "/root/miniconda3/lib/python3.12/site-packages/mcp/shared/session.py", line 218, in __aexit__
+    |     return await self._task_group.__aexit__(exc_type, exc_val, exc_tb)
+    |            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    |   File "/root/miniconda3/lib/python3.12/site-packages/anyio/_backends/_asyncio.py", line 772, in __aexit__
+    |     raise BaseExceptionGroup(
+    | ExceptionGroup: unhandled errors in a TaskGroup (1 sub-exception)
+    +-+---------------- 1 ----------------
+      | Traceback (most recent call last):
+      |   File "/root/miniconda3/lib/python3.12/site-packages/langchain_mcp_adapters/sessions.py", line 224, in _create_stdio_session
+      |     yield session
+      |   File "/root/miniconda3/lib/python3.12/site-packages/langchain_mcp_adapters/sessions.py", line 395, in create_session
+      |     yield session
+      |   File "/root/miniconda3/lib/python3.12/site-packages/langchain_mcp_adapters/tools.py", line 169, in load_mcp_tools
+      |     await tool_session.initialize()
+      |   File "/root/miniconda3/lib/python3.12/site-packages/mcp/client/session.py", line 151, in initialize
+      |     result = await self.send_request(
+      |              ^^^^^^^^^^^^^^^^^^^^^^^^
+      |   File "/root/miniconda3/lib/python3.12/site-packages/mcp/shared/session.py", line 286, in send_request
+      |     raise McpError(response_or_error.error)
+      | mcp.shared.exceptions.McpError: Connection closed
+      +------------------------------------
+2025-08-10 20:44:12 - src.tools.mcp_client - ERROR - ✗ Failed to initialize MCP client or load tools: unhandled errors in a TaskGroup (1 sub-exception)
+  + Exception Group Traceback (most recent call last):
+  |   File "/root/autodl-tmp/Finance/Financial-MCP-Agent/src/tools/mcp_client.py", line 55, in get_mcp_tools
+  |     loaded_tools = await _mcp_client_instance.get_tools()
+  |                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  |   File "/root/miniconda3/lib/python3.12/site-packages/langchain_mcp_adapters/client.py", line 142, in get_tools
+  |     tools_list = await asyncio.gather(*load_mcp_tool_tasks)
+  |                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  |   File "/root/miniconda3/lib/python3.12/site-packages/langchain_mcp_adapters/tools.py", line 168, in load_mcp_tools
+  |     async with create_session(connection) as tool_session:
+  |   File "/root/miniconda3/lib/python3.12/contextlib.py", line 231, in __aexit__
+  |     await self.gen.athrow(value)
+  |   File "/root/miniconda3/lib/python3.12/site-packages/langchain_mcp_adapters/sessions.py", line 394, in create_session
+  |     async with _create_stdio_session(**params) as session:
+  |   File "/root/miniconda3/lib/python3.12/contextlib.py", line 231, in __aexit__
+  |     await self.gen.athrow(value)
+  |   File "/root/miniconda3/lib/python3.12/site-packages/langchain_mcp_adapters/sessions.py", line 220, in _create_stdio_session
+  |     async with (
+  |   File "/root/miniconda3/lib/python3.12/contextlib.py", line 231, in __aexit__
+  |     await self.gen.athrow(value)
+  |   File "/root/miniconda3/lib/python3.12/site-packages/mcp/client/stdio/__init__.py", line 180, in stdio_client
+  |     async with (
+  |   File "/root/miniconda3/lib/python3.12/site-packages/anyio/_backends/_asyncio.py", line 772, in __aexit__
+  |     raise BaseExceptionGroup(
+  | ExceptionGroup: unhandled errors in a TaskGroup (1 sub-exception)
+  +-+---------------- 1 ----------------
+    | Exception Group Traceback (most recent call last):
+    |   File "/root/miniconda3/lib/python3.12/site-packages/mcp/client/stdio/__init__.py", line 187, in stdio_client
+    |     yield read_stream, write_stream
+    |   File "/root/miniconda3/lib/python3.12/site-packages/langchain_mcp_adapters/sessions.py", line 220, in _create_stdio_session
+    |     async with (
+    |   File "/root/miniconda3/lib/python3.12/site-packages/mcp/shared/session.py", line 218, in __aexit__
+    |     return await self._task_group.__aexit__(exc_type, exc_val, exc_tb)
+    |            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    |   File "/root/miniconda3/lib/python3.12/site-packages/anyio/_backends/_asyncio.py", line 772, in __aexit__
+    |     raise BaseExceptionGroup(
+    | ExceptionGroup: unhandled errors in a TaskGroup (1 sub-exception)
+    +-+---------------- 1 ----------------
+      | Traceback (most recent call last):
+      |   File "/root/miniconda3/lib/python3.12/site-packages/langchain_mcp_adapters/sessions.py", line 224, in _create_stdio_session
+      |     yield session
+      |   File "/root/miniconda3/lib/python3.12/site-packages/langchain_mcp_adapters/sessions.py", line 395, in create_session
+      |     yield session
+      |   File "/root/miniconda3/lib/python3.12/site-packages/langchain_mcp_adapters/tools.py", line 169, in load_mcp_tools
+      |     await tool_session.initialize()
+      |   File "/root/miniconda3/lib/python3.12/site-packages/mcp/client/session.py", line 151, in initialize
+      |     result = await self.send_request(
+      |              ^^^^^^^^^^^^^^^^^^^^^^^^
+      |   File "/root/miniconda3/lib/python3.12/site-packages/mcp/shared/session.py", line 286, in send_request
+      |     raise McpError(response_or_error.error)
+      | mcp.shared.exceptions.McpError: Connection closed
+      +------------------------------------
+2025-08-10 20:45:34 - src.tools.mcp_client - INFO - 🔄 Initializing MultiServerMCPClient with config: {'a_share_mcp_v2': {'command': 'uv', 'args': ['run', '--directory', '/root/autodl-tmp/Finance/a-share-mcp-is-just-i-need', 'python', 'mcp_server.py'], 'transport': 'stdio'}}
+2025-08-10 20:45:34 - src.tools.mcp_client - INFO - 🔄 Fetching tools from MCP server 'a_share_mcp_v2'...
+2025-08-10 20:45:34 - src.tools.mcp_client - INFO - 🔄 Initializing MultiServerMCPClient with config: {'a_share_mcp_v2': {'command': 'uv', 'args': ['run', '--directory', '/root/autodl-tmp/Finance/a-share-mcp-is-just-i-need', 'python', 'mcp_server.py'], 'transport': 'stdio'}}
+2025-08-10 20:45:34 - src.tools.mcp_client - INFO - 🔄 Fetching tools from MCP server 'a_share_mcp_v2'...
+2025-08-10 20:45:34 - src.tools.mcp_client - INFO - 🔄 Initializing MultiServerMCPClient with config: {'a_share_mcp_v2': {'command': 'uv', 'args': ['run', '--directory', '/root/autodl-tmp/Finance/a-share-mcp-is-just-i-need', 'python', 'mcp_server.py'], 'transport': 'stdio'}}
+2025-08-10 20:45:34 - src.tools.mcp_client - INFO - 🔄 Fetching tools from MCP server 'a_share_mcp_v2'...
+2025-08-10 20:45:34 - src.tools.mcp_client - INFO - 🔄 Initializing MultiServerMCPClient with config: {'a_share_mcp_v2': {'command': 'uv', 'args': ['run', '--directory', '/root/autodl-tmp/Finance/a-share-mcp-is-just-i-need', 'python', 'mcp_server.py'], 'transport': 'stdio'}}
+2025-08-10 20:45:34 - src.tools.mcp_client - INFO - 🔄 Fetching tools from MCP server 'a_share_mcp_v2'...
+2025-08-10 20:45:36 - src.tools.mcp_client - INFO - ✓ Successfully loaded 27 tools from 'a_share_mcp_v2'.
+2025-08-10 20:45:36 - src.tools.mcp_client - INFO - ✓ Successfully loaded 27 tools from 'a_share_mcp_v2'.
+2025-08-10 20:45:36 - src.tools.mcp_client - INFO - ✓ Successfully loaded 27 tools from 'a_share_mcp_v2'.
+2025-08-10 20:45:36 - src.tools.mcp_client - INFO - ✓ Successfully loaded 27 tools from 'a_share_mcp_v2'.
+2025-08-10 20:53:12 - src.tools.mcp_client - INFO - 🔄 Initializing MultiServerMCPClient with config: {'a_share_mcp_v2': {'command': 'uv', 'args': ['run', '--directory', '/root/autodl-tmp/Finance/a-share-mcp-is-just-i-need', 'python', 'mcp_server.py'], 'transport': 'stdio'}}
+2025-08-10 20:53:12 - src.tools.mcp_client - INFO - 🔄 Fetching tools from MCP server 'a_share_mcp_v2'...
+2025-08-10 20:53:12 - src.tools.mcp_client - INFO - 🔄 Initializing MultiServerMCPClient with config: {'a_share_mcp_v2': {'command': 'uv', 'args': ['run', '--directory', '/root/autodl-tmp/Finance/a-share-mcp-is-just-i-need', 'python', 'mcp_server.py'], 'transport': 'stdio'}}
+2025-08-10 20:53:12 - src.tools.mcp_client - INFO - 🔄 Fetching tools from MCP server 'a_share_mcp_v2'...
+2025-08-10 20:53:12 - src.tools.mcp_client - INFO - 🔄 Initializing MultiServerMCPClient with config: {'a_share_mcp_v2': {'command': 'uv', 'args': ['run', '--directory', '/root/autodl-tmp/Finance/a-share-mcp-is-just-i-need', 'python', 'mcp_server.py'], 'transport': 'stdio'}}
+2025-08-10 20:53:12 - src.tools.mcp_client - INFO - 🔄 Fetching tools from MCP server 'a_share_mcp_v2'...
+2025-08-10 20:53:12 - src.tools.mcp_client - INFO - 🔄 Initializing MultiServerMCPClient with config: {'a_share_mcp_v2': {'command': 'uv', 'args': ['run', '--directory', '/root/autodl-tmp/Finance/a-share-mcp-is-just-i-need', 'python', 'mcp_server.py'], 'transport': 'stdio'}}
+2025-08-10 20:53:12 - src.tools.mcp_client - INFO - 🔄 Fetching tools from MCP server 'a_share_mcp_v2'...
+2025-08-10 20:53:13 - src.tools.mcp_client - INFO - ✓ Successfully loaded 27 tools from 'a_share_mcp_v2'.
+2025-08-10 20:53:13 - src.tools.mcp_client - INFO - ✓ Successfully loaded 27 tools from 'a_share_mcp_v2'.
+2025-08-10 20:53:13 - src.tools.mcp_client - INFO - ✓ Successfully loaded 27 tools from 'a_share_mcp_v2'.
+2025-08-10 20:53:13 - src.tools.mcp_client - INFO - ✓ Successfully loaded 27 tools from 'a_share_mcp_v2'.
+2025-08-10 20:56:02 - src.tools.mcp_client - INFO - 🔄 Initializing MultiServerMCPClient with config: {'a_share_mcp_v2': {'command': 'uv', 'args': ['run', '--directory', '/root/autodl-tmp/Finance/a-share-mcp-is-just-i-need', 'python', 'mcp_server.py'], 'transport': 'stdio'}}
+2025-08-10 20:56:02 - src.tools.mcp_client - INFO - 🔄 Fetching tools from MCP server 'a_share_mcp_v2'...
+2025-08-10 20:56:02 - src.tools.mcp_client - INFO - 🔄 Initializing MultiServerMCPClient with config: {'a_share_mcp_v2': {'command': 'uv', 'args': ['run', '--directory', '/root/autodl-tmp/Finance/a-share-mcp-is-just-i-need', 'python', 'mcp_server.py'], 'transport': 'stdio'}}
+2025-08-10 20:56:02 - src.tools.mcp_client - INFO - 🔄 Fetching tools from MCP server 'a_share_mcp_v2'...
+2025-08-10 20:56:02 - src.tools.mcp_client - INFO - 🔄 Initializing MultiServerMCPClient with config: {'a_share_mcp_v2': {'command': 'uv', 'args': ['run', '--directory', '/root/autodl-tmp/Finance/a-share-mcp-is-just-i-need', 'python', 'mcp_server.py'], 'transport': 'stdio'}}
+2025-08-10 20:56:02 - src.tools.mcp_client - INFO - 🔄 Fetching tools from MCP server 'a_share_mcp_v2'...
+2025-08-10 20:56:02 - src.tools.mcp_client - INFO - 🔄 Initializing MultiServerMCPClient with config: {'a_share_mcp_v2': {'command': 'uv', 'args': ['run', '--directory', '/root/autodl-tmp/Finance/a-share-mcp-is-just-i-need', 'python', 'mcp_server.py'], 'transport': 'stdio'}}
+2025-08-10 20:56:02 - src.tools.mcp_client - INFO - 🔄 Fetching tools from MCP server 'a_share_mcp_v2'...
+2025-08-10 20:56:03 - src.tools.mcp_client - INFO - ✓ Successfully loaded 27 tools from 'a_share_mcp_v2'.
+2025-08-10 20:56:03 - src.tools.mcp_client - INFO - ✓ Successfully loaded 27 tools from 'a_share_mcp_v2'.
+2025-08-10 20:56:03 - src.tools.mcp_client - INFO - ✓ Successfully loaded 27 tools from 'a_share_mcp_v2'.
+2025-08-10 20:56:03 - src.tools.mcp_client - INFO - ✓ Successfully loaded 27 tools from 'a_share_mcp_v2'.
+2025-08-10 21:07:56 - src.tools.mcp_client - INFO - 🔄 Initializing MultiServerMCPClient with config: {'a_share_mcp_v2': {'command': 'uv', 'args': ['run', '--directory', '/root/autodl-tmp/Finance/a-share-mcp-is-just-i-need', 'python', 'mcp_server.py'], 'transport': 'stdio'}}
+2025-08-10 21:07:56 - src.tools.mcp_client - INFO - 🔄 Fetching tools from MCP server 'a_share_mcp_v2'...
+2025-08-10 21:07:56 - src.tools.mcp_client - INFO - 🔄 Initializing MultiServerMCPClient with config: {'a_share_mcp_v2': {'command': 'uv', 'args': ['run', '--directory', '/root/autodl-tmp/Finance/a-share-mcp-is-just-i-need', 'python', 'mcp_server.py'], 'transport': 'stdio'}}
+2025-08-10 21:07:56 - src.tools.mcp_client - INFO - 🔄 Fetching tools from MCP server 'a_share_mcp_v2'...
+2025-08-10 21:07:56 - src.tools.mcp_client - INFO - 🔄 Initializing MultiServerMCPClient with config: {'a_share_mcp_v2': {'command': 'uv', 'args': ['run', '--directory', '/root/autodl-tmp/Finance/a-share-mcp-is-just-i-need', 'python', 'mcp_server.py'], 'transport': 'stdio'}}
+2025-08-10 21:07:56 - src.tools.mcp_client - INFO - 🔄 Fetching tools from MCP server 'a_share_mcp_v2'...
+2025-08-10 21:07:56 - src.tools.mcp_client - INFO - 🔄 Initializing MultiServerMCPClient with config: {'a_share_mcp_v2': {'command': 'uv', 'args': ['run', '--directory', '/root/autodl-tmp/Finance/a-share-mcp-is-just-i-need', 'python', 'mcp_server.py'], 'transport': 'stdio'}}
+2025-08-10 21:07:56 - src.tools.mcp_client - INFO - 🔄 Fetching tools from MCP server 'a_share_mcp_v2'...
+2025-08-10 21:07:58 - src.tools.mcp_client - INFO - ✓ Successfully loaded 27 tools from 'a_share_mcp_v2'.
+2025-08-10 21:07:58 - src.tools.mcp_client - INFO - ✓ Successfully loaded 27 tools from 'a_share_mcp_v2'.
+2025-08-10 21:07:58 - src.tools.mcp_client - INFO - ✓ Successfully loaded 27 tools from 'a_share_mcp_v2'.
+2025-08-10 21:07:58 - src.tools.mcp_client - INFO - ✓ Successfully loaded 27 tools from 'a_share_mcp_v2'.
+2025-08-19 22:27:38 - src.tools.mcp_client - INFO - 🔄 Initializing MultiServerMCPClient with config: {'a_share_mcp_v2': {'command': 'uv', 'args': ['run', '--directory', '/root/code/Finance/a-share-mcp-is-just-i-need', 'python', 'mcp_server.py'], 'transport': 'stdio'}}
+2025-08-19 22:27:38 - src.tools.mcp_client - INFO - 🔄 Fetching tools from MCP server 'a_share_mcp_v2'...
+2025-08-19 22:27:38 - src.tools.mcp_client - INFO - 🔄 Initializing MultiServerMCPClient with config: {'a_share_mcp_v2': {'command': 'uv', 'args': ['run', '--directory', '/root/code/Finance/a-share-mcp-is-just-i-need', 'python', 'mcp_server.py'], 'transport': 'stdio'}}
+2025-08-19 22:27:38 - src.tools.mcp_client - INFO - 🔄 Fetching tools from MCP server 'a_share_mcp_v2'...
+2025-08-19 22:27:38 - src.tools.mcp_client - INFO - 🔄 Initializing MultiServerMCPClient with config: {'a_share_mcp_v2': {'command': 'uv', 'args': ['run', '--directory', '/root/code/Finance/a-share-mcp-is-just-i-need', 'python', 'mcp_server.py'], 'transport': 'stdio'}}
+2025-08-19 22:27:38 - src.tools.mcp_client - INFO - 🔄 Fetching tools from MCP server 'a_share_mcp_v2'...
+2025-08-19 22:27:38 - src.tools.mcp_client - INFO - 🔄 Initializing MultiServerMCPClient with config: {'a_share_mcp_v2': {'command': 'uv', 'args': ['run', '--directory', '/root/code/Finance/a-share-mcp-is-just-i-need', 'python', 'mcp_server.py'], 'transport': 'stdio'}}
+2025-08-19 22:27:38 - src.tools.mcp_client - INFO - 🔄 Fetching tools from MCP server 'a_share_mcp_v2'...
+2025-08-19 22:27:40 - src.tools.mcp_client - INFO - ✓ Successfully loaded 27 tools from 'a_share_mcp_v2'.
+2025-08-19 22:27:40 - src.tools.mcp_client - INFO - ✓ Successfully loaded 27 tools from 'a_share_mcp_v2'.
+2025-08-19 22:27:40 - src.tools.mcp_client - INFO - ✓ Successfully loaded 27 tools from 'a_share_mcp_v2'.
+2025-08-19 22:27:40 - src.tools.mcp_client - INFO - ✓ Successfully loaded 27 tools from 'a_share_mcp_v2'.
+2025-08-19 22:28:10 - src.tools.mcp_client - INFO - 🔄 Initializing MultiServerMCPClient with config: {'a_share_mcp_v2': {'command': 'uv', 'args': ['run', '--directory', '/root/code/Finance/a-share-mcp-is-just-i-need', 'python', 'mcp_server.py'], 'transport': 'stdio'}}
+2025-08-19 22:28:10 - src.tools.mcp_client - INFO - 🔄 Fetching tools from MCP server 'a_share_mcp_v2'...
+2025-08-19 22:28:10 - src.tools.mcp_client - INFO - 🔄 Initializing MultiServerMCPClient with config: {'a_share_mcp_v2': {'command': 'uv', 'args': ['run', '--directory', '/root/code/Finance/a-share-mcp-is-just-i-need', 'python', 'mcp_server.py'], 'transport': 'stdio'}}
+2025-08-19 22:28:10 - src.tools.mcp_client - INFO - 🔄 Fetching tools from MCP server 'a_share_mcp_v2'...
+2025-08-19 22:28:10 - src.tools.mcp_client - INFO - 🔄 Initializing MultiServerMCPClient with config: {'a_share_mcp_v2': {'command': 'uv', 'args': ['run', '--directory', '/root/code/Finance/a-share-mcp-is-just-i-need', 'python', 'mcp_server.py'], 'transport': 'stdio'}}
+2025-08-19 22:28:10 - src.tools.mcp_client - INFO - 🔄 Fetching tools from MCP server 'a_share_mcp_v2'...
+2025-08-19 22:28:10 - src.tools.mcp_client - INFO - 🔄 Initializing MultiServerMCPClient with config: {'a_share_mcp_v2': {'command': 'uv', 'args': ['run', '--directory', '/root/code/Finance/a-share-mcp-is-just-i-need', 'python', 'mcp_server.py'], 'transport': 'stdio'}}
+2025-08-19 22:28:10 - src.tools.mcp_client - INFO - 🔄 Fetching tools from MCP server 'a_share_mcp_v2'...
+2025-08-19 22:28:11 - src.tools.mcp_client - INFO - ✓ Successfully loaded 27 tools from 'a_share_mcp_v2'.
+2025-08-19 22:28:11 - src.tools.mcp_client - INFO - ✓ Successfully loaded 27 tools from 'a_share_mcp_v2'.
+2025-08-19 22:28:11 - src.tools.mcp_client - INFO - ✓ Successfully loaded 27 tools from 'a_share_mcp_v2'.
+2025-08-19 22:28:11 - src.tools.mcp_client - INFO - ✓ Successfully loaded 27 tools from 'a_share_mcp_v2'.
+2025-08-19 22:30:13 - src.tools.mcp_client - INFO - 🔄 Initializing MultiServerMCPClient with config: {'a_share_mcp_v2': {'command': 'uv', 'args': ['run', '--directory', '/root/code/Finance/a-share-mcp-is-just-i-need', 'python', 'mcp_server.py'], 'transport': 'stdio'}}
+2025-08-19 22:30:13 - src.tools.mcp_client - INFO - 🔄 Fetching tools from MCP server 'a_share_mcp_v2'...
+2025-08-19 22:30:13 - src.tools.mcp_client - INFO - 🔄 Initializing MultiServerMCPClient with config: {'a_share_mcp_v2': {'command': 'uv', 'args': ['run', '--directory', '/root/code/Finance/a-share-mcp-is-just-i-need', 'python', 'mcp_server.py'], 'transport': 'stdio'}}
+2025-08-19 22:30:13 - src.tools.mcp_client - INFO - 🔄 Fetching tools from MCP server 'a_share_mcp_v2'...
+2025-08-19 22:30:13 - src.tools.mcp_client - INFO - 🔄 Initializing MultiServerMCPClient with config: {'a_share_mcp_v2': {'command': 'uv', 'args': ['run', '--directory', '/root/code/Finance/a-share-mcp-is-just-i-need', 'python', 'mcp_server.py'], 'transport': 'stdio'}}
+2025-08-19 22:30:13 - src.tools.mcp_client - INFO - 🔄 Fetching tools from MCP server 'a_share_mcp_v2'...
+2025-08-19 22:30:13 - src.tools.mcp_client - INFO - 🔄 Initializing MultiServerMCPClient with config: {'a_share_mcp_v2': {'command': 'uv', 'args': ['run', '--directory', '/root/code/Finance/a-share-mcp-is-just-i-need', 'python', 'mcp_server.py'], 'transport': 'stdio'}}
+2025-08-19 22:30:13 - src.tools.mcp_client - INFO - 🔄 Fetching tools from MCP server 'a_share_mcp_v2'...
+2025-08-19 22:30:14 - src.tools.mcp_client - INFO - ✓ Successfully loaded 27 tools from 'a_share_mcp_v2'.
+2025-08-19 22:30:14 - src.tools.mcp_client - INFO - ✓ Successfully loaded 27 tools from 'a_share_mcp_v2'.
+2025-08-19 22:30:14 - src.tools.mcp_client - INFO - ✓ Successfully loaded 27 tools from 'a_share_mcp_v2'.
+2025-08-19 22:30:14 - src.tools.mcp_client - INFO - ✓ Successfully loaded 27 tools from 'a_share_mcp_v2'.
+2025-08-19 22:30:18 - src.tools.mcp_client - INFO - 🔄 Initializing MultiServerMCPClient with config: {'a_share_mcp_v2': {'command': 'uv', 'args': ['run', '--directory', '/root/code/Finance/a-share-mcp-is-just-i-need', 'python', 'mcp_server.py'], 'transport': 'stdio'}}
+2025-08-19 22:30:18 - src.tools.mcp_client - INFO - 🔄 Fetching tools from MCP server 'a_share_mcp_v2'...
+2025-08-19 22:30:18 - src.tools.mcp_client - INFO - 🔄 Initializing MultiServerMCPClient with config: {'a_share_mcp_v2': {'command': 'uv', 'args': ['run', '--directory', '/root/code/Finance/a-share-mcp-is-just-i-need', 'python', 'mcp_server.py'], 'transport': 'stdio'}}
+2025-08-19 22:30:18 - src.tools.mcp_client - INFO - 🔄 Fetching tools from MCP server 'a_share_mcp_v2'...
+2025-08-19 22:30:18 - src.tools.mcp_client - INFO - 🔄 Initializing MultiServerMCPClient with config: {'a_share_mcp_v2': {'command': 'uv', 'args': ['run', '--directory', '/root/code/Finance/a-share-mcp-is-just-i-need', 'python', 'mcp_server.py'], 'transport': 'stdio'}}
+2025-08-19 22:30:18 - src.tools.mcp_client - INFO - 🔄 Fetching tools from MCP server 'a_share_mcp_v2'...
+2025-08-19 22:30:18 - src.tools.mcp_client - INFO - 🔄 Initializing MultiServerMCPClient with config: {'a_share_mcp_v2': {'command': 'uv', 'args': ['run', '--directory', '/root/code/Finance/a-share-mcp-is-just-i-need', 'python', 'mcp_server.py'], 'transport': 'stdio'}}
+2025-08-19 22:30:18 - src.tools.mcp_client - INFO - 🔄 Fetching tools from MCP server 'a_share_mcp_v2'...
+2025-08-19 22:30:19 - src.tools.mcp_client - INFO - ✓ Successfully loaded 27 tools from 'a_share_mcp_v2'.
+2025-08-19 22:30:19 - src.tools.mcp_client - INFO - ✓ Successfully loaded 27 tools from 'a_share_mcp_v2'.
+2025-08-19 22:30:19 - src.tools.mcp_client - INFO - ✓ Successfully loaded 27 tools from 'a_share_mcp_v2'.
+2025-08-19 22:30:19 - src.tools.mcp_client - INFO - ✓ Successfully loaded 27 tools from 'a_share_mcp_v2'.
+2025-08-19 22:35:17 - src.tools.mcp_client - INFO - 🔄 Initializing MultiServerMCPClient with config: {'a_share_mcp_v2': {'command': 'uv', 'args': ['run', '--directory', '/root/code/Finance/a-share-mcp-is-just-i-need', 'python', 'mcp_server.py'], 'transport': 'stdio'}}
+2025-08-19 22:35:17 - src.tools.mcp_client - INFO - 🔄 Fetching tools from MCP server 'a_share_mcp_v2'...
+2025-08-19 22:35:17 - src.tools.mcp_client - INFO - 🔄 Initializing MultiServerMCPClient with config: {'a_share_mcp_v2': {'command': 'uv', 'args': ['run', '--directory', '/root/code/Finance/a-share-mcp-is-just-i-need', 'python', 'mcp_server.py'], 'transport': 'stdio'}}
+2025-08-19 22:35:17 - src.tools.mcp_client - INFO - 🔄 Fetching tools from MCP server 'a_share_mcp_v2'...
+2025-08-19 22:35:17 - src.tools.mcp_client - INFO - 🔄 Initializing MultiServerMCPClient with config: {'a_share_mcp_v2': {'command': 'uv', 'args': ['run', '--directory', '/root/code/Finance/a-share-mcp-is-just-i-need', 'python', 'mcp_server.py'], 'transport': 'stdio'}}
+2025-08-19 22:35:17 - src.tools.mcp_client - INFO - 🔄 Fetching tools from MCP server 'a_share_mcp_v2'...
+2025-08-19 22:35:17 - src.tools.mcp_client - INFO - 🔄 Initializing MultiServerMCPClient with config: {'a_share_mcp_v2': {'command': 'uv', 'args': ['run', '--directory', '/root/code/Finance/a-share-mcp-is-just-i-need', 'python', 'mcp_server.py'], 'transport': 'stdio'}}
+2025-08-19 22:35:17 - src.tools.mcp_client - INFO - 🔄 Fetching tools from MCP server 'a_share_mcp_v2'...
+2025-08-19 22:35:19 - src.tools.mcp_client - INFO - ✓ Successfully loaded 27 tools from 'a_share_mcp_v2'.
+2025-08-19 22:35:19 - src.tools.mcp_client - INFO - ✓ Successfully loaded 27 tools from 'a_share_mcp_v2'.
+2025-08-19 22:35:19 - src.tools.mcp_client - INFO - ✓ Successfully loaded 27 tools from 'a_share_mcp_v2'.
+2025-08-19 22:35:19 - src.tools.mcp_client - INFO - ✓ Successfully loaded 27 tools from 'a_share_mcp_v2'.
+2025-08-19 22:45:32 - src.tools.mcp_client - INFO - 🔄 Initializing MultiServerMCPClient with config: {'a_share_mcp_v2': {'command': 'uv', 'args': ['run', '--directory', '/root/code/Finance/a-share-mcp-is-just-i-need', 'python', 'mcp_server.py'], 'transport': 'stdio'}}
+2025-08-19 22:45:32 - src.tools.mcp_client - INFO - 🔄 Fetching tools from MCP server 'a_share_mcp_v2'...
+2025-08-19 22:45:32 - src.tools.mcp_client - INFO - 🔄 Initializing MultiServerMCPClient with config: {'a_share_mcp_v2': {'command': 'uv', 'args': ['run', '--directory', '/root/code/Finance/a-share-mcp-is-just-i-need', 'python', 'mcp_server.py'], 'transport': 'stdio'}}
+2025-08-19 22:45:32 - src.tools.mcp_client - INFO - 🔄 Fetching tools from MCP server 'a_share_mcp_v2'...
+2025-08-19 22:45:32 - src.tools.mcp_client - INFO - 🔄 Initializing MultiServerMCPClient with config: {'a_share_mcp_v2': {'command': 'uv', 'args': ['run', '--directory', '/root/code/Finance/a-share-mcp-is-just-i-need', 'python', 'mcp_server.py'], 'transport': 'stdio'}}
+2025-08-19 22:45:32 - src.tools.mcp_client - INFO - 🔄 Fetching tools from MCP server 'a_share_mcp_v2'...
+2025-08-19 22:45:32 - src.tools.mcp_client - INFO - 🔄 Initializing MultiServerMCPClient with config: {'a_share_mcp_v2': {'command': 'uv', 'args': ['run', '--directory', '/root/code/Finance/a-share-mcp-is-just-i-need', 'python', 'mcp_server.py'], 'transport': 'stdio'}}
+2025-08-19 22:45:32 - src.tools.mcp_client - INFO - 🔄 Fetching tools from MCP server 'a_share_mcp_v2'...
+2025-08-19 22:45:33 - src.tools.mcp_client - INFO - ✓ Successfully loaded 27 tools from 'a_share_mcp_v2'.
+2025-08-19 22:45:33 - src.tools.mcp_client - INFO - ✓ Successfully loaded 27 tools from 'a_share_mcp_v2'.
+2025-08-19 22:45:33 - src.tools.mcp_client - INFO - ✓ Successfully loaded 27 tools from 'a_share_mcp_v2'.
+2025-08-19 22:45:33 - src.tools.mcp_client - INFO - ✓ Successfully loaded 27 tools from 'a_share_mcp_v2'.
+2025-08-19 22:47:58 - src.tools.mcp_client - INFO - 🔄 Initializing MultiServerMCPClient with config: {'a_share_mcp_v2': {'command': 'uv', 'args': ['run', '--directory', '/root/code/Finance/a-share-mcp-is-just-i-need', 'python', 'mcp_server.py'], 'transport': 'stdio'}}
+2025-08-19 22:47:58 - src.tools.mcp_client - INFO - 🔄 Fetching tools from MCP server 'a_share_mcp_v2'...
+2025-08-19 22:47:58 - src.tools.mcp_client - INFO - 🔄 Initializing MultiServerMCPClient with config: {'a_share_mcp_v2': {'command': 'uv', 'args': ['run', '--directory', '/root/code/Finance/a-share-mcp-is-just-i-need', 'python', 'mcp_server.py'], 'transport': 'stdio'}}
+2025-08-19 22:47:58 - src.tools.mcp_client - INFO - 🔄 Fetching tools from MCP server 'a_share_mcp_v2'...
+2025-08-19 22:47:58 - src.tools.mcp_client - INFO - 🔄 Initializing MultiServerMCPClient with config: {'a_share_mcp_v2': {'command': 'uv', 'args': ['run', '--directory', '/root/code/Finance/a-share-mcp-is-just-i-need', 'python', 'mcp_server.py'], 'transport': 'stdio'}}
+2025-08-19 22:47:58 - src.tools.mcp_client - INFO - 🔄 Fetching tools from MCP server 'a_share_mcp_v2'...
+2025-08-19 22:47:58 - src.tools.mcp_client - INFO - 🔄 Initializing MultiServerMCPClient with config: {'a_share_mcp_v2': {'command': 'uv', 'args': ['run', '--directory', '/root/code/Finance/a-share-mcp-is-just-i-need', 'python', 'mcp_server.py'], 'transport': 'stdio'}}
+2025-08-19 22:47:58 - src.tools.mcp_client - INFO - 🔄 Fetching tools from MCP server 'a_share_mcp_v2'...
+2025-08-19 22:47:59 - src.tools.mcp_client - INFO - ✓ Successfully loaded 27 tools from 'a_share_mcp_v2'.
+2025-08-19 22:47:59 - src.tools.mcp_client - INFO - ✓ Successfully loaded 27 tools from 'a_share_mcp_v2'.
+2025-08-19 22:47:59 - src.tools.mcp_client - INFO - ✓ Successfully loaded 27 tools from 'a_share_mcp_v2'.
+2025-08-19 22:47:59 - src.tools.mcp_client - INFO - ✓ Successfully loaded 27 tools from 'a_share_mcp_v2'.

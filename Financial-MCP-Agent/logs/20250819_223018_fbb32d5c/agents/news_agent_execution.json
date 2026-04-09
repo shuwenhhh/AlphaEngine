@@ -1,0 +1,33 @@
+{
+  "agent_name": "news_agent",
+  "start_time": "2025-08-19T22:30:18.598439",
+  "start_timestamp": 1755613818.5984478,
+  "input_data": {
+    "user_query": "帮我看看茅台(600519)这只股票值得投资吗",
+    "stock_code": "sh.600519",
+    "company_name": "茅台",
+    "input_data_keys": [
+      "query",
+      "current_date",
+      "current_date_cn",
+      "current_time",
+      "current_weekday_cn",
+      "current_time_info",
+      "analysis_timestamp",
+      "company_name",
+      "stock_code"
+    ]
+  },
+  "status": "completed",
+  "end_time": "2025-08-19T22:31:28.772825",
+  "end_timestamp": 1755613888.772832,
+  "execution_time_seconds": 70.17406678199768,
+  "output_data": {
+    "news_analysis_length": 3619,
+    "analysis_preview": "### 一、茅台相关新闻爬取结果（基于工具返回）  \n共获取到5条与“茅台（sh.600519）”相关的新闻，核心信息整理如下：  \n\n\n| 序号 | 新闻标题/来源                          | 情感分析（1-5分） | 风险评估（1-5分） | 核心内容摘要                                                                 | 链接                                                                 |  \n|------|---------------------------------------|------------------|------------------|------------------------------------------------------------------------------|------------------------------------------------------",
+    "llm_execution_time": 68.88177418708801,
+    "total_execution_time": 70.17406678199768
+  },
+  "success": true,
+  "error": null
+}

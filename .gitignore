@@ -1,0 +1,46 @@
+# =========================
+# Env files
+# =========================
+.env
+.env.*
+!.env.example
+
+# =========================
+# Logs
+# =========================
+logs/
+*.log
+
+Financial-MCP-Agent/.env
+Financial-MCP-Agent/logs/
+Financial-MCP-Agent/**/__pycache__/
+a-share-mcp-is-just-i-need/**/__pycache__/
+
+__pycache__/
+*.pyc
+*.log
+logs/
+reports/
+# =========================
+# Reports (generated)
+# =========================
+reports/
+
+
+# =========================
+# Local runtime folders
+# =========================
+a-share-mcp-is-just-i-need/**/__pycache__/
+
+# =========================
+# Mac / weird filenames safe
+# =========================
+*.DS_Store
+*.safetensors
+checkpoints/
+
+qwen_risk_model/
+qwen_sentiment_model/
+Qwen/
+nasdaq_news_sentiment/
+risk_nasdaq/

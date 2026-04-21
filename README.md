@@ -21,6 +21,7 @@ AlphaEngine is a multi-agent financial intelligence system designed to analyze s
 
 ## 🏗️ Architecture
 
+```text
 User Query
     ↓
 LangGraph Orchestrator
@@ -32,6 +33,7 @@ LangGraph Orchestrator
 Summarizer Agent
     ↓
 Final Investment Report
+```
 
 ## 📦 Installation
 
@@ -78,11 +80,17 @@ example query
 analyze("NVDA stock outlook for next 6 months")
 ```
 
-### 8.Modeßl Details
-Base model: Qwen / LLaMA
-•	Method: LoRA fine-tuning
-•	Dataset: Financial news with risk labels you could download from - risk data：https://huggingface.co/datasets/benstaf/risk_nasdaq
-- sentiment data：https://huggingface.co/datasets/benstaf/
+### 🧠 Model Details
 
+- **Base Model:** Qwen / LLaMA  
+- **Method:** LoRA fine-tuning  
+- **Dataset:** Financial news with risk and sentiment labels  
 
+#### 📂 Datasets
+
+- **Risk dataset:**  
+  https://huggingface.co/datasets/benstaf/risk_nasdaq  
+
+- **Sentiment dataset:**  
+  https://huggingface.co/datasets/benstaf/  
 
